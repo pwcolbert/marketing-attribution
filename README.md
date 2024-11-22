@@ -1,5 +1,6 @@
 # marketing-attribution
 Doctoral research program investigating machine learning approaches for measuring marketing effectiveness
+
 Agenda: 
 
 I. Introduction
