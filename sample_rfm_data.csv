@@ -1,0 +1,946 @@
+customer_id,recency,frequency,monetary,R,F,M,rfm_score,customer_segment,segment_description,days_since_last_purchase,average_purchase_value
+1,29,3,672.4000000000001,3,2,2,2.35,At Risk,Past customers with below average recency,29,224.13
+2,62,1,444.76,2,1,1,1.35,Lost Customers,Lowest scores in all categories,62,444.76
+3,19,2,381.19,3,1,1,1.7,Lost Customers,Lowest scores in all categories,19,190.6
+4,5,1,85.37,4,1,1,2.05,At Risk,Past customers with below average recency,5,85.37
+5,14,2,693.52,4,1,2,2.35,At Risk,Past customers with below average recency,14,346.76
+6,45,2,700.1,2,1,2,1.65,Lost Customers,Lowest scores in all categories,45,350.05
+7,8,5,995.7,4,4,3,3.7,Champions,"Bought recently, buy often, and spend the most",8,199.14
+8,80,2,586.55,1,1,2,1.3,Lost Customers,Lowest scores in all categories,80,293.27
+9,78,2,358.55,1,1,1,1.0,Lost Customers,Lowest scores in all categories,78,179.28
+10,86,2,563.9399999999999,1,1,2,1.3,Lost Customers,Lowest scores in all categories,86,281.97
+11,80,3,431.12,1,2,1,1.35,Lost Customers,Lowest scores in all categories,80,143.71
+12,72,5,1221.0900000000001,1,4,4,2.95,Potential Loyalists,Recent customers with average frequency,72,244.22
+13,77,2,289.86,1,1,1,1.0,Lost Customers,Lowest scores in all categories,77,144.93
+14,83,3,1081.24,1,2,3,1.95,Lost Customers,Lowest scores in all categories,83,360.41
+15,7,2,349.22999999999996,4,1,1,2.05,At Risk,Past customers with below average recency,7,174.61
+16,109,2,521.44,1,1,2,1.3,Lost Customers,Lowest scores in all categories,109,260.72
+17,60,1,226.96,2,1,1,1.35,Lost Customers,Lowest scores in all categories,60,226.96
+18,94,2,166.26,1,1,1,1.0,Lost Customers,Lowest scores in all categories,94,83.13
+19,27,4,1287.66,3,3,4,3.3,Loyal Customers,Regular customers with above average spend,27,321.92
+20,2,5,1497.4,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",2,299.48
+21,36,2,385.02,2,1,1,1.35,Lost Customers,Lowest scores in all categories,36,192.51
+22,28,5,1765.19,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",28,353.04
+23,36,4,1437.33,2,3,4,2.95,Potential Loyalists,Recent customers with average frequency,36,359.33
+24,10,1,82.32,4,1,1,2.05,At Risk,Past customers with below average recency,10,82.32
+25,20,4,638.68,3,3,2,2.7,Potential Loyalists,Recent customers with average frequency,20,159.67
+26,35,5,1325.35,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",35,265.07
+27,2,6,1379.54,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",2,229.92
+28,61,3,932.49,2,2,3,2.3,At Risk,Past customers with below average recency,61,310.83
+29,6,2,308.97,4,1,1,2.05,At Risk,Past customers with below average recency,6,154.49
+30,19,4,1576.67,3,3,4,3.3,Loyal Customers,Regular customers with above average spend,19,394.17
+31,28,3,829.44,3,2,3,2.65,Potential Loyalists,Recent customers with average frequency,28,276.48
+32,54,3,1029.93,2,2,3,2.3,At Risk,Past customers with below average recency,54,343.31
+34,4,2,454.49,4,1,2,2.35,At Risk,Past customers with below average recency,4,227.24
+35,7,7,2351.44,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",7,335.92
+36,136,2,615.01,1,1,2,1.3,Lost Customers,Lowest scores in all categories,136,307.5
+37,35,2,239.12,3,1,1,1.7,Lost Customers,Lowest scores in all categories,35,119.56
+38,17,4,1181.98,3,3,4,3.3,Loyal Customers,Regular customers with above average spend,17,295.5
+39,112,2,366.95,1,1,1,1.0,Lost Customers,Lowest scores in all categories,112,183.48
+40,7,3,877.86,4,2,3,3.0,Loyal Customers,Regular customers with above average spend,7,292.62
+41,51,3,1041.61,2,2,3,2.3,At Risk,Past customers with below average recency,51,347.2
+42,18,2,696.8499999999999,3,1,2,2.0,At Risk,Past customers with below average recency,18,348.42
+43,8,2,533.48,4,1,2,2.35,At Risk,Past customers with below average recency,8,266.74
+44,38,1,451.96,2,1,1,1.35,Lost Customers,Lowest scores in all categories,38,451.96
+45,7,6,1835.3200000000002,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",7,305.89
+46,71,2,862.71,2,1,3,1.95,Lost Customers,Lowest scores in all categories,71,431.36
+47,10,3,1018.77,4,2,3,3.0,Loyal Customers,Regular customers with above average spend,10,339.59
+48,42,2,194.67,2,1,1,1.35,Lost Customers,Lowest scores in all categories,42,97.34
+49,41,2,724.4300000000001,2,1,2,1.65,Lost Customers,Lowest scores in all categories,41,362.22
+51,80,2,713.15,1,1,2,1.3,Lost Customers,Lowest scores in all categories,80,356.58
+53,116,1,432.11,1,1,1,1.0,Lost Customers,Lowest scores in all categories,116,432.11
+54,104,2,353.47,1,1,1,1.0,Lost Customers,Lowest scores in all categories,104,176.74
+55,12,5,1701.1100000000001,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",12,340.22
+56,81,1,426.55,1,1,1,1.0,Lost Customers,Lowest scores in all categories,81,426.55
+57,67,2,496.5,2,1,2,1.65,Lost Customers,Lowest scores in all categories,67,248.25
+58,27,2,526.18,3,1,2,2.0,At Risk,Past customers with below average recency,27,263.09
+59,7,5,1415.06,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",7,283.01
+60,91,2,496.15,1,1,2,1.3,Lost Customers,Lowest scores in all categories,91,248.08
+61,23,2,712.99,3,1,2,2.0,At Risk,Past customers with below average recency,23,356.5
+62,169,2,403.95,1,1,1,1.0,Lost Customers,Lowest scores in all categories,169,201.98
+63,5,1,216.5,4,1,1,2.05,At Risk,Past customers with below average recency,5,216.5
+64,57,4,1115.51,2,3,4,2.95,Potential Loyalists,Recent customers with average frequency,57,278.88
+65,16,3,654.3299999999999,4,2,2,2.7,Potential Loyalists,Recent customers with average frequency,16,218.11
+66,31,1,113.14,3,1,1,1.7,Lost Customers,Lowest scores in all categories,31,113.14
+67,5,4,1259.12,4,3,4,3.65,Champions,"Bought recently, buy often, and spend the most",5,314.78
+68,180,1,312.14,1,1,1,1.0,Lost Customers,Lowest scores in all categories,180,312.14
+69,13,4,1167.23,4,3,4,3.65,Champions,"Bought recently, buy often, and spend the most",13,291.81
+70,49,3,746.85,2,2,3,2.3,At Risk,Past customers with below average recency,49,248.95
+71,25,4,953.71,3,3,3,3.0,Loyal Customers,Regular customers with above average spend,25,238.43
+72,114,2,231.79,1,1,1,1.0,Lost Customers,Lowest scores in all categories,114,115.9
+73,11,4,696.52,4,3,2,3.05,Loyal Customers,Regular customers with above average spend,11,174.13
+74,61,2,423.83,2,1,1,1.35,Lost Customers,Lowest scores in all categories,61,211.92
+75,54,3,1039.3600000000001,2,2,3,2.3,At Risk,Past customers with below average recency,54,346.45
+76,163,2,541.85,1,1,2,1.3,Lost Customers,Lowest scores in all categories,163,270.92
+77,11,5,1196.29,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",11,239.26
+78,26,4,1011.99,3,3,3,3.0,Loyal Customers,Regular customers with above average spend,26,253.0
+79,83,2,667.12,1,1,2,1.3,Lost Customers,Lowest scores in all categories,83,333.56
+80,74,1,289.27,1,1,1,1.0,Lost Customers,Lowest scores in all categories,74,289.27
+81,41,2,132.73000000000002,2,1,1,1.35,Lost Customers,Lowest scores in all categories,41,66.37
+83,30,1,242.28,3,1,1,1.7,Lost Customers,Lowest scores in all categories,30,242.28
+84,20,4,1082.61,3,3,3,3.0,Loyal Customers,Regular customers with above average spend,20,270.65
+85,54,3,454.2,2,2,1,1.7,Lost Customers,Lowest scores in all categories,54,151.4
+86,19,3,620.34,3,2,2,2.35,At Risk,Past customers with below average recency,19,206.78
+87,70,2,285.83000000000004,2,1,1,1.35,Lost Customers,Lowest scores in all categories,70,142.92
+88,1,1,48.98,4,1,1,2.05,At Risk,Past customers with below average recency,1,48.98
+89,13,2,292.43,4,1,1,2.05,At Risk,Past customers with below average recency,13,146.22
+90,99,2,626.23,1,1,2,1.3,Lost Customers,Lowest scores in all categories,99,313.12
+91,5,2,761.25,4,1,3,2.65,Potential Loyalists,Recent customers with average frequency,5,380.62
+92,83,1,29.1,1,1,1,1.0,Lost Customers,Lowest scores in all categories,83,29.1
+93,19,3,764.9,3,2,3,2.65,Potential Loyalists,Recent customers with average frequency,19,254.97
+94,15,3,663.06,4,2,2,2.7,Potential Loyalists,Recent customers with average frequency,15,221.02
+95,103,2,322.97,1,1,1,1.0,Lost Customers,Lowest scores in all categories,103,161.49
+96,3,3,1104.95,4,2,3,3.0,Loyal Customers,Regular customers with above average spend,3,368.32
+97,41,2,552.01,2,1,2,1.65,Lost Customers,Lowest scores in all categories,41,276.0
+98,94,2,906.05,1,1,3,1.6,Lost Customers,Lowest scores in all categories,94,453.02
+99,8,1,15.08,4,1,1,2.05,At Risk,Past customers with below average recency,8,15.08
+100,22,8,2611.05,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",22,326.38
+101,22,1,161.89,3,1,1,1.7,Lost Customers,Lowest scores in all categories,22,161.89
+102,91,2,415.78,1,1,1,1.0,Lost Customers,Lowest scores in all categories,91,207.89
+103,13,2,858.5899999999999,4,1,3,2.65,Potential Loyalists,Recent customers with average frequency,13,429.29
+104,30,4,676.52,3,3,2,2.7,Potential Loyalists,Recent customers with average frequency,30,169.13
+105,92,2,473.22,1,1,2,1.3,Lost Customers,Lowest scores in all categories,92,236.61
+106,158,1,364.39,1,1,1,1.0,Lost Customers,Lowest scores in all categories,158,364.39
+107,33,5,1114.54,3,4,3,3.35,Loyal Customers,Regular customers with above average spend,33,222.91
+108,46,5,1809.1599999999999,2,4,4,3.3,Loyal Customers,Regular customers with above average spend,46,361.83
+109,41,4,1058.68,2,3,3,2.65,Potential Loyalists,Recent customers with average frequency,41,264.67
+110,30,2,562.7,3,1,2,2.0,At Risk,Past customers with below average recency,30,281.35
+111,53,4,603.24,2,3,2,2.35,At Risk,Past customers with below average recency,53,150.81
+112,14,6,1498.26,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",14,249.71
+113,163,1,399.65,1,1,1,1.0,Lost Customers,Lowest scores in all categories,163,399.65
+114,11,3,171.14,4,2,1,2.4,At Risk,Past customers with below average recency,11,57.05
+115,23,3,649.5899999999999,3,2,2,2.35,At Risk,Past customers with below average recency,23,216.53
+116,87,1,289.69,1,1,1,1.0,Lost Customers,Lowest scores in all categories,87,289.69
+117,57,5,1761.3,2,4,4,3.3,Loyal Customers,Regular customers with above average spend,57,352.26
+118,69,2,311.82,2,1,1,1.35,Lost Customers,Lowest scores in all categories,69,155.91
+119,14,5,1456.23,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",14,291.25
+120,23,7,1499.8500000000001,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",23,214.26
+121,7,4,903.1400000000001,4,3,3,3.35,Loyal Customers,Regular customers with above average spend,7,225.79
+122,100,4,1224.42,1,3,4,2.6,Potential Loyalists,Recent customers with average frequency,100,306.1
+123,73,1,245.33,1,1,1,1.0,Lost Customers,Lowest scores in all categories,73,245.33
+124,90,2,480.79,1,1,2,1.3,Lost Customers,Lowest scores in all categories,90,240.4
+125,65,4,1243.23,2,3,4,2.95,Potential Loyalists,Recent customers with average frequency,65,310.81
+126,118,2,629.49,1,1,2,1.3,Lost Customers,Lowest scores in all categories,118,314.74
+127,12,4,810.45,4,3,3,3.35,Loyal Customers,Regular customers with above average spend,12,202.61
+128,50,3,642.26,2,2,2,2.0,At Risk,Past customers with below average recency,50,214.09
+129,15,4,719.79,4,3,2,3.05,Loyal Customers,Regular customers with above average spend,15,179.95
+130,36,3,439.31,2,2,1,1.7,Lost Customers,Lowest scores in all categories,36,146.44
+131,32,3,1003.48,3,2,3,2.65,Potential Loyalists,Recent customers with average frequency,32,334.49
+132,139,1,469.84,1,1,2,1.3,Lost Customers,Lowest scores in all categories,139,469.84
+133,7,7,1354.14,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",7,193.45
+134,17,3,816.4000000000001,3,2,3,2.65,Potential Loyalists,Recent customers with average frequency,17,272.13
+135,101,1,43.53,1,1,1,1.0,Lost Customers,Lowest scores in all categories,101,43.53
+136,63,2,596.06,2,1,2,1.65,Lost Customers,Lowest scores in all categories,63,298.03
+137,21,5,1561.7,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",21,312.34
+138,82,4,1224.05,1,3,4,2.6,Potential Loyalists,Recent customers with average frequency,82,306.01
+139,6,4,1293.94,4,3,4,3.65,Champions,"Bought recently, buy often, and spend the most",6,323.48
+140,61,2,102.34,2,1,1,1.35,Lost Customers,Lowest scores in all categories,61,51.17
+142,35,1,224.61,3,1,1,1.7,Lost Customers,Lowest scores in all categories,35,224.61
+143,16,1,195.42,4,1,1,2.05,At Risk,Past customers with below average recency,16,195.42
+144,160,2,230.97,1,1,1,1.0,Lost Customers,Lowest scores in all categories,160,115.48
+146,5,2,302.77,4,1,1,2.05,At Risk,Past customers with below average recency,5,151.38
+147,90,3,518.75,1,2,2,1.65,Lost Customers,Lowest scores in all categories,90,172.92
+148,42,3,896.77,2,2,3,2.3,At Risk,Past customers with below average recency,42,298.92
+149,34,4,574.1600000000001,3,3,2,2.7,Potential Loyalists,Recent customers with average frequency,34,143.54
+150,1,6,1026.46,4,4,3,3.7,Champions,"Bought recently, buy often, and spend the most",1,171.08
+151,5,4,1385.05,4,3,4,3.65,Champions,"Bought recently, buy often, and spend the most",5,346.26
+152,17,6,1512.61,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",17,252.1
+153,118,4,663.07,1,3,2,2.0,At Risk,Past customers with below average recency,118,165.77
+154,41,2,644.96,2,1,2,1.65,Lost Customers,Lowest scores in all categories,41,322.48
+155,44,1,271.78,2,1,1,1.35,Lost Customers,Lowest scores in all categories,44,271.78
+156,57,5,1380.33,2,4,4,3.3,Loyal Customers,Regular customers with above average spend,57,276.07
+157,1,3,853.5,4,2,3,3.0,Loyal Customers,Regular customers with above average spend,1,284.5
+158,81,1,213.0,1,1,1,1.0,Lost Customers,Lowest scores in all categories,81,213.0
+159,4,4,479.01,4,3,2,3.05,Loyal Customers,Regular customers with above average spend,4,119.75
+160,85,2,465.03999999999996,1,1,2,1.3,Lost Customers,Lowest scores in all categories,85,232.52
+161,14,2,867.63,4,1,3,2.65,Potential Loyalists,Recent customers with average frequency,14,433.82
+162,52,6,1299.21,2,4,4,3.3,Loyal Customers,Regular customers with above average spend,52,216.54
+164,87,3,738.4200000000001,1,2,3,1.95,Lost Customers,Lowest scores in all categories,87,246.14
+165,85,2,274.94,1,1,1,1.0,Lost Customers,Lowest scores in all categories,85,137.47
+166,24,4,1094.01,3,3,3,3.0,Loyal Customers,Regular customers with above average spend,24,273.5
+167,66,2,469.7,2,1,2,1.65,Lost Customers,Lowest scores in all categories,66,234.85
+168,21,3,1010.78,3,2,3,2.65,Potential Loyalists,Recent customers with average frequency,21,336.93
+169,9,3,624.29,4,2,2,2.7,Potential Loyalists,Recent customers with average frequency,9,208.1
+170,14,4,1347.3899999999999,4,3,4,3.65,Champions,"Bought recently, buy often, and spend the most",14,336.85
+171,88,1,255.01,1,1,1,1.0,Lost Customers,Lowest scores in all categories,88,255.01
+173,99,2,283.20000000000005,1,1,1,1.0,Lost Customers,Lowest scores in all categories,99,141.6
+174,70,2,217.29,2,1,1,1.35,Lost Customers,Lowest scores in all categories,70,108.64
+175,46,6,1207.17,2,4,4,3.3,Loyal Customers,Regular customers with above average spend,46,201.2
+176,13,3,806.12,4,2,3,3.0,Loyal Customers,Regular customers with above average spend,13,268.71
+177,95,3,1343.76,1,2,4,2.25,At Risk,Past customers with below average recency,95,447.92
+178,106,2,549.45,1,1,2,1.3,Lost Customers,Lowest scores in all categories,106,274.73
+179,52,4,1248.05,2,3,4,2.95,Potential Loyalists,Recent customers with average frequency,52,312.01
+180,107,7,997.24,1,4,3,2.65,Potential Loyalists,Recent customers with average frequency,107,142.46
+181,128,1,455.59,1,1,2,1.3,Lost Customers,Lowest scores in all categories,128,455.59
+182,27,4,1143.81,3,3,4,3.3,Loyal Customers,Regular customers with above average spend,27,285.95
+183,68,2,509.55,2,1,2,1.65,Lost Customers,Lowest scores in all categories,68,254.78
+184,7,4,1087.27,4,3,3,3.35,Loyal Customers,Regular customers with above average spend,7,271.82
+185,30,5,971.27,3,4,3,3.35,Loyal Customers,Regular customers with above average spend,30,194.25
+186,17,3,1196.27,3,2,4,2.95,Potential Loyalists,Recent customers with average frequency,17,398.76
+187,30,4,1109.0,3,3,3,3.0,Loyal Customers,Regular customers with above average spend,30,277.25
+188,47,3,619.47,2,2,2,2.0,At Risk,Past customers with below average recency,47,206.49
+189,126,1,477.99,1,1,2,1.3,Lost Customers,Lowest scores in all categories,126,477.99
+190,3,7,1479.02,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",3,211.29
+191,96,4,871.28,1,3,3,2.3,At Risk,Past customers with below average recency,96,217.82
+192,25,7,2311.3,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",25,330.19
+193,3,2,654.75,4,1,2,2.35,At Risk,Past customers with below average recency,3,327.38
+194,41,3,711.5899999999999,2,2,2,2.0,At Risk,Past customers with below average recency,41,237.2
+195,82,2,446.03999999999996,1,1,1,1.0,Lost Customers,Lowest scores in all categories,82,223.02
+196,96,5,1831.95,1,4,4,2.95,Potential Loyalists,Recent customers with average frequency,96,366.39
+197,51,3,408.61,2,2,1,1.7,Lost Customers,Lowest scores in all categories,51,136.2
+198,160,1,257.84,1,1,1,1.0,Lost Customers,Lowest scores in all categories,160,257.84
+199,64,5,1124.6,2,4,4,3.3,Loyal Customers,Regular customers with above average spend,64,224.92
+200,125,3,576.57,1,2,2,1.65,Lost Customers,Lowest scores in all categories,125,192.19
+201,41,3,642.47,2,2,2,2.0,At Risk,Past customers with below average recency,41,214.16
+202,88,1,478.63,1,1,2,1.3,Lost Customers,Lowest scores in all categories,88,478.63
+203,6,4,1196.06,4,3,4,3.65,Champions,"Bought recently, buy often, and spend the most",6,299.02
+204,94,3,819.3399999999999,1,2,3,1.95,Lost Customers,Lowest scores in all categories,94,273.11
+205,131,2,787.6400000000001,1,1,3,1.6,Lost Customers,Lowest scores in all categories,131,393.82
+206,38,3,863.3800000000001,2,2,3,2.3,At Risk,Past customers with below average recency,38,287.79
+207,9,1,421.84,4,1,1,2.05,At Risk,Past customers with below average recency,9,421.84
+208,34,3,1042.84,3,2,3,2.65,Potential Loyalists,Recent customers with average frequency,34,347.61
+209,43,1,497.95,2,1,2,1.65,Lost Customers,Lowest scores in all categories,43,497.95
+210,100,2,419.18,1,1,1,1.0,Lost Customers,Lowest scores in all categories,100,209.59
+211,2,6,1568.01,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",2,261.33
+212,71,3,755.4200000000001,2,2,3,2.3,At Risk,Past customers with below average recency,71,251.81
+213,64,3,741.54,2,2,3,2.3,At Risk,Past customers with below average recency,64,247.18
+214,31,2,681.69,3,1,2,2.0,At Risk,Past customers with below average recency,31,340.84
+215,33,3,789.5699999999999,3,2,3,2.65,Potential Loyalists,Recent customers with average frequency,33,263.19
+216,2,4,648.1,4,3,2,3.05,Loyal Customers,Regular customers with above average spend,2,162.02
+217,63,4,838.37,2,3,3,2.65,Potential Loyalists,Recent customers with average frequency,63,209.59
+218,75,4,1360.59,1,3,4,2.6,Potential Loyalists,Recent customers with average frequency,75,340.15
+219,4,5,1061.42,4,4,3,3.7,Champions,"Bought recently, buy often, and spend the most",4,212.28
+220,10,5,892.31,4,4,3,3.7,Champions,"Bought recently, buy often, and spend the most",10,178.46
+221,29,3,688.3199999999999,3,2,2,2.35,At Risk,Past customers with below average recency,29,229.44
+222,20,2,436.47999999999996,3,1,1,1.7,Lost Customers,Lowest scores in all categories,20,218.24
+223,38,2,357.28999999999996,2,1,1,1.35,Lost Customers,Lowest scores in all categories,38,178.64
+224,6,6,1960.3899999999999,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",6,326.73
+225,37,3,480.99,2,2,2,2.0,At Risk,Past customers with below average recency,37,160.33
+226,85,1,479.27,1,1,2,1.3,Lost Customers,Lowest scores in all categories,85,479.27
+227,48,2,486.13,2,1,2,1.65,Lost Customers,Lowest scores in all categories,48,243.06
+228,3,4,1334.53,4,3,4,3.65,Champions,"Bought recently, buy often, and spend the most",3,333.63
+229,42,6,1373.6299999999999,2,4,4,3.3,Loyal Customers,Regular customers with above average spend,42,228.94
+230,58,5,1100.27,2,4,3,3.0,Loyal Customers,Regular customers with above average spend,58,220.05
+231,29,2,709.19,3,1,2,2.0,At Risk,Past customers with below average recency,29,354.6
+232,15,3,695.07,4,2,2,2.7,Potential Loyalists,Recent customers with average frequency,15,231.69
+233,106,3,1041.8899999999999,1,2,3,1.95,Lost Customers,Lowest scores in all categories,106,347.3
+234,18,5,1388.54,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",18,277.71
+235,11,3,1277.92,4,2,4,3.3,Loyal Customers,Regular customers with above average spend,11,425.97
+236,67,3,565.76,2,2,2,2.0,At Risk,Past customers with below average recency,67,188.59
+237,64,1,281.79,2,1,1,1.35,Lost Customers,Lowest scores in all categories,64,281.79
+238,51,3,1189.4299999999998,2,2,4,2.6,Potential Loyalists,Recent customers with average frequency,51,396.48
+239,61,6,1034.49,2,4,3,3.0,Loyal Customers,Regular customers with above average spend,61,172.42
+240,168,1,414.13,1,1,1,1.0,Lost Customers,Lowest scores in all categories,168,414.13
+243,21,2,634.99,3,1,2,2.0,At Risk,Past customers with below average recency,21,317.5
+244,3,6,1444.01,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",3,240.67
+245,23,4,1147.96,3,3,4,3.3,Loyal Customers,Regular customers with above average spend,23,286.99
+246,73,3,739.3,1,2,3,1.95,Lost Customers,Lowest scores in all categories,73,246.43
+247,36,2,515.91,2,1,2,1.65,Lost Customers,Lowest scores in all categories,36,257.96
+248,25,5,1207.24,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",25,241.45
+249,42,4,1194.75,2,3,4,2.95,Potential Loyalists,Recent customers with average frequency,42,298.69
+251,111,1,470.02,1,1,2,1.3,Lost Customers,Lowest scores in all categories,111,470.02
+252,1,4,1639.71,4,3,4,3.65,Champions,"Bought recently, buy often, and spend the most",1,409.93
+253,6,5,1039.45,4,4,3,3.7,Champions,"Bought recently, buy often, and spend the most",6,207.89
+254,36,2,441.52,2,1,1,1.35,Lost Customers,Lowest scores in all categories,36,220.76
+255,29,2,804.5799999999999,3,1,3,2.3,At Risk,Past customers with below average recency,29,402.29
+256,12,4,1168.23,4,3,4,3.65,Champions,"Bought recently, buy often, and spend the most",12,292.06
+257,4,3,923.3499999999999,4,2,3,3.0,Loyal Customers,Regular customers with above average spend,4,307.78
+258,107,3,1018.35,1,2,3,1.95,Lost Customers,Lowest scores in all categories,107,339.45
+259,11,5,1463.39,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",11,292.68
+260,29,6,2093.21,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",29,348.87
+261,47,4,679.7,2,3,2,2.35,At Risk,Past customers with below average recency,47,169.92
+262,38,6,1888.13,2,4,4,3.3,Loyal Customers,Regular customers with above average spend,38,314.69
+263,19,1,65.77,3,1,1,1.7,Lost Customers,Lowest scores in all categories,19,65.77
+264,48,2,651.02,2,1,2,1.65,Lost Customers,Lowest scores in all categories,48,325.51
+265,22,3,660.8199999999999,3,2,2,2.35,At Risk,Past customers with below average recency,22,220.27
+266,43,3,461.74,2,2,2,2.0,At Risk,Past customers with below average recency,43,153.91
+267,18,4,773.77,3,3,3,3.0,Loyal Customers,Regular customers with above average spend,18,193.44
+268,10,4,1181.54,4,3,4,3.65,Champions,"Bought recently, buy often, and spend the most",10,295.38
+269,6,10,1906.41,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",6,190.64
+270,10,2,300.44,4,1,1,2.05,At Risk,Past customers with below average recency,10,150.22
+271,19,3,1027.74,3,2,3,2.65,Potential Loyalists,Recent customers with average frequency,19,342.58
+272,48,1,83.67,2,1,1,1.35,Lost Customers,Lowest scores in all categories,48,83.67
+273,28,5,1127.28,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",28,225.46
+274,33,3,571.37,3,2,2,2.35,At Risk,Past customers with below average recency,33,190.46
+275,48,2,635.5899999999999,2,1,2,1.65,Lost Customers,Lowest scores in all categories,48,317.79
+276,42,2,371.43,2,1,1,1.35,Lost Customers,Lowest scores in all categories,42,185.72
+277,19,4,840.0799999999999,3,3,3,3.0,Loyal Customers,Regular customers with above average spend,19,210.02
+278,37,3,794.48,2,2,3,2.3,At Risk,Past customers with below average recency,37,264.83
+279,37,4,730.58,2,3,3,2.65,Potential Loyalists,Recent customers with average frequency,37,182.64
+280,50,4,1209.06,2,3,4,2.95,Potential Loyalists,Recent customers with average frequency,50,302.26
+281,152,1,145.49,1,1,1,1.0,Lost Customers,Lowest scores in all categories,152,145.49
+282,33,4,1018.49,3,3,3,3.0,Loyal Customers,Regular customers with above average spend,33,254.62
+283,33,5,1634.92,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",33,326.98
+284,63,5,950.6800000000001,2,4,3,3.0,Loyal Customers,Regular customers with above average spend,63,190.14
+285,23,5,1352.5900000000001,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",23,270.52
+286,27,5,1104.81,3,4,3,3.35,Loyal Customers,Regular customers with above average spend,27,220.96
+287,20,3,747.49,3,2,3,2.65,Potential Loyalists,Recent customers with average frequency,20,249.16
+288,29,1,85.18,3,1,1,1.7,Lost Customers,Lowest scores in all categories,29,85.18
+289,31,5,1406.52,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",31,281.3
+290,28,3,710.6300000000001,3,2,2,2.35,At Risk,Past customers with below average recency,28,236.88
+291,145,2,847.52,1,1,3,1.6,Lost Customers,Lowest scores in all categories,145,423.76
+292,11,3,886.41,4,2,3,3.0,Loyal Customers,Regular customers with above average spend,11,295.47
+293,68,3,673.03,2,2,2,2.0,At Risk,Past customers with below average recency,68,224.34
+294,47,3,758.36,2,2,3,2.3,At Risk,Past customers with below average recency,47,252.79
+295,100,2,634.9000000000001,1,1,2,1.3,Lost Customers,Lowest scores in all categories,100,317.45
+296,61,1,495.96,2,1,2,1.65,Lost Customers,Lowest scores in all categories,61,495.96
+297,77,4,1100.07,1,3,3,2.3,At Risk,Past customers with below average recency,77,275.02
+298,9,2,956.61,4,1,3,2.65,Potential Loyalists,Recent customers with average frequency,9,478.3
+299,67,2,860.59,2,1,3,1.95,Lost Customers,Lowest scores in all categories,67,430.3
+301,32,2,636.9,3,1,2,2.0,At Risk,Past customers with below average recency,32,318.45
+302,2,3,727.24,4,2,3,3.0,Loyal Customers,Regular customers with above average spend,2,242.41
+303,87,4,811.05,1,3,3,2.3,At Risk,Past customers with below average recency,87,202.76
+304,102,2,811.11,1,1,3,1.6,Lost Customers,Lowest scores in all categories,102,405.56
+305,56,5,1396.76,2,4,4,3.3,Loyal Customers,Regular customers with above average spend,56,279.35
+306,33,2,487.9,3,1,2,2.0,At Risk,Past customers with below average recency,33,243.95
+307,116,3,650.37,1,2,2,1.65,Lost Customers,Lowest scores in all categories,116,216.79
+308,3,6,1195.72,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",3,199.29
+309,119,2,307.37,1,1,1,1.0,Lost Customers,Lowest scores in all categories,119,153.68
+310,36,2,691.4,2,1,2,1.65,Lost Customers,Lowest scores in all categories,36,345.7
+312,62,7,1762.9699999999998,2,4,4,3.3,Loyal Customers,Regular customers with above average spend,62,251.85
+313,39,4,1277.24,2,3,4,2.95,Potential Loyalists,Recent customers with average frequency,39,319.31
+314,18,4,1098.23,3,3,3,3.0,Loyal Customers,Regular customers with above average spend,18,274.56
+315,11,5,1444.84,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",11,288.97
+316,51,3,458.54,2,2,2,2.0,At Risk,Past customers with below average recency,51,152.85
+317,3,5,1463.53,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",3,292.71
+318,7,4,1185.6599999999999,4,3,4,3.65,Champions,"Bought recently, buy often, and spend the most",7,296.41
+319,62,3,608.01,2,2,2,2.0,At Risk,Past customers with below average recency,62,202.67
+320,114,1,40.88,1,1,1,1.0,Lost Customers,Lowest scores in all categories,114,40.88
+321,21,2,423.89,3,1,1,1.7,Lost Customers,Lowest scores in all categories,21,211.94
+322,59,3,576.6800000000001,2,2,2,2.0,At Risk,Past customers with below average recency,59,192.23
+323,22,2,457.68,3,1,2,2.0,At Risk,Past customers with below average recency,22,228.84
+324,23,5,1434.41,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",23,286.88
+325,54,4,1011.84,2,3,3,2.65,Potential Loyalists,Recent customers with average frequency,54,252.96
+326,1,2,314.65999999999997,4,1,1,2.05,At Risk,Past customers with below average recency,1,157.33
+327,11,4,1326.6599999999999,4,3,4,3.65,Champions,"Bought recently, buy often, and spend the most",11,331.66
+328,79,2,531.23,1,1,2,1.3,Lost Customers,Lowest scores in all categories,79,265.62
+329,7,2,139.64000000000001,4,1,1,2.05,At Risk,Past customers with below average recency,7,69.82
+330,13,3,419.78,4,2,1,2.4,At Risk,Past customers with below average recency,13,139.93
+331,65,2,525.16,2,1,2,1.65,Lost Customers,Lowest scores in all categories,65,262.58
+332,43,4,561.56,2,3,2,2.35,At Risk,Past customers with below average recency,43,140.39
+333,27,5,985.48,3,4,3,3.35,Loyal Customers,Regular customers with above average spend,27,197.1
+334,49,3,769.66,2,2,3,2.3,At Risk,Past customers with below average recency,49,256.55
+335,9,4,1113.7399999999998,4,3,3,3.35,Loyal Customers,Regular customers with above average spend,9,278.43
+336,73,3,905.36,1,2,3,1.95,Lost Customers,Lowest scores in all categories,73,301.79
+337,62,4,1549.02,2,3,4,2.95,Potential Loyalists,Recent customers with average frequency,62,387.26
+338,5,6,927.74,4,4,3,3.7,Champions,"Bought recently, buy often, and spend the most",5,154.62
+339,7,5,1374.1299999999999,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",7,274.83
+340,55,3,1078.84,2,2,3,2.3,At Risk,Past customers with below average recency,55,359.61
+341,70,3,169.64,2,2,1,1.7,Lost Customers,Lowest scores in all categories,70,56.55
+342,6,6,1356.73,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",6,226.12
+343,1,3,1475.21,4,2,4,3.3,Loyal Customers,Regular customers with above average spend,1,491.74
+344,8,1,115.79,4,1,1,2.05,At Risk,Past customers with below average recency,8,115.79
+345,119,3,983.72,1,2,3,1.95,Lost Customers,Lowest scores in all categories,119,327.91
+346,22,2,361.4,3,1,1,1.7,Lost Customers,Lowest scores in all categories,22,180.7
+347,32,3,692.77,3,2,2,2.35,At Risk,Past customers with below average recency,32,230.92
+348,138,2,583.85,1,1,2,1.3,Lost Customers,Lowest scores in all categories,138,291.92
+349,33,5,1163.16,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",33,232.63
+350,15,5,1155.19,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",15,231.04
+351,72,3,740.47,1,2,3,1.95,Lost Customers,Lowest scores in all categories,72,246.82
+352,51,4,1040.01,2,3,3,2.65,Potential Loyalists,Recent customers with average frequency,51,260.0
+353,48,4,1161.47,2,3,4,2.95,Potential Loyalists,Recent customers with average frequency,48,290.37
+354,23,6,1516.43,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",23,252.74
+355,31,3,1008.8,3,2,3,2.65,Potential Loyalists,Recent customers with average frequency,31,336.27
+356,72,1,391.64,1,1,1,1.0,Lost Customers,Lowest scores in all categories,72,391.64
+357,58,2,733.3299999999999,2,1,3,1.95,Lost Customers,Lowest scores in all categories,58,366.66
+358,20,4,854.1700000000001,3,3,3,3.0,Loyal Customers,Regular customers with above average spend,20,213.54
+359,164,2,522.04,1,1,2,1.3,Lost Customers,Lowest scores in all categories,164,261.02
+360,19,1,329.7,3,1,1,1.7,Lost Customers,Lowest scores in all categories,19,329.7
+361,21,6,1938.55,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",21,323.09
+362,18,6,1511.37,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",18,251.9
+364,104,1,215.05,1,1,1,1.0,Lost Customers,Lowest scores in all categories,104,215.05
+365,87,1,289.21,1,1,1,1.0,Lost Customers,Lowest scores in all categories,87,289.21
+366,62,2,627.98,2,1,2,1.65,Lost Customers,Lowest scores in all categories,62,313.99
+367,2,3,648.79,4,2,2,2.7,Potential Loyalists,Recent customers with average frequency,2,216.26
+368,35,4,1258.82,3,3,4,3.3,Loyal Customers,Regular customers with above average spend,35,314.7
+369,16,5,960.38,4,4,3,3.7,Champions,"Bought recently, buy often, and spend the most",16,192.08
+370,52,4,733.27,2,3,3,2.65,Potential Loyalists,Recent customers with average frequency,52,183.32
+371,45,2,705.52,2,1,2,1.65,Lost Customers,Lowest scores in all categories,45,352.76
+372,7,5,1449.19,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",7,289.84
+373,5,6,1650.05,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",5,275.01
+375,26,3,1145.99,3,2,4,2.95,Potential Loyalists,Recent customers with average frequency,26,382.0
+376,61,4,934.74,2,3,3,2.65,Potential Loyalists,Recent customers with average frequency,61,233.68
+377,181,1,124.16,1,1,1,1.0,Lost Customers,Lowest scores in all categories,181,124.16
+378,161,1,95.12,1,1,1,1.0,Lost Customers,Lowest scores in all categories,161,95.12
+379,32,2,491.20000000000005,3,1,2,2.0,At Risk,Past customers with below average recency,32,245.6
+381,21,4,1138.19,3,3,4,3.3,Loyal Customers,Regular customers with above average spend,21,284.55
+382,50,2,390.93,2,1,1,1.35,Lost Customers,Lowest scores in all categories,50,195.46
+383,38,1,30.57,2,1,1,1.35,Lost Customers,Lowest scores in all categories,38,30.57
+384,12,3,532.08,4,2,2,2.7,Potential Loyalists,Recent customers with average frequency,12,177.36
+385,31,8,1419.7,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",31,177.46
+386,18,3,968.81,3,2,3,2.65,Potential Loyalists,Recent customers with average frequency,18,322.94
+388,55,4,450.72,2,3,1,2.05,At Risk,Past customers with below average recency,55,112.68
+389,29,4,1017.15,3,3,3,3.0,Loyal Customers,Regular customers with above average spend,29,254.29
+390,19,3,987.8399999999999,3,2,3,2.65,Potential Loyalists,Recent customers with average frequency,19,329.28
+391,12,4,1007.0899999999999,4,3,3,3.35,Loyal Customers,Regular customers with above average spend,12,251.77
+392,167,1,492.51,1,1,2,1.3,Lost Customers,Lowest scores in all categories,167,492.51
+393,12,3,835.24,4,2,3,3.0,Loyal Customers,Regular customers with above average spend,12,278.41
+395,31,4,730.1800000000001,3,3,3,3.0,Loyal Customers,Regular customers with above average spend,31,182.54
+396,16,3,530.12,4,2,2,2.7,Potential Loyalists,Recent customers with average frequency,16,176.71
+397,27,6,1691.22,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",27,281.87
+398,40,3,1039.73,2,2,3,2.3,At Risk,Past customers with below average recency,40,346.58
+399,62,2,569.46,2,1,2,1.65,Lost Customers,Lowest scores in all categories,62,284.73
+400,27,5,1964.15,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",27,392.83
+401,76,2,459.08,1,1,2,1.3,Lost Customers,Lowest scores in all categories,76,229.54
+402,13,3,893.03,4,2,3,3.0,Loyal Customers,Regular customers with above average spend,13,297.68
+403,160,1,299.11,1,1,1,1.0,Lost Customers,Lowest scores in all categories,160,299.11
+404,1,8,2163.17,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",1,270.4
+405,14,3,659.23,4,2,2,2.7,Potential Loyalists,Recent customers with average frequency,14,219.74
+406,22,2,395.5,3,1,1,1.7,Lost Customers,Lowest scores in all categories,22,197.75
+407,3,3,782.6,4,2,3,3.0,Loyal Customers,Regular customers with above average spend,3,260.87
+409,35,5,1068.24,3,4,3,3.35,Loyal Customers,Regular customers with above average spend,35,213.65
+410,117,1,427.14,1,1,1,1.0,Lost Customers,Lowest scores in all categories,117,427.14
+411,59,3,687.59,2,2,2,2.0,At Risk,Past customers with below average recency,59,229.2
+412,34,2,294.26,3,1,1,1.7,Lost Customers,Lowest scores in all categories,34,147.13
+413,7,3,387.0,4,2,1,2.4,At Risk,Past customers with below average recency,7,129.0
+414,131,2,560.0600000000001,1,1,2,1.3,Lost Customers,Lowest scores in all categories,131,280.03
+415,12,6,1544.54,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",12,257.42
+417,34,3,341.98,3,2,1,2.05,At Risk,Past customers with below average recency,34,113.99
+418,37,3,648.53,2,2,2,2.0,At Risk,Past customers with below average recency,37,216.18
+419,74,3,1121.8200000000002,1,2,4,2.25,At Risk,Past customers with below average recency,74,373.94
+420,21,5,1123.9499999999998,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",21,224.79
+421,23,2,257.08000000000004,3,1,1,1.7,Lost Customers,Lowest scores in all categories,23,128.54
+422,157,2,518.78,1,1,2,1.3,Lost Customers,Lowest scores in all categories,157,259.39
+423,6,6,1302.18,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",6,217.03
+424,92,3,311.15,1,2,1,1.35,Lost Customers,Lowest scores in all categories,92,103.72
+425,129,3,965.45,1,2,3,1.95,Lost Customers,Lowest scores in all categories,129,321.82
+426,52,5,1155.35,2,4,4,3.3,Loyal Customers,Regular customers with above average spend,52,231.07
+427,2,4,945.37,4,3,3,3.35,Loyal Customers,Regular customers with above average spend,2,236.34
+428,126,2,724.4100000000001,1,1,2,1.3,Lost Customers,Lowest scores in all categories,126,362.21
+429,54,3,878.1600000000001,2,2,3,2.3,At Risk,Past customers with below average recency,54,292.72
+430,12,2,245.84,4,1,1,2.05,At Risk,Past customers with below average recency,12,122.92
+431,27,2,298.06,3,1,1,1.7,Lost Customers,Lowest scores in all categories,27,149.03
+432,18,6,1492.56,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",18,248.76
+433,59,2,520.9200000000001,2,1,2,1.65,Lost Customers,Lowest scores in all categories,59,260.46
+434,61,1,410.31,2,1,1,1.35,Lost Customers,Lowest scores in all categories,61,410.31
+435,16,2,820.99,4,1,3,2.65,Potential Loyalists,Recent customers with average frequency,16,410.5
+436,53,4,1401.22,2,3,4,2.95,Potential Loyalists,Recent customers with average frequency,53,350.3
+437,49,5,616.03,2,4,2,2.7,Potential Loyalists,Recent customers with average frequency,49,123.21
+438,3,6,1363.29,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",3,227.22
+439,75,2,384.18,1,1,1,1.0,Lost Customers,Lowest scores in all categories,75,192.09
+440,82,2,823.77,1,1,3,1.6,Lost Customers,Lowest scores in all categories,82,411.88
+441,16,1,441.13,4,1,1,2.05,At Risk,Past customers with below average recency,16,441.13
+442,30,3,234.17,3,2,1,2.05,At Risk,Past customers with below average recency,30,78.06
+443,8,5,977.28,4,4,3,3.7,Champions,"Bought recently, buy often, and spend the most",8,195.46
+445,19,5,847.97,3,4,3,3.35,Loyal Customers,Regular customers with above average spend,19,169.59
+446,1,8,2135.82,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",1,266.98
+447,105,1,38.0,1,1,1,1.0,Lost Customers,Lowest scores in all categories,105,38.0
+448,8,6,1258.08,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",8,209.68
+449,20,6,817.31,3,4,3,3.35,Loyal Customers,Regular customers with above average spend,20,136.22
+450,45,3,1354.76,2,2,4,2.6,Potential Loyalists,Recent customers with average frequency,45,451.59
+451,29,5,1450.28,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",29,290.06
+452,4,2,842.4300000000001,4,1,3,2.65,Potential Loyalists,Recent customers with average frequency,4,421.22
+453,44,2,454.42,2,1,1,1.35,Lost Customers,Lowest scores in all categories,44,227.21
+454,129,1,380.46,1,1,1,1.0,Lost Customers,Lowest scores in all categories,129,380.46
+455,85,1,229.1,1,1,1,1.0,Lost Customers,Lowest scores in all categories,85,229.1
+456,2,6,1295.17,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",2,215.86
+457,8,2,713.47,4,1,2,2.35,At Risk,Past customers with below average recency,8,356.74
+458,50,5,1329.8700000000001,2,4,4,3.3,Loyal Customers,Regular customers with above average spend,50,265.97
+459,21,2,335.03000000000003,3,1,1,1.7,Lost Customers,Lowest scores in all categories,21,167.52
+460,28,6,1539.25,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",28,256.54
+461,174,1,433.97,1,1,1,1.0,Lost Customers,Lowest scores in all categories,174,433.97
+462,18,2,434.13,3,1,1,1.7,Lost Customers,Lowest scores in all categories,18,217.06
+463,67,1,452.82,2,1,1,1.35,Lost Customers,Lowest scores in all categories,67,452.82
+464,40,4,867.02,2,3,3,2.65,Potential Loyalists,Recent customers with average frequency,40,216.76
+465,25,6,1749.26,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",25,291.54
+466,14,3,591.1,4,2,2,2.7,Potential Loyalists,Recent customers with average frequency,14,197.03
+467,117,2,621.04,1,1,2,1.3,Lost Customers,Lowest scores in all categories,117,310.52
+469,7,4,769.16,4,3,3,3.35,Loyal Customers,Regular customers with above average spend,7,192.29
+471,19,5,1259.21,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",19,251.84
+472,20,5,1471.48,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",20,294.3
+473,23,4,1222.75,3,3,4,3.3,Loyal Customers,Regular customers with above average spend,23,305.69
+474,20,1,494.62,3,1,2,2.0,At Risk,Past customers with below average recency,20,494.62
+475,10,7,1237.1,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",10,176.73
+476,127,1,173.04,1,1,1,1.0,Lost Customers,Lowest scores in all categories,127,173.04
+477,11,4,715.56,4,3,2,3.05,Loyal Customers,Regular customers with above average spend,11,178.89
+478,123,1,197.54,1,1,1,1.0,Lost Customers,Lowest scores in all categories,123,197.54
+479,7,5,1477.51,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",7,295.5
+480,30,3,727.03,3,2,3,2.65,Potential Loyalists,Recent customers with average frequency,30,242.34
+481,134,1,326.76,1,1,1,1.0,Lost Customers,Lowest scores in all categories,134,326.76
+482,45,3,570.21,2,2,2,2.0,At Risk,Past customers with below average recency,45,190.07
+483,5,4,597.79,4,3,2,3.05,Loyal Customers,Regular customers with above average spend,5,149.45
+484,57,4,937.0,2,3,3,2.65,Potential Loyalists,Recent customers with average frequency,57,234.25
+485,60,1,59.57,2,1,1,1.35,Lost Customers,Lowest scores in all categories,60,59.57
+487,23,2,501.78,3,1,2,2.0,At Risk,Past customers with below average recency,23,250.89
+488,15,4,1151.56,4,3,4,3.65,Champions,"Bought recently, buy often, and spend the most",15,287.89
+489,25,2,519.3299999999999,3,1,2,2.0,At Risk,Past customers with below average recency,25,259.66
+490,28,2,210.69,3,1,1,1.7,Lost Customers,Lowest scores in all categories,28,105.34
+491,84,4,912.87,1,3,3,2.3,At Risk,Past customers with below average recency,84,228.22
+492,23,3,464.7,3,2,2,2.35,At Risk,Past customers with below average recency,23,154.9
+493,86,3,721.22,1,2,2,1.65,Lost Customers,Lowest scores in all categories,86,240.41
+494,81,3,677.3000000000001,1,2,2,1.65,Lost Customers,Lowest scores in all categories,81,225.77
+495,9,5,1531.41,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",9,306.28
+496,85,3,381.01,1,2,1,1.35,Lost Customers,Lowest scores in all categories,85,127.0
+497,14,3,1010.02,4,2,3,3.0,Loyal Customers,Regular customers with above average spend,14,336.67
+498,47,3,850.1,2,2,3,2.3,At Risk,Past customers with below average recency,47,283.37
+499,87,1,417.05,1,1,1,1.0,Lost Customers,Lowest scores in all categories,87,417.05
+500,8,5,1716.29,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",8,343.26
+501,86,3,839.3,1,2,3,1.95,Lost Customers,Lowest scores in all categories,86,279.77
+502,17,7,1795.25,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",17,256.46
+503,161,1,115.58,1,1,1,1.0,Lost Customers,Lowest scores in all categories,161,115.58
+505,4,2,121.22,4,1,1,2.05,At Risk,Past customers with below average recency,4,60.61
+506,157,1,468.99,1,1,2,1.3,Lost Customers,Lowest scores in all categories,157,468.99
+507,39,2,450.25,2,1,1,1.35,Lost Customers,Lowest scores in all categories,39,225.12
+508,96,3,774.44,1,2,3,1.95,Lost Customers,Lowest scores in all categories,96,258.15
+509,28,5,1066.4299999999998,3,4,3,3.35,Loyal Customers,Regular customers with above average spend,28,213.29
+511,1,2,537.29,4,1,2,2.35,At Risk,Past customers with below average recency,1,268.64
+512,21,4,978.98,3,3,3,3.0,Loyal Customers,Regular customers with above average spend,21,244.74
+513,10,4,1187.88,4,3,4,3.65,Champions,"Bought recently, buy often, and spend the most",10,296.97
+514,41,5,1491.31,2,4,4,3.3,Loyal Customers,Regular customers with above average spend,41,298.26
+516,23,6,1164.8799999999999,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",23,194.15
+517,24,8,2422.44,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",24,302.8
+518,6,5,870.6800000000001,4,4,3,3.7,Champions,"Bought recently, buy often, and spend the most",6,174.14
+519,68,2,382.27,2,1,1,1.35,Lost Customers,Lowest scores in all categories,68,191.14
+520,7,3,756.3100000000001,4,2,3,3.0,Loyal Customers,Regular customers with above average spend,7,252.1
+521,41,1,67.04,2,1,1,1.35,Lost Customers,Lowest scores in all categories,41,67.04
+522,3,4,1099.3700000000001,4,3,3,3.35,Loyal Customers,Regular customers with above average spend,3,274.84
+523,31,4,1447.52,3,3,4,3.3,Loyal Customers,Regular customers with above average spend,31,361.88
+524,5,4,1217.84,4,3,4,3.65,Champions,"Bought recently, buy often, and spend the most",5,304.46
+525,3,3,1188.94,4,2,4,3.3,Loyal Customers,Regular customers with above average spend,3,396.31
+526,7,2,384.15999999999997,4,1,1,2.05,At Risk,Past customers with below average recency,7,192.08
+527,15,3,420.41999999999996,4,2,1,2.4,At Risk,Past customers with below average recency,15,140.14
+528,163,2,736.73,1,1,3,1.6,Lost Customers,Lowest scores in all categories,163,368.36
+529,32,2,419.92999999999995,3,1,1,1.7,Lost Customers,Lowest scores in all categories,32,209.96
+530,156,1,101.3,1,1,1,1.0,Lost Customers,Lowest scores in all categories,156,101.3
+531,75,3,744.86,1,2,3,1.95,Lost Customers,Lowest scores in all categories,75,248.29
+532,20,2,772.87,3,1,3,2.3,At Risk,Past customers with below average recency,20,386.44
+533,95,2,298.54999999999995,1,1,1,1.0,Lost Customers,Lowest scores in all categories,95,149.27
+534,84,4,870.8,1,3,3,2.3,At Risk,Past customers with below average recency,84,217.7
+535,3,2,524.49,4,1,2,2.35,At Risk,Past customers with below average recency,3,262.24
+536,60,2,309.66999999999996,2,1,1,1.35,Lost Customers,Lowest scores in all categories,60,154.83
+537,92,3,534.01,1,2,2,1.65,Lost Customers,Lowest scores in all categories,92,178.0
+539,4,4,1246.0,4,3,4,3.65,Champions,"Bought recently, buy often, and spend the most",4,311.5
+540,94,2,358.73,1,1,1,1.0,Lost Customers,Lowest scores in all categories,94,179.36
+541,96,3,992.3499999999999,1,2,3,1.95,Lost Customers,Lowest scores in all categories,96,330.78
+542,123,2,794.92,1,1,3,1.6,Lost Customers,Lowest scores in all categories,123,397.46
+543,12,5,1220.1,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",12,244.02
+544,25,5,1064.86,3,4,3,3.35,Loyal Customers,Regular customers with above average spend,25,212.97
+545,29,3,830.6700000000001,3,2,3,2.65,Potential Loyalists,Recent customers with average frequency,29,276.89
+546,105,1,125.23,1,1,1,1.0,Lost Customers,Lowest scores in all categories,105,125.23
+547,13,6,993.54,4,4,3,3.7,Champions,"Bought recently, buy often, and spend the most",13,165.59
+548,161,1,473.82,1,1,2,1.3,Lost Customers,Lowest scores in all categories,161,473.82
+549,8,5,1497.73,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",8,299.55
+550,31,2,720.3499999999999,3,1,2,2.0,At Risk,Past customers with below average recency,31,360.17
+551,18,5,1063.22,3,4,3,3.35,Loyal Customers,Regular customers with above average spend,18,212.64
+552,100,1,172.14,1,1,1,1.0,Lost Customers,Lowest scores in all categories,100,172.14
+553,25,1,192.31,3,1,1,1.7,Lost Customers,Lowest scores in all categories,25,192.31
+554,17,3,523.65,3,2,2,2.35,At Risk,Past customers with below average recency,17,174.55
+555,169,1,191.95,1,1,1,1.0,Lost Customers,Lowest scores in all categories,169,191.95
+556,3,2,619.26,4,1,2,2.35,At Risk,Past customers with below average recency,3,309.63
+557,43,3,656.83,2,2,2,2.0,At Risk,Past customers with below average recency,43,218.94
+559,45,2,93.23,2,1,1,1.35,Lost Customers,Lowest scores in all categories,45,46.62
+560,76,3,929.24,1,2,3,1.95,Lost Customers,Lowest scores in all categories,76,309.75
+561,76,4,788.71,1,3,3,2.3,At Risk,Past customers with below average recency,76,197.18
+563,119,2,423.37,1,1,1,1.0,Lost Customers,Lowest scores in all categories,119,211.68
+564,47,3,797.73,2,2,3,2.3,At Risk,Past customers with below average recency,47,265.91
+566,98,2,394.79,1,1,1,1.0,Lost Customers,Lowest scores in all categories,98,197.4
+567,11,5,1283.9,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",11,256.78
+568,12,3,902.99,4,2,3,3.0,Loyal Customers,Regular customers with above average spend,12,301.0
+569,21,2,289.39,3,1,1,1.7,Lost Customers,Lowest scores in all categories,21,144.7
+571,47,3,821.47,2,2,3,2.3,At Risk,Past customers with below average recency,47,273.82
+572,29,1,128.62,3,1,1,1.7,Lost Customers,Lowest scores in all categories,29,128.62
+573,2,3,1078.8600000000001,4,2,3,3.0,Loyal Customers,Regular customers with above average spend,2,359.62
+574,92,1,257.58,1,1,1,1.0,Lost Customers,Lowest scores in all categories,92,257.58
+575,28,3,535.0,3,2,2,2.35,At Risk,Past customers with below average recency,28,178.33
+576,175,1,346.1,1,1,1,1.0,Lost Customers,Lowest scores in all categories,175,346.1
+577,1,5,762.48,4,4,3,3.7,Champions,"Bought recently, buy often, and spend the most",1,152.5
+578,61,2,503.55,2,1,2,1.65,Lost Customers,Lowest scores in all categories,61,251.78
+579,19,3,1006.41,3,2,3,2.65,Potential Loyalists,Recent customers with average frequency,19,335.47
+580,74,2,547.4100000000001,1,1,2,1.3,Lost Customers,Lowest scores in all categories,74,273.71
+581,79,4,967.39,1,3,3,2.3,At Risk,Past customers with below average recency,79,241.85
+582,9,4,853.97,4,3,3,3.35,Loyal Customers,Regular customers with above average spend,9,213.49
+583,78,1,449.62,1,1,1,1.0,Lost Customers,Lowest scores in all categories,78,449.62
+584,85,3,843.6899999999999,1,2,3,1.95,Lost Customers,Lowest scores in all categories,85,281.23
+585,23,3,748.62,3,2,3,2.65,Potential Loyalists,Recent customers with average frequency,23,249.54
+586,93,2,418.88,1,1,1,1.0,Lost Customers,Lowest scores in all categories,93,209.44
+587,22,5,899.8399999999999,3,4,3,3.35,Loyal Customers,Regular customers with above average spend,22,179.97
+588,47,2,591.6899999999999,2,1,2,1.65,Lost Customers,Lowest scores in all categories,47,295.84
+589,22,2,351.85,3,1,1,1.7,Lost Customers,Lowest scores in all categories,22,175.92
+590,5,4,809.02,4,3,3,3.35,Loyal Customers,Regular customers with above average spend,5,202.26
+591,8,4,1006.58,4,3,3,3.35,Loyal Customers,Regular customers with above average spend,8,251.64
+592,14,2,470.65000000000003,4,1,2,2.35,At Risk,Past customers with below average recency,14,235.32
+593,70,3,1135.28,2,2,4,2.6,Potential Loyalists,Recent customers with average frequency,70,378.43
+595,50,3,566.8399999999999,2,2,2,2.0,At Risk,Past customers with below average recency,50,188.95
+596,40,3,1157.24,2,2,4,2.6,Potential Loyalists,Recent customers with average frequency,40,385.75
+597,6,3,812.78,4,2,3,3.0,Loyal Customers,Regular customers with above average spend,6,270.93
+598,42,1,469.16,2,1,2,1.65,Lost Customers,Lowest scores in all categories,42,469.16
+599,159,1,477.9,1,1,2,1.3,Lost Customers,Lowest scores in all categories,159,477.9
+600,1,6,1786.72,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",1,297.79
+601,74,3,394.39,1,2,1,1.35,Lost Customers,Lowest scores in all categories,74,131.46
+602,134,2,599.42,1,1,2,1.3,Lost Customers,Lowest scores in all categories,134,299.71
+603,79,1,367.85,1,1,1,1.0,Lost Customers,Lowest scores in all categories,79,367.85
+604,99,4,1621.31,1,3,4,2.6,Potential Loyalists,Recent customers with average frequency,99,405.33
+605,38,6,1443.19,2,4,4,3.3,Loyal Customers,Regular customers with above average spend,38,240.53
+606,1,8,2365.84,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",1,295.73
+607,42,3,990.55,2,2,3,2.3,At Risk,Past customers with below average recency,42,330.18
+608,57,2,605.5799999999999,2,1,2,1.65,Lost Customers,Lowest scores in all categories,57,302.79
+609,15,3,639.62,4,2,2,2.7,Potential Loyalists,Recent customers with average frequency,15,213.21
+610,54,1,78.32,2,1,1,1.35,Lost Customers,Lowest scores in all categories,54,78.32
+611,45,4,1346.19,2,3,4,2.95,Potential Loyalists,Recent customers with average frequency,45,336.55
+612,50,4,701.85,2,3,2,2.35,At Risk,Past customers with below average recency,50,175.46
+613,118,2,741.0899999999999,1,1,3,1.6,Lost Customers,Lowest scores in all categories,118,370.54
+614,27,2,488.77000000000004,3,1,2,2.0,At Risk,Past customers with below average recency,27,244.39
+615,105,3,933.52,1,2,3,1.95,Lost Customers,Lowest scores in all categories,105,311.17
+616,22,3,950.3,3,2,3,2.65,Potential Loyalists,Recent customers with average frequency,22,316.77
+617,137,1,35.35,1,1,1,1.0,Lost Customers,Lowest scores in all categories,137,35.35
+618,86,4,739.11,1,3,3,2.3,At Risk,Past customers with below average recency,86,184.78
+620,58,4,552.56,2,3,2,2.35,At Risk,Past customers with below average recency,58,138.14
+621,14,6,1610.66,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",14,268.44
+622,15,1,381.84,4,1,1,2.05,At Risk,Past customers with below average recency,15,381.84
+623,4,5,1543.37,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",4,308.67
+624,23,1,120.51,3,1,1,1.7,Lost Customers,Lowest scores in all categories,23,120.51
+625,60,6,2030.15,2,4,4,3.3,Loyal Customers,Regular customers with above average spend,60,338.36
+626,12,5,1011.58,4,4,3,3.7,Champions,"Bought recently, buy often, and spend the most",12,202.32
+627,2,5,1730.14,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",2,346.03
+628,11,5,1433.52,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",11,286.7
+629,65,1,439.29,2,1,1,1.35,Lost Customers,Lowest scores in all categories,65,439.29
+630,31,2,549.6700000000001,3,1,2,2.0,At Risk,Past customers with below average recency,31,274.84
+631,77,2,836.8599999999999,1,1,3,1.6,Lost Customers,Lowest scores in all categories,77,418.43
+632,47,6,1557.95,2,4,4,3.3,Loyal Customers,Regular customers with above average spend,47,259.66
+633,34,3,931.1,3,2,3,2.65,Potential Loyalists,Recent customers with average frequency,34,310.37
+634,44,5,1670.69,2,4,4,3.3,Loyal Customers,Regular customers with above average spend,44,334.14
+635,54,1,446.67,2,1,1,1.35,Lost Customers,Lowest scores in all categories,54,446.67
+636,113,1,172.27,1,1,1,1.0,Lost Customers,Lowest scores in all categories,113,172.27
+637,41,3,359.56,2,2,1,1.7,Lost Customers,Lowest scores in all categories,41,119.85
+638,66,3,673.76,2,2,2,2.0,At Risk,Past customers with below average recency,66,224.59
+639,78,1,275.04,1,1,1,1.0,Lost Customers,Lowest scores in all categories,78,275.04
+641,12,3,687.56,4,2,2,2.7,Potential Loyalists,Recent customers with average frequency,12,229.19
+642,15,4,1106.9,4,3,3,3.35,Loyal Customers,Regular customers with above average spend,15,276.73
+643,33,4,1185.8899999999999,3,3,4,3.3,Loyal Customers,Regular customers with above average spend,33,296.47
+644,12,4,1026.65,4,3,3,3.35,Loyal Customers,Regular customers with above average spend,12,256.66
+645,61,4,918.5899999999999,2,3,3,2.65,Potential Loyalists,Recent customers with average frequency,61,229.65
+646,113,3,529.79,1,2,2,1.65,Lost Customers,Lowest scores in all categories,113,176.6
+648,26,5,1627.2,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",26,325.44
+649,21,4,1223.26,3,3,4,3.3,Loyal Customers,Regular customers with above average spend,21,305.82
+650,81,3,335.36,1,2,1,1.35,Lost Customers,Lowest scores in all categories,81,111.79
+651,11,1,448.59,4,1,1,2.05,At Risk,Past customers with below average recency,11,448.59
+652,28,5,1392.0700000000002,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",28,278.41
+653,46,4,752.3700000000001,2,3,3,2.65,Potential Loyalists,Recent customers with average frequency,46,188.09
+654,65,2,545.21,2,1,2,1.65,Lost Customers,Lowest scores in all categories,65,272.6
+657,49,2,487.98,2,1,2,1.65,Lost Customers,Lowest scores in all categories,49,243.99
+658,95,3,390.37,1,2,1,1.35,Lost Customers,Lowest scores in all categories,95,130.12
+659,2,4,1067.88,4,3,3,3.35,Loyal Customers,Regular customers with above average spend,2,266.97
+660,2,5,1335.9099999999999,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",2,267.18
+661,78,4,596.15,1,3,2,2.0,At Risk,Past customers with below average recency,78,149.04
+662,21,3,1027.9,3,2,3,2.65,Potential Loyalists,Recent customers with average frequency,21,342.63
+663,15,4,808.22,4,3,3,3.35,Loyal Customers,Regular customers with above average spend,15,202.06
+664,23,1,260.77,3,1,1,1.7,Lost Customers,Lowest scores in all categories,23,260.77
+665,44,6,1254.1200000000001,2,4,4,3.3,Loyal Customers,Regular customers with above average spend,44,209.02
+666,18,3,508.84,3,2,2,2.35,At Risk,Past customers with below average recency,18,169.61
+667,47,6,2092.3,2,4,4,3.3,Loyal Customers,Regular customers with above average spend,47,348.72
+669,145,1,103.48,1,1,1,1.0,Lost Customers,Lowest scores in all categories,145,103.48
+670,1,4,576.19,4,3,2,3.05,Loyal Customers,Regular customers with above average spend,1,144.05
+671,35,3,793.6,3,2,3,2.65,Potential Loyalists,Recent customers with average frequency,35,264.53
+673,73,1,460.01,1,1,2,1.3,Lost Customers,Lowest scores in all categories,73,460.01
+674,17,6,2497.19,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",17,416.2
+675,10,4,1260.71,4,3,4,3.65,Champions,"Bought recently, buy often, and spend the most",10,315.18
+676,71,1,332.08,2,1,1,1.35,Lost Customers,Lowest scores in all categories,71,332.08
+677,10,4,598.36,4,3,2,3.05,Loyal Customers,Regular customers with above average spend,10,149.59
+678,24,3,459.47,3,2,2,2.35,At Risk,Past customers with below average recency,24,153.16
+679,7,8,2769.59,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",7,346.2
+680,23,7,1502.69,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",23,214.67
+681,10,5,893.47,4,4,3,3.7,Champions,"Bought recently, buy often, and spend the most",10,178.69
+682,25,5,1509.99,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",25,302.0
+683,106,5,1463.6200000000001,1,4,4,2.95,Potential Loyalists,Recent customers with average frequency,106,292.72
+684,99,3,708.49,1,2,2,1.65,Lost Customers,Lowest scores in all categories,99,236.16
+685,175,1,479.24,1,1,2,1.3,Lost Customers,Lowest scores in all categories,175,479.24
+686,111,1,278.84,1,1,1,1.0,Lost Customers,Lowest scores in all categories,111,278.84
+687,10,2,186.14,4,1,1,2.05,At Risk,Past customers with below average recency,10,93.07
+688,157,1,288.2,1,1,1,1.0,Lost Customers,Lowest scores in all categories,157,288.2
+689,60,2,465.94,2,1,2,1.65,Lost Customers,Lowest scores in all categories,60,232.97
+691,73,4,849.42,1,3,3,2.3,At Risk,Past customers with below average recency,73,212.36
+692,19,4,913.47,3,3,3,3.0,Loyal Customers,Regular customers with above average spend,19,228.37
+693,132,2,445.62,1,1,1,1.0,Lost Customers,Lowest scores in all categories,132,222.81
+694,27,4,1254.62,3,3,4,3.3,Loyal Customers,Regular customers with above average spend,27,313.65
+695,33,2,596.37,3,1,2,2.0,At Risk,Past customers with below average recency,33,298.18
+696,33,4,857.28,3,3,3,3.0,Loyal Customers,Regular customers with above average spend,33,214.32
+697,19,6,2058.13,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",19,343.02
+698,118,4,1343.65,1,3,4,2.6,Potential Loyalists,Recent customers with average frequency,118,335.91
+700,105,1,289.54,1,1,1,1.0,Lost Customers,Lowest scores in all categories,105,289.54
+701,6,3,737.3100000000001,4,2,3,3.0,Loyal Customers,Regular customers with above average spend,6,245.77
+702,53,2,526.77,2,1,2,1.65,Lost Customers,Lowest scores in all categories,53,263.38
+703,51,3,888.22,2,2,3,2.3,At Risk,Past customers with below average recency,51,296.07
+704,72,3,121.25,1,2,1,1.35,Lost Customers,Lowest scores in all categories,72,40.42
+705,17,4,1106.9099999999999,3,3,3,3.0,Loyal Customers,Regular customers with above average spend,17,276.73
+706,102,1,481.73,1,1,2,1.3,Lost Customers,Lowest scores in all categories,102,481.73
+707,19,5,1866.69,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",19,373.34
+708,5,2,537.49,4,1,2,2.35,At Risk,Past customers with below average recency,5,268.74
+709,4,3,554.12,4,2,2,2.7,Potential Loyalists,Recent customers with average frequency,4,184.71
+710,29,7,1491.19,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",29,213.03
+711,59,5,1598.9099999999999,2,4,4,3.3,Loyal Customers,Regular customers with above average spend,59,319.78
+712,30,7,1524.06,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",30,217.72
+713,38,4,811.85,2,3,3,2.65,Potential Loyalists,Recent customers with average frequency,38,202.96
+714,23,4,488.39,3,3,2,2.7,Potential Loyalists,Recent customers with average frequency,23,122.1
+715,126,1,311.28,1,1,1,1.0,Lost Customers,Lowest scores in all categories,126,311.28
+717,92,3,485.28,1,2,2,1.65,Lost Customers,Lowest scores in all categories,92,161.76
+718,35,2,700.25,3,1,2,2.0,At Risk,Past customers with below average recency,35,350.12
+719,37,3,348.43999999999994,2,2,1,1.7,Lost Customers,Lowest scores in all categories,37,116.15
+722,121,1,491.39,1,1,2,1.3,Lost Customers,Lowest scores in all categories,121,491.39
+723,63,4,823.78,2,3,3,2.65,Potential Loyalists,Recent customers with average frequency,63,205.94
+724,31,3,494.89,3,2,2,2.35,At Risk,Past customers with below average recency,31,164.96
+725,9,2,582.99,4,1,2,2.35,At Risk,Past customers with below average recency,9,291.5
+726,93,4,637.6700000000001,1,3,2,2.0,At Risk,Past customers with below average recency,93,159.42
+727,44,4,1119.06,2,3,4,2.95,Potential Loyalists,Recent customers with average frequency,44,279.76
+729,153,1,52.34,1,1,1,1.0,Lost Customers,Lowest scores in all categories,153,52.34
+730,164,3,1272.71,1,2,4,2.25,At Risk,Past customers with below average recency,164,424.24
+731,58,4,1368.86,2,3,4,2.95,Potential Loyalists,Recent customers with average frequency,58,342.22
+732,2,4,607.85,4,3,2,3.05,Loyal Customers,Regular customers with above average spend,2,151.96
+733,29,2,844.24,3,1,3,2.3,At Risk,Past customers with below average recency,29,422.12
+734,10,3,615.65,4,2,2,2.7,Potential Loyalists,Recent customers with average frequency,10,205.22
+735,3,5,1363.85,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",3,272.77
+736,31,4,1076.2,3,3,3,3.0,Loyal Customers,Regular customers with above average spend,31,269.05
+737,11,4,1330.15,4,3,4,3.65,Champions,"Bought recently, buy often, and spend the most",11,332.54
+738,33,2,569.17,3,1,2,2.0,At Risk,Past customers with below average recency,33,284.58
+739,1,1,382.2,4,1,1,2.05,At Risk,Past customers with below average recency,1,382.2
+740,68,3,875.3699999999999,2,2,3,2.3,At Risk,Past customers with below average recency,68,291.79
+741,54,3,887.72,2,2,3,2.3,At Risk,Past customers with below average recency,54,295.91
+743,16,5,1570.3,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",16,314.06
+744,89,3,955.1099999999999,1,2,3,1.95,Lost Customers,Lowest scores in all categories,89,318.37
+745,46,3,813.75,2,2,3,2.3,At Risk,Past customers with below average recency,46,271.25
+746,96,1,337.13,1,1,1,1.0,Lost Customers,Lowest scores in all categories,96,337.13
+747,33,3,910.0500000000001,3,2,3,2.65,Potential Loyalists,Recent customers with average frequency,33,303.35
+748,37,2,511.52,2,1,2,1.65,Lost Customers,Lowest scores in all categories,37,255.76
+749,22,7,1393.51,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",22,199.07
+750,19,3,723.54,3,2,2,2.35,At Risk,Past customers with below average recency,19,241.18
+751,20,7,2833.56,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",20,404.79
+752,149,2,443.64,1,1,1,1.0,Lost Customers,Lowest scores in all categories,149,221.82
+753,18,5,1148.37,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",18,229.67
+754,59,4,1424.0900000000001,2,3,4,2.95,Potential Loyalists,Recent customers with average frequency,59,356.02
+755,73,2,649.26,1,1,2,1.3,Lost Customers,Lowest scores in all categories,73,324.63
+756,58,1,489.96,2,1,2,1.65,Lost Customers,Lowest scores in all categories,58,489.96
+757,27,2,460.36,3,1,2,2.0,At Risk,Past customers with below average recency,27,230.18
+758,10,2,648.6,4,1,2,2.35,At Risk,Past customers with below average recency,10,324.3
+759,13,4,1397.96,4,3,4,3.65,Champions,"Bought recently, buy often, and spend the most",13,349.49
+760,17,4,857.9,3,3,3,3.0,Loyal Customers,Regular customers with above average spend,17,214.48
+761,27,6,1411.42,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",27,235.24
+762,20,5,1078.64,3,4,3,3.35,Loyal Customers,Regular customers with above average spend,20,215.73
+763,4,5,1719.2,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",4,343.84
+764,12,7,2076.81,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",12,296.69
+765,100,1,342.65,1,1,1,1.0,Lost Customers,Lowest scores in all categories,100,342.65
+766,18,5,1277.1399999999999,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",18,255.43
+767,175,2,663.64,1,1,2,1.3,Lost Customers,Lowest scores in all categories,175,331.82
+768,22,2,481.48,3,1,2,2.0,At Risk,Past customers with below average recency,22,240.74
+769,131,2,698.33,1,1,2,1.3,Lost Customers,Lowest scores in all categories,131,349.16
+770,45,1,158.43,2,1,1,1.35,Lost Customers,Lowest scores in all categories,45,158.43
+771,69,5,945.11,2,4,3,3.0,Loyal Customers,Regular customers with above average spend,69,189.02
+772,103,3,778.5600000000001,1,2,3,1.95,Lost Customers,Lowest scores in all categories,103,259.52
+773,19,5,1581.85,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",19,316.37
+774,21,3,1064.1,3,2,3,2.65,Potential Loyalists,Recent customers with average frequency,21,354.7
+775,31,3,743.13,3,2,3,2.65,Potential Loyalists,Recent customers with average frequency,31,247.71
+776,20,3,1066.27,3,2,3,2.65,Potential Loyalists,Recent customers with average frequency,20,355.42
+778,58,1,174.63,2,1,1,1.35,Lost Customers,Lowest scores in all categories,58,174.63
+779,47,3,871.95,2,2,3,2.3,At Risk,Past customers with below average recency,47,290.65
+780,6,6,1855.1,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",6,309.18
+781,144,1,331.4,1,1,1,1.0,Lost Customers,Lowest scores in all categories,144,331.4
+782,96,1,270.88,1,1,1,1.0,Lost Customers,Lowest scores in all categories,96,270.88
+783,41,4,724.65,2,3,2,2.35,At Risk,Past customers with below average recency,41,181.16
+784,3,4,1095.34,4,3,3,3.35,Loyal Customers,Regular customers with above average spend,3,273.83
+785,57,3,488.98,2,2,2,2.0,At Risk,Past customers with below average recency,57,162.99
+786,36,5,1224.6100000000001,2,4,4,3.3,Loyal Customers,Regular customers with above average spend,36,244.92
+787,1,7,2247.71,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",1,321.1
+788,16,7,1538.48,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",16,219.78
+789,24,4,1229.47,3,3,4,3.3,Loyal Customers,Regular customers with above average spend,24,307.37
+790,54,3,309.77,2,2,1,1.7,Lost Customers,Lowest scores in all categories,54,103.26
+792,12,2,533.3,4,1,2,2.35,At Risk,Past customers with below average recency,12,266.65
+793,35,7,1375.85,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",35,196.55
+794,15,5,1170.05,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",15,234.01
+795,67,2,495.53,2,1,2,1.65,Lost Customers,Lowest scores in all categories,67,247.76
+796,88,2,282.4,1,1,1,1.0,Lost Customers,Lowest scores in all categories,88,141.2
+797,74,5,1609.09,1,4,4,2.95,Potential Loyalists,Recent customers with average frequency,74,321.82
+798,103,3,663.02,1,2,2,1.65,Lost Customers,Lowest scores in all categories,103,221.01
+799,83,4,640.8000000000001,1,3,2,2.0,At Risk,Past customers with below average recency,83,160.2
+800,7,3,1026.48,4,2,3,3.0,Loyal Customers,Regular customers with above average spend,7,342.16
+801,65,2,508.97999999999996,2,1,2,1.65,Lost Customers,Lowest scores in all categories,65,254.49
+802,1,3,1129.35,4,2,4,3.3,Loyal Customers,Regular customers with above average spend,1,376.45
+803,46,4,1481.46,2,3,4,2.95,Potential Loyalists,Recent customers with average frequency,46,370.36
+804,131,2,544.96,1,1,2,1.3,Lost Customers,Lowest scores in all categories,131,272.48
+805,56,3,397.77,2,2,1,1.7,Lost Customers,Lowest scores in all categories,56,132.59
+806,4,4,1248.85,4,3,4,3.65,Champions,"Bought recently, buy often, and spend the most",4,312.21
+807,26,4,845.6700000000001,3,3,3,3.0,Loyal Customers,Regular customers with above average spend,26,211.42
+809,71,1,381.05,2,1,1,1.35,Lost Customers,Lowest scores in all categories,71,381.05
+810,3,8,1904.14,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",3,238.02
+811,32,2,548.51,3,1,2,2.0,At Risk,Past customers with below average recency,32,274.26
+812,128,2,403.46,1,1,1,1.0,Lost Customers,Lowest scores in all categories,128,201.73
+813,10,4,738.28,4,3,3,3.35,Loyal Customers,Regular customers with above average spend,10,184.57
+814,70,5,1531.26,2,4,4,3.3,Loyal Customers,Regular customers with above average spend,70,306.25
+815,43,4,779.23,2,3,3,2.65,Potential Loyalists,Recent customers with average frequency,43,194.81
+816,4,8,2678.5299999999997,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",4,334.82
+817,65,5,1478.0900000000001,2,4,4,3.3,Loyal Customers,Regular customers with above average spend,65,295.62
+818,78,5,1506.43,1,4,4,2.95,Potential Loyalists,Recent customers with average frequency,78,301.29
+819,67,3,653.5699999999999,2,2,2,2.0,At Risk,Past customers with below average recency,67,217.86
+820,5,3,335.53,4,2,1,2.4,At Risk,Past customers with below average recency,5,111.84
+821,78,1,179.09,1,1,1,1.0,Lost Customers,Lowest scores in all categories,78,179.09
+822,130,3,1123.69,1,2,4,2.25,At Risk,Past customers with below average recency,130,374.56
+823,15,4,1623.76,4,3,4,3.65,Champions,"Bought recently, buy often, and spend the most",15,405.94
+824,10,4,815.31,4,3,3,3.35,Loyal Customers,Regular customers with above average spend,10,203.83
+825,20,3,1138.48,3,2,4,2.95,Potential Loyalists,Recent customers with average frequency,20,379.49
+826,2,3,1100.12,4,2,3,3.0,Loyal Customers,Regular customers with above average spend,2,366.71
+827,101,2,435.75,1,1,1,1.0,Lost Customers,Lowest scores in all categories,101,217.88
+828,53,2,300.48,2,1,1,1.35,Lost Customers,Lowest scores in all categories,53,150.24
+829,57,2,644.05,2,1,2,1.65,Lost Customers,Lowest scores in all categories,57,322.02
+830,77,2,481.16999999999996,1,1,2,1.3,Lost Customers,Lowest scores in all categories,77,240.58
+831,29,2,683.79,3,1,2,2.0,At Risk,Past customers with below average recency,29,341.9
+832,8,3,645.21,4,2,2,2.7,Potential Loyalists,Recent customers with average frequency,8,215.07
+833,23,6,1135.6200000000001,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",23,189.27
+834,15,4,663.88,4,3,2,3.05,Loyal Customers,Regular customers with above average spend,15,165.97
+835,99,1,444.51,1,1,1,1.0,Lost Customers,Lowest scores in all categories,99,444.51
+836,41,5,1248.19,2,4,4,3.3,Loyal Customers,Regular customers with above average spend,41,249.64
+837,7,4,821.82,4,3,3,3.35,Loyal Customers,Regular customers with above average spend,7,205.46
+838,33,2,481.2,3,1,2,2.0,At Risk,Past customers with below average recency,33,240.6
+839,84,1,210.62,1,1,1,1.0,Lost Customers,Lowest scores in all categories,84,210.62
+840,4,5,1691.1599999999999,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",4,338.23
+842,44,2,504.03999999999996,2,1,2,1.65,Lost Customers,Lowest scores in all categories,44,252.02
+843,61,3,862.73,2,2,3,2.3,At Risk,Past customers with below average recency,61,287.58
+844,44,1,404.44,2,1,1,1.35,Lost Customers,Lowest scores in all categories,44,404.44
+845,16,4,812.37,4,3,3,3.35,Loyal Customers,Regular customers with above average spend,16,203.09
+846,73,2,609.76,1,1,2,1.3,Lost Customers,Lowest scores in all categories,73,304.88
+847,171,1,362.41,1,1,1,1.0,Lost Customers,Lowest scores in all categories,171,362.41
+848,27,2,725.89,3,1,2,2.0,At Risk,Past customers with below average recency,27,362.94
+849,1,1,487.6,4,1,2,2.35,At Risk,Past customers with below average recency,1,487.6
+850,39,2,399.62,2,1,1,1.35,Lost Customers,Lowest scores in all categories,39,199.81
+851,24,6,1142.47,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",24,190.41
+852,4,2,387.48,4,1,1,2.05,At Risk,Past customers with below average recency,4,193.74
+853,14,5,1612.91,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",14,322.58
+854,47,3,1117.32,2,2,4,2.6,Potential Loyalists,Recent customers with average frequency,47,372.44
+855,28,4,667.84,3,3,2,2.7,Potential Loyalists,Recent customers with average frequency,28,166.96
+856,35,3,670.13,3,2,2,2.35,At Risk,Past customers with below average recency,35,223.38
+857,13,5,1231.47,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",13,246.29
+858,14,5,1347.31,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",14,269.46
+859,36,4,1092.62,2,3,3,2.65,Potential Loyalists,Recent customers with average frequency,36,273.15
+860,9,5,1406.35,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",9,281.27
+861,67,3,338.3,2,2,1,1.7,Lost Customers,Lowest scores in all categories,67,112.77
+862,102,2,323.58000000000004,1,1,1,1.0,Lost Customers,Lowest scores in all categories,102,161.79
+863,120,2,420.63,1,1,1,1.0,Lost Customers,Lowest scores in all categories,120,210.32
+864,68,4,1364.55,2,3,4,2.95,Potential Loyalists,Recent customers with average frequency,68,341.14
+865,165,1,92.34,1,1,1,1.0,Lost Customers,Lowest scores in all categories,165,92.34
+866,19,6,2064.65,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",19,344.11
+867,3,4,1179.19,4,3,4,3.65,Champions,"Bought recently, buy often, and spend the most",3,294.8
+868,5,1,373.49,4,1,1,2.05,At Risk,Past customers with below average recency,5,373.49
+869,102,3,497.79,1,2,2,1.65,Lost Customers,Lowest scores in all categories,102,165.93
+870,157,1,151.79,1,1,1,1.0,Lost Customers,Lowest scores in all categories,157,151.79
+871,67,3,728.8299999999999,2,2,3,2.3,At Risk,Past customers with below average recency,67,242.94
+872,41,4,687.5999999999999,2,3,2,2.35,At Risk,Past customers with below average recency,41,171.9
+873,44,4,993.4200000000001,2,3,3,2.65,Potential Loyalists,Recent customers with average frequency,44,248.36
+874,23,3,315.34,3,2,1,2.05,At Risk,Past customers with below average recency,23,105.11
+875,138,1,86.27,1,1,1,1.0,Lost Customers,Lowest scores in all categories,138,86.27
+876,51,5,1005.9,2,4,3,3.0,Loyal Customers,Regular customers with above average spend,51,201.18
+878,14,5,1843.63,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",14,368.73
+879,20,2,83.78999999999999,3,1,1,1.7,Lost Customers,Lowest scores in all categories,20,41.9
+880,26,4,1060.66,3,3,3,3.0,Loyal Customers,Regular customers with above average spend,26,265.17
+881,60,4,967.46,2,3,3,2.65,Potential Loyalists,Recent customers with average frequency,60,241.86
+882,122,2,747.01,1,1,3,1.6,Lost Customers,Lowest scores in all categories,122,373.5
+883,54,4,882.53,2,3,3,2.65,Potential Loyalists,Recent customers with average frequency,54,220.63
+884,46,3,653.18,2,2,2,2.0,At Risk,Past customers with below average recency,46,217.73
+886,120,2,730.86,1,1,3,1.6,Lost Customers,Lowest scores in all categories,120,365.43
+887,18,3,1200.21,3,2,4,2.95,Potential Loyalists,Recent customers with average frequency,18,400.07
+888,54,5,1759.83,2,4,4,3.3,Loyal Customers,Regular customers with above average spend,54,351.97
+889,82,3,531.8399999999999,1,2,2,1.65,Lost Customers,Lowest scores in all categories,82,177.28
+890,110,2,450.49,1,1,1,1.0,Lost Customers,Lowest scores in all categories,110,225.24
+891,25,2,621.84,3,1,2,2.0,At Risk,Past customers with below average recency,25,310.92
+892,11,3,917.6600000000001,4,2,3,3.0,Loyal Customers,Regular customers with above average spend,11,305.89
+893,83,4,648.68,1,3,2,2.0,At Risk,Past customers with below average recency,83,162.17
+894,172,1,379.09,1,1,1,1.0,Lost Customers,Lowest scores in all categories,172,379.09
+895,2,2,406.89,4,1,1,2.05,At Risk,Past customers with below average recency,2,203.44
+896,5,3,957.24,4,2,3,3.0,Loyal Customers,Regular customers with above average spend,5,319.08
+897,4,6,1334.63,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",4,222.44
+898,3,4,654.4,4,3,2,3.05,Loyal Customers,Regular customers with above average spend,3,163.6
+899,45,2,571.29,2,1,2,1.65,Lost Customers,Lowest scores in all categories,45,285.64
+900,129,1,487.38,1,1,2,1.3,Lost Customers,Lowest scores in all categories,129,487.38
+901,15,3,733.61,4,2,3,3.0,Loyal Customers,Regular customers with above average spend,15,244.54
+902,25,4,533.74,3,3,2,2.7,Potential Loyalists,Recent customers with average frequency,25,133.44
+903,65,2,512.08,2,1,2,1.65,Lost Customers,Lowest scores in all categories,65,256.04
+904,71,2,365.0,2,1,1,1.35,Lost Customers,Lowest scores in all categories,71,182.5
+905,17,2,139.29,3,1,1,1.7,Lost Customers,Lowest scores in all categories,17,69.64
+906,118,2,718.65,1,1,2,1.3,Lost Customers,Lowest scores in all categories,118,359.32
+907,163,1,383.46,1,1,1,1.0,Lost Customers,Lowest scores in all categories,163,383.46
+908,75,4,926.26,1,3,3,2.3,At Risk,Past customers with below average recency,75,231.56
+909,58,3,1078.56,2,2,3,2.3,At Risk,Past customers with below average recency,58,359.52
+910,16,1,123.08,4,1,1,2.05,At Risk,Past customers with below average recency,16,123.08
+911,31,3,1279.24,3,2,4,2.95,Potential Loyalists,Recent customers with average frequency,31,426.41
+912,8,3,1201.71,4,2,4,3.3,Loyal Customers,Regular customers with above average spend,8,400.57
+913,104,3,764.5,1,2,3,1.95,Lost Customers,Lowest scores in all categories,104,254.83
+914,56,4,1197.5900000000001,2,3,4,2.95,Potential Loyalists,Recent customers with average frequency,56,299.4
+915,125,3,787.4300000000001,1,2,3,1.95,Lost Customers,Lowest scores in all categories,125,262.48
+916,29,6,1758.43,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",29,293.07
+917,22,4,212.38,3,3,1,2.4,At Risk,Past customers with below average recency,22,53.1
+918,81,1,417.89,1,1,1,1.0,Lost Customers,Lowest scores in all categories,81,417.89
+919,81,3,689.71,1,2,2,1.65,Lost Customers,Lowest scores in all categories,81,229.9
+920,33,5,1363.66,3,4,4,3.65,Champions,"Bought recently, buy often, and spend the most",33,272.73
+921,5,2,589.86,4,1,2,2.35,At Risk,Past customers with below average recency,5,294.93
+922,68,1,64.56,2,1,1,1.35,Lost Customers,Lowest scores in all categories,68,64.56
+923,81,2,394.84999999999997,1,1,1,1.0,Lost Customers,Lowest scores in all categories,81,197.42
+924,150,1,350.11,1,1,1,1.0,Lost Customers,Lowest scores in all categories,150,350.11
+925,9,2,168.72,4,1,1,2.05,At Risk,Past customers with below average recency,9,84.36
+926,4,5,985.13,4,4,3,3.7,Champions,"Bought recently, buy often, and spend the most",4,197.03
+927,6,3,306.65,4,2,1,2.4,At Risk,Past customers with below average recency,6,102.22
+928,6,6,988.35,4,4,3,3.7,Champions,"Bought recently, buy often, and spend the most",6,164.72
+929,51,4,1640.76,2,3,4,2.95,Potential Loyalists,Recent customers with average frequency,51,410.19
+930,38,5,1638.25,2,4,4,3.3,Loyal Customers,Regular customers with above average spend,38,327.65
+931,55,1,438.09,2,1,1,1.35,Lost Customers,Lowest scores in all categories,55,438.09
+932,49,4,813.86,2,3,3,2.65,Potential Loyalists,Recent customers with average frequency,49,203.46
+933,38,7,2065.46,2,4,4,3.3,Loyal Customers,Regular customers with above average spend,38,295.07
+934,45,1,397.47,2,1,1,1.35,Lost Customers,Lowest scores in all categories,45,397.47
+935,24,3,318.56,3,2,1,2.05,At Risk,Past customers with below average recency,24,106.19
+936,59,1,300.2,2,1,1,1.35,Lost Customers,Lowest scores in all categories,59,300.2
+937,45,3,1008.9100000000001,2,2,3,2.3,At Risk,Past customers with below average recency,45,336.3
+938,74,3,977.51,1,2,3,1.95,Lost Customers,Lowest scores in all categories,74,325.84
+939,23,3,303.79,3,2,1,2.05,At Risk,Past customers with below average recency,23,101.26
+940,50,5,1664.6,2,4,4,3.3,Loyal Customers,Regular customers with above average spend,50,332.92
+941,10,2,59.88,4,1,1,2.05,At Risk,Past customers with below average recency,10,29.94
+942,9,4,810.9100000000001,4,3,3,3.35,Loyal Customers,Regular customers with above average spend,9,202.73
+943,77,3,1071.21,1,2,3,1.95,Lost Customers,Lowest scores in all categories,77,357.07
+944,106,3,401.7,1,2,1,1.35,Lost Customers,Lowest scores in all categories,106,133.9
+945,9,2,453.75,4,1,1,2.05,At Risk,Past customers with below average recency,9,226.88
+946,1,3,815.64,4,2,3,3.0,Loyal Customers,Regular customers with above average spend,1,271.88
+947,177,1,153.89,1,1,1,1.0,Lost Customers,Lowest scores in all categories,177,153.89
+948,12,5,1322.76,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",12,264.55
+949,19,2,606.29,3,1,2,2.0,At Risk,Past customers with below average recency,19,303.14
+950,16,5,1003.54,4,4,3,3.7,Champions,"Bought recently, buy often, and spend the most",16,200.71
+951,5,3,963.51,4,2,3,3.0,Loyal Customers,Regular customers with above average spend,5,321.17
+952,64,3,651.16,2,2,2,2.0,At Risk,Past customers with below average recency,64,217.05
+953,129,2,289.65,1,1,1,1.0,Lost Customers,Lowest scores in all categories,129,144.82
+954,29,3,573.54,3,2,2,2.35,At Risk,Past customers with below average recency,29,191.18
+955,24,4,1145.36,3,3,4,3.3,Loyal Customers,Regular customers with above average spend,24,286.34
+956,120,1,70.66,1,1,1,1.0,Lost Customers,Lowest scores in all categories,120,70.66
+957,34,3,644.01,3,2,2,2.35,At Risk,Past customers with below average recency,34,214.67
+958,7,3,621.69,4,2,2,2.7,Potential Loyalists,Recent customers with average frequency,7,207.23
+959,25,4,1310.6399999999999,3,3,4,3.3,Loyal Customers,Regular customers with above average spend,25,327.66
+960,9,7,1808.06,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",9,258.29
+961,43,4,1285.48,2,3,4,2.95,Potential Loyalists,Recent customers with average frequency,43,321.37
+962,74,3,437.45,1,2,1,1.35,Lost Customers,Lowest scores in all categories,74,145.82
+963,171,1,103.74,1,1,1,1.0,Lost Customers,Lowest scores in all categories,171,103.74
+965,2,5,1640.35,4,4,4,4.0,Champions,"Bought recently, buy often, and spend the most",2,328.07
+966,34,3,574.5,3,2,2,2.35,At Risk,Past customers with below average recency,34,191.5
+967,36,3,234.98,2,2,1,1.7,Lost Customers,Lowest scores in all categories,36,78.33
+968,18,3,599.14,3,2,2,2.35,At Risk,Past customers with below average recency,18,199.71
+969,2,5,837.3299999999999,4,4,3,3.7,Champions,"Bought recently, buy often, and spend the most",2,167.47
+971,10,3,894.58,4,2,3,3.0,Loyal Customers,Regular customers with above average spend,10,298.19
+972,55,2,530.68,2,1,2,1.65,Lost Customers,Lowest scores in all categories,55,265.34
+973,45,2,556.31,2,1,2,1.65,Lost Customers,Lowest scores in all categories,45,278.15
+974,29,4,937.6400000000001,3,3,3,3.0,Loyal Customers,Regular customers with above average spend,29,234.41
+975,15,3,605.85,4,2,2,2.7,Potential Loyalists,Recent customers with average frequency,15,201.95
+976,43,4,714.58,2,3,2,2.35,At Risk,Past customers with below average recency,43,178.64
+977,50,5,1258.19,2,4,4,3.3,Loyal Customers,Regular customers with above average spend,50,251.64
+978,51,2,341.4,2,1,1,1.35,Lost Customers,Lowest scores in all categories,51,170.7
+979,20,3,1034.16,3,2,3,2.65,Potential Loyalists,Recent customers with average frequency,20,344.72
+980,81,3,472.56,1,2,2,1.65,Lost Customers,Lowest scores in all categories,81,157.52
+981,29,2,663.12,3,1,2,2.0,At Risk,Past customers with below average recency,29,331.56
+982,60,1,104.76,2,1,1,1.35,Lost Customers,Lowest scores in all categories,60,104.76
+983,49,2,769.3299999999999,2,1,3,1.95,Lost Customers,Lowest scores in all categories,49,384.66
+984,24,2,482.5,3,1,2,2.0,At Risk,Past customers with below average recency,24,241.25
+985,59,3,879.45,2,2,3,2.3,At Risk,Past customers with below average recency,59,293.15
+986,61,3,783.77,2,2,3,2.3,At Risk,Past customers with below average recency,61,261.26
+987,5,2,494.9,4,1,2,2.35,At Risk,Past customers with below average recency,5,247.45
+988,21,4,1148.19,3,3,4,3.3,Loyal Customers,Regular customers with above average spend,21,287.05
+989,40,4,1588.3500000000001,2,3,4,2.95,Potential Loyalists,Recent customers with average frequency,40,397.09
+990,38,4,862.68,2,3,3,2.65,Potential Loyalists,Recent customers with average frequency,38,215.67
+991,11,3,1126.53,4,2,4,3.3,Loyal Customers,Regular customers with above average spend,11,375.51
+992,27,4,766.65,3,3,3,3.0,Loyal Customers,Regular customers with above average spend,27,191.66
+993,33,3,685.94,3,2,2,2.35,At Risk,Past customers with below average recency,33,228.65
+994,6,3,502.94,4,2,2,2.7,Potential Loyalists,Recent customers with average frequency,6,167.65
+995,14,2,706.74,4,1,2,2.35,At Risk,Past customers with below average recency,14,353.37
+996,106,1,391.66,1,1,1,1.0,Lost Customers,Lowest scores in all categories,106,391.66
+997,19,2,782.38,3,1,3,2.3,At Risk,Past customers with below average recency,19,391.19
+998,111,1,436.45,1,1,1,1.0,Lost Customers,Lowest scores in all categories,111,436.45
+999,80,1,223.31,1,1,1,1.0,Lost Customers,Lowest scores in all categories,80,223.31
+1000,31,1,59.41,3,1,1,1.7,Lost Customers,Lowest scores in all categories,31,59.41

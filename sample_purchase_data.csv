@@ -1,0 +1,3001 @@
+purchase_id,customer_id,purchase_date,product_category,payment_method,purchase_amount,items_quantity,discount_applied,discount_amount
+1,423,2024-06-19,Beauty,PayPal,71.53,9,True,26.5
+2,285,2024-11-20,Electronics,Credit Card,17.64,4,False,0.0
+3,289,2024-09-09,Beauty,Credit Card,284.54,5,False,0.0
+4,705,2024-11-16,Clothing,Gift Card,113.71,4,False,0.0
+5,626,2024-07-05,Home & Garden,Credit Card,161.71,2,True,44.34
+6,677,2024-10-05,Books,Gift Card,63.59,4,False,0.0
+7,100,2024-10-04,Clothing,Gift Card,384.4,4,False,0.0
+8,404,2024-12-12,Electronics,Credit Card,239.18,3,True,37.19
+9,513,2024-09-16,Sports,Gift Card,485.73,3,False,0.0
+10,568,2024-07-29,Sports,Gift Card,169.79,10,False,0.0
+11,285,2024-07-01,Electronics,Credit Card,359.66,2,False,0.0
+12,696,2024-10-11,Clothing,Gift Card,313.29,1,False,0.0
+13,448,2024-06-22,Books,PayPal,149.61,2,False,0.0
+14,265,2024-07-21,Electronics,Gift Card,437.59,1,False,0.0
+15,329,2024-11-22,Home & Garden,Gift Card,30.16,1,True,2.22
+16,46,2024-06-22,Clothing,Credit Card,391.24,1,False,0.0
+17,631,2024-07-12,Books,Gift Card,394.65,7,False,0.0
+18,606,2024-08-20,Clothing,Debit Card,199.99,6,True,14.24
+19,451,2024-11-09,Sports,Debit Card,116.52,8,False,0.0
+20,677,2024-09-22,Sports,PayPal,104.34,5,True,24.19
+21,517,2024-06-17,Home & Garden,PayPal,339.96,9,True,3.23
+22,851,2024-09-04,Beauty,Credit Card,31.15,1,False,0.0
+23,179,2024-09-18,Clothing,Debit Card,464.77,1,True,34.49
+24,23,2024-09-13,Beauty,PayPal,104.39,10,False,0.0
+25,802,2024-09-02,Sports,Gift Card,442.88,8,False,0.0
+26,30,2024-11-24,Electronics,Gift Card,279.41,4,True,16.04
+27,147,2024-06-19,Books,Debit Card,46.08,4,False,0.0
+28,473,2024-09-13,Home & Garden,PayPal,246.91,1,False,0.0
+29,153,2024-07-03,Sports,PayPal,38.29,3,False,0.0
+30,496,2024-09-19,Electronics,Credit Card,222.35,6,False,0.0
+31,409,2024-08-26,Clothing,Gift Card,124.01,10,False,0.0
+32,471,2024-10-25,Clothing,Credit Card,226.7,7,True,40.55
+33,663,2024-11-28,Sports,Debit Card,278.05,2,False,0.0
+34,680,2024-11-20,Beauty,Gift Card,88.59,9,True,18.62
+35,112,2024-07-26,Sports,Debit Card,59.57,5,False,0.0
+36,73,2024-10-23,Books,Debit Card,183.55,8,False,0.0
+37,559,2024-07-23,Beauty,Gift Card,24.5,9,True,13.96
+38,803,2024-07-20,Clothing,PayPal,490.05,10,True,28.97
+39,466,2024-11-29,Home & Garden,Credit Card,57.35,9,True,27.7
+40,346,2024-07-14,Clothing,Gift Card,58.19,5,False,0.0
+41,569,2024-10-20,Clothing,Debit Card,181.0,1,False,0.0
+42,445,2024-09-06,Electronics,Credit Card,277.3,2,False,0.0
+43,110,2024-09-25,Clothing,Gift Card,476.55,1,True,38.02
+44,593,2024-10-04,Clothing,Credit Card,462.75,9,True,32.54
+45,419,2024-09-05,Beauty,Gift Card,350.73,5,False,0.0
+46,814,2024-09-06,Sports,PayPal,137.37,4,True,6.23
+47,286,2024-11-16,Electronics,Debit Card,230.78,4,False,0.0
+48,483,2024-06-22,Electronics,Debit Card,165.45,8,False,0.0
+49,9,2024-09-26,Sports,Gift Card,311.97,3,True,32.79
+50,679,2024-12-06,Books,PayPal,235.62,3,True,27.0
+51,284,2024-10-11,Electronics,Debit Card,431.5,2,False,0.0
+52,341,2024-08-06,Sports,Debit Card,19.69,9,True,40.74
+53,611,2024-10-29,Sports,PayPal,262.17,4,True,8.79
+54,142,2024-11-08,Beauty,PayPal,224.61,5,True,36.01
+55,873,2024-10-22,Books,PayPal,91.6,4,True,21.9
+56,513,2024-12-03,Clothing,PayPal,119.49,8,False,0.0
+57,571,2024-10-27,Beauty,PayPal,449.15,3,False,0.0
+58,190,2024-11-05,Sports,Gift Card,151.26,1,False,0.0
+59,541,2024-07-27,Home & Garden,PayPal,93.9,10,False,0.0
+60,519,2024-10-06,Beauty,PayPal,153.35,3,True,41.82
+61,942,2024-08-14,Beauty,Credit Card,219.03,7,True,14.71
+62,860,2024-09-16,Books,Credit Card,285.72,8,True,10.27
+63,723,2024-10-11,Beauty,Credit Card,362.39,10,True,39.21
+64,460,2024-11-15,Books,Gift Card,296.4,4,True,30.9
+65,819,2024-06-16,Beauty,PayPal,29.01,4,False,0.0
+66,77,2024-12-02,Beauty,PayPal,95.72,7,True,36.35
+67,616,2024-06-26,Clothing,Debit Card,204.04,2,False,0.0
+68,659,2024-07-26,Sports,PayPal,99.51,10,False,0.0
+69,859,2024-08-05,Clothing,PayPal,406.07,7,True,47.93
+70,447,2024-08-30,Sports,Credit Card,38.0,9,False,0.0
+71,317,2024-10-10,Clothing,Debit Card,362.86,2,True,14.21
+72,500,2024-12-05,Beauty,Gift Card,244.34,8,False,0.0
+73,632,2024-07-30,Books,PayPal,351.68,8,False,0.0
+74,708,2024-12-08,Electronics,Gift Card,157.62,8,True,36.88
+75,245,2024-11-12,Sports,Debit Card,275.56,2,False,0.0
+76,518,2024-06-21,Sports,Debit Card,12.26,1,False,0.0
+77,30,2024-11-10,Books,Gift Card,337.64,1,False,0.0
+78,373,2024-07-15,Electronics,Credit Card,136.32,3,False,0.0
+79,755,2024-10-01,Clothing,PayPal,327.2,6,False,0.0
+80,955,2024-10-23,Home & Garden,Credit Card,399.36,10,True,17.73
+81,665,2024-07-09,Electronics,Credit Card,178.45,9,False,0.0
+82,104,2024-09-20,Sports,Credit Card,207.61,8,False,0.0
+83,511,2024-10-04,Sports,Gift Card,436.15,2,True,3.16
+84,251,2024-08-24,Electronics,Debit Card,470.02,6,True,21.5
+85,858,2024-11-29,Home & Garden,PayPal,130.89,7,True,29.1
+86,342,2024-12-07,Beauty,Debit Card,238.75,3,False,0.0
+87,319,2024-10-12,Home & Garden,PayPal,175.8,3,True,25.73
+88,800,2024-08-17,Clothing,Debit Card,318.19,5,True,30.17
+89,866,2024-11-24,Electronics,Credit Card,229.32,5,False,0.0
+90,861,2024-09-07,Clothing,Gift Card,41.43,5,False,0.0
+91,715,2024-08-09,Sports,Gift Card,311.28,8,True,31.76
+92,296,2024-10-13,Beauty,Debit Card,495.96,2,False,0.0
+93,606,2024-08-01,Home & Garden,Gift Card,285.87,5,True,48.29
+94,20,2024-08-15,Electronics,Gift Card,12.97,5,False,0.0
+95,473,2024-08-27,Home & Garden,Credit Card,416.98,2,False,0.0
+96,182,2024-11-16,Clothing,Gift Card,351.13,5,False,0.0
+97,843,2024-10-13,Books,Debit Card,253.28,8,False,0.0
+98,854,2024-08-10,Beauty,Credit Card,469.02,2,True,22.2
+99,667,2024-10-27,Electronics,Credit Card,448.78,3,True,16.85
+100,342,2024-09-23,Electronics,Credit Card,79.6,1,False,0.0
+101,13,2024-09-27,Home & Garden,PayPal,108.75,7,False,0.0
+102,753,2024-11-25,Home & Garden,Gift Card,358.2,3,True,3.69
+103,477,2024-08-07,Electronics,PayPal,19.13,10,False,0.0
+104,621,2024-08-31,Beauty,Debit Card,474.82,3,False,0.0
+105,182,2024-07-29,Books,Debit Card,437.93,6,False,0.0
+106,174,2024-09-09,Clothing,PayPal,142.98,6,False,0.0
+107,846,2024-09-12,Sports,Gift Card,259.65,2,False,0.0
+108,203,2024-10-03,Books,Debit Card,59.05,1,True,15.65
+109,367,2024-12-11,Electronics,Gift Card,147.45,10,True,2.19
+110,338,2024-10-27,Electronics,PayPal,15.31,9,False,0.0
+111,951,2024-12-08,Electronics,Credit Card,415.81,3,True,33.12
+112,588,2024-10-27,Clothing,PayPal,382.65,3,True,2.55
+113,799,2024-09-21,Books,Credit Card,52.36,9,False,0.0
+114,710,2024-11-14,Clothing,Gift Card,37.79,2,True,3.49
+115,595,2024-09-05,Electronics,Gift Card,252.57,6,True,36.93
+116,169,2024-07-15,Books,Credit Card,300.28,10,True,10.44
+117,888,2024-10-20,Sports,Gift Card,317.44,9,False,0.0
+118,539,2024-12-09,Sports,Credit Card,314.27,2,True,45.35
+119,230,2024-09-06,Books,Gift Card,121.35,7,False,0.0
+120,749,2024-07-13,Electronics,Gift Card,217.44,1,True,31.23
+121,443,2024-10-31,Sports,PayPal,275.81,6,True,1.48
+122,191,2024-07-12,Electronics,Credit Card,41.51,10,False,0.0
+123,743,2024-11-20,Clothing,Debit Card,325.59,1,True,8.57
+124,30,2024-10-24,Home & Garden,Debit Card,495.83,10,True,26.21
+125,967,2024-08-31,Sports,Credit Card,63.19,4,False,0.0
+126,842,2024-10-30,Clothing,PayPal,335.03,1,False,0.0
+127,596,2024-11-03,Clothing,Debit Card,248.07,8,True,31.53
+128,714,2024-11-20,Beauty,Gift Card,117.19,9,True,3.42
+129,949,2024-10-18,Books,Gift Card,459.73,1,True,47.82
+130,324,2024-07-09,Sports,Debit Card,320.86,1,False,0.0
+131,132,2024-07-27,Clothing,Credit Card,469.84,8,False,0.0
+132,136,2024-10-11,Clothing,Gift Card,176.11,5,True,8.48
+133,682,2024-11-18,Books,Gift Card,110.0,3,False,0.0
+134,809,2024-10-03,Home & Garden,Debit Card,381.05,8,True,42.91
+135,105,2024-09-12,Sports,Debit Card,99.98,9,True,8.7
+136,738,2024-11-10,Beauty,Debit Card,333.9,5,True,6.3
+137,420,2024-11-22,Clothing,PayPal,362.2,6,False,0.0
+138,674,2024-09-09,Sports,Credit Card,368.24,7,False,0.0
+139,77,2024-06-30,Clothing,Debit Card,374.55,7,False,0.0
+140,174,2024-10-04,Electronics,PayPal,74.31,1,False,0.0
+141,16,2024-08-26,Clothing,Gift Card,418.99,7,False,0.0
+142,211,2024-08-10,Electronics,Gift Card,334.36,1,True,43.65
+143,297,2024-09-27,Beauty,PayPal,107.52,7,False,0.0
+144,574,2024-09-12,Sports,Debit Card,257.58,6,True,34.7
+145,37,2024-11-08,Home & Garden,PayPal,125.59,5,False,0.0
+146,438,2024-08-15,Electronics,Gift Card,198.68,10,True,30.24
+147,137,2024-07-29,Home & Garden,Gift Card,420.55,6,False,0.0
+148,584,2024-09-19,Home & Garden,PayPal,378.34,8,True,9.09
+149,896,2024-12-08,Clothing,Debit Card,457.94,6,False,0.0
+150,771,2024-10-05,Books,Gift Card,235.28,8,True,20.64
+151,339,2024-06-23,Books,PayPal,395.92,8,True,42.04
+152,660,2024-07-02,Sports,Credit Card,35.26,5,True,20.94
+153,332,2024-09-26,Sports,Debit Card,148.5,8,True,44.58
+154,772,2024-06-20,Books,Gift Card,328.97,9,True,25.34
+155,751,2024-10-25,Sports,Gift Card,465.39,10,False,0.0
+156,857,2024-11-30,Electronics,Credit Card,70.49,4,False,0.0
+157,157,2024-12-03,Books,Gift Card,347.21,9,True,40.5
+158,626,2024-10-25,Home & Garden,Debit Card,198.99,2,True,43.45
+159,81,2024-11-02,Home & Garden,Credit Card,91.9,9,True,16.79
+160,766,2024-08-27,Clothing,Debit Card,65.52,4,False,0.0
+161,910,2024-11-27,Books,Gift Card,123.08,6,False,0.0
+162,988,2024-11-17,Electronics,Debit Card,452.69,2,True,9.51
+163,107,2024-07-17,Electronics,PayPal,209.41,4,False,0.0
+164,193,2024-12-10,Beauty,PayPal,374.18,8,False,0.0
+165,351,2024-08-13,Home & Garden,Credit Card,293.51,3,True,39.73
+166,197,2024-07-30,Books,Credit Card,107.67,9,True,30.59
+167,653,2024-07-25,Books,Credit Card,181.09,5,True,5.23
+168,596,2024-07-31,Books,Gift Card,473.06,9,True,19.45
+169,902,2024-07-24,Sports,Debit Card,84.63,10,False,0.0
+170,859,2024-11-05,Sports,Gift Card,91.29,6,False,0.0
+171,449,2024-07-08,Books,PayPal,36.29,6,True,12.07
+172,957,2024-08-23,Sports,Debit Card,302.33,2,True,37.7
+173,787,2024-07-15,Clothing,Debit Card,153.05,9,False,0.0
+174,930,2024-11-05,Books,Credit Card,341.61,6,False,0.0
+175,577,2024-11-29,Home & Garden,Credit Card,29.25,2,True,26.6
+176,833,2024-09-27,Clothing,Credit Card,394.37,9,False,0.0
+177,593,2024-08-31,Home & Garden,PayPal,399.61,4,True,4.34
+178,887,2024-11-25,Clothing,Credit Card,392.57,6,False,0.0
+179,453,2024-10-30,Electronics,Debit Card,435.88,8,False,0.0
+180,415,2024-11-26,Electronics,Debit Card,434.31,10,False,0.0
+181,312,2024-10-12,Beauty,Gift Card,164.42,2,False,0.0
+182,980,2024-06-30,Beauty,Debit Card,254.59,2,True,45.37
+183,256,2024-09-30,Electronics,Gift Card,160.88,1,True,13.78
+184,480,2024-11-13,Books,Credit Card,81.16,4,True,32.62
+185,613,2024-08-17,Beauty,Debit Card,400.0,3,True,39.67
+186,712,2024-11-13,Sports,Credit Card,425.46,4,True,29.13
+187,605,2024-07-29,Electronics,Gift Card,272.84,9,True,32.4
+188,718,2024-11-08,Electronics,Debit Card,425.28,3,True,26.63
+189,867,2024-12-01,Clothing,Credit Card,221.89,6,False,0.0
+190,25,2024-11-23,Electronics,Debit Card,265.14,2,True,24.12
+191,289,2024-06-24,Electronics,PayPal,410.68,2,True,44.28
+192,800,2024-12-06,Electronics,Debit Card,242.71,1,True,46.81
+193,369,2024-11-27,Clothing,PayPal,203.69,3,False,0.0
+194,38,2024-08-09,Electronics,Gift Card,477.22,5,False,0.0
+195,204,2024-09-10,Clothing,Debit Card,59.94,1,False,0.0
+196,760,2024-07-28,Home & Garden,PayPal,375.25,7,True,36.16
+197,667,2024-09-28,Books,PayPal,495.91,5,True,5.13
+198,874,2024-11-20,Home & Garden,Credit Card,87.8,9,True,21.06
+199,493,2024-09-18,Books,Gift Card,219.37,10,False,0.0
+200,244,2024-09-05,Sports,Debit Card,166.66,7,True,46.12
+201,435,2024-08-20,Clothing,Gift Card,350.91,9,False,0.0
+202,514,2024-11-02,Clothing,Debit Card,498.39,9,False,0.0
+203,682,2024-11-08,Home & Garden,PayPal,222.96,6,False,0.0
+204,218,2024-09-03,Books,PayPal,237.9,6,True,18.89
+205,710,2024-07-21,Books,Credit Card,100.7,2,False,0.0
+206,937,2024-10-29,Home & Garden,Credit Card,387.43,2,True,22.08
+207,184,2024-12-06,Clothing,Credit Card,170.07,10,True,5.7
+208,45,2024-08-18,Sports,Gift Card,437.43,7,True,16.93
+209,592,2024-11-29,Clothing,Debit Card,74.99,2,True,20.21
+210,649,2024-07-13,Beauty,Debit Card,56.92,8,False,0.0
+211,384,2024-09-12,Sports,PayPal,211.0,8,True,22.43
+212,642,2024-08-01,Home & Garden,Credit Card,425.99,5,True,28.21
+213,776,2024-06-16,Beauty,Credit Card,317.42,3,True,19.86
+214,536,2024-07-02,Books,Debit Card,179.16,1,True,20.59
+215,317,2024-10-11,Clothing,Gift Card,431.55,10,False,0.0
+216,913,2024-08-25,Home & Garden,Credit Card,224.06,4,False,0.0
+217,495,2024-08-31,Sports,PayPal,494.16,4,False,0.0
+218,745,2024-10-28,Electronics,Debit Card,298.19,7,True,1.26
+219,595,2024-10-24,Beauty,Debit Card,177.17,4,True,2.39
+220,560,2024-07-30,Clothing,Gift Card,171.54,3,False,0.0
+221,304,2024-06-28,Electronics,PayPal,393.1,3,True,45.77
+222,427,2024-09-23,Home & Garden,PayPal,412.29,5,True,6.24
+223,773,2024-06-30,Sports,Credit Card,336.54,2,False,0.0
+224,293,2024-09-23,Books,Debit Card,276.4,3,True,46.59
+225,294,2024-09-13,Electronics,Debit Card,327.58,6,True,20.92
+226,660,2024-11-06,Home & Garden,Credit Card,444.57,1,True,36.69
+227,950,2024-06-21,Books,PayPal,140.24,5,False,0.0
+228,723,2024-07-22,Home & Garden,Debit Card,42.5,9,False,0.0
+229,793,2024-11-08,Clothing,PayPal,129.39,8,False,0.0
+230,119,2024-09-14,Electronics,Debit Card,184.67,5,False,0.0
+231,502,2024-09-14,Electronics,PayPal,474.43,5,True,11.77
+232,151,2024-10-13,Beauty,PayPal,461.08,5,False,0.0
+233,680,2024-07-15,Books,Debit Card,40.07,5,False,0.0
+234,950,2024-08-17,Sports,Credit Card,33.93,10,False,0.0
+235,572,2024-11-14,Beauty,Debit Card,128.62,5,False,0.0
+236,457,2024-07-25,Sports,Credit Card,292.1,7,True,25.94
+237,709,2024-06-20,Beauty,Credit Card,282.65,10,False,0.0
+238,410,2024-08-18,Home & Garden,PayPal,427.14,6,False,0.0
+239,611,2024-06-23,Clothing,Credit Card,334.71,3,True,41.02
+240,965,2024-10-08,Books,PayPal,367.09,6,True,15.93
+241,526,2024-12-06,Beauty,Gift Card,75.52,2,False,0.0
+242,642,2024-09-11,Electronics,Debit Card,127.42,3,False,0.0
+243,512,2024-08-27,Home & Garden,Debit Card,54.72,5,False,0.0
+244,798,2024-08-23,Beauty,Credit Card,283.79,5,True,46.61
+245,223,2024-09-20,Books,PayPal,52.95,4,True,19.41
+246,921,2024-06-28,Sports,Credit Card,410.03,2,True,9.27
+247,437,2024-10-25,Sports,Credit Card,82.2,7,False,0.0
+248,271,2024-09-14,Home & Garden,PayPal,271.87,10,False,0.0
+249,229,2024-08-12,Home & Garden,Debit Card,173.77,2,True,19.89
+250,268,2024-06-20,Home & Garden,PayPal,403.87,5,False,0.0
+251,832,2024-10-17,Electronics,Credit Card,268.92,2,True,0.89
+252,535,2024-12-10,Beauty,PayPal,439.21,10,True,44.78
+253,340,2024-09-10,Beauty,Credit Card,317.15,5,False,0.0
+254,933,2024-10-20,Electronics,PayPal,340.63,2,False,0.0
+255,505,2024-12-09,Home & Garden,Debit Card,97.01,10,True,30.69
+256,262,2024-11-05,Electronics,PayPal,287.23,10,True,1.12
+257,149,2024-10-09,Electronics,Credit Card,159.04,9,False,0.0
+258,816,2024-12-09,Beauty,Debit Card,253.77,2,False,0.0
+259,375,2024-11-17,Electronics,PayPal,392.86,1,True,29.27
+260,541,2024-09-08,Books,Credit Card,423.42,9,False,0.0
+261,909,2024-09-02,Beauty,PayPal,470.19,7,False,0.0
+262,607,2024-09-30,Clothing,PayPal,128.64,10,False,0.0
+263,710,2024-07-29,Electronics,Debit Card,317.52,2,False,0.0
+264,45,2024-06-16,Electronics,Gift Card,405.16,10,True,1.21
+265,458,2024-09-28,Sports,PayPal,191.46,6,False,0.0
+266,948,2024-10-19,Sports,Credit Card,491.94,9,True,0.3
+267,80,2024-09-30,Clothing,Gift Card,289.27,8,False,0.0
+268,761,2024-09-29,Sports,Debit Card,248.01,3,False,0.0
+269,786,2024-11-07,Books,Credit Card,56.51,1,True,34.74
+270,471,2024-10-23,Books,PayPal,175.77,3,True,34.41
+271,824,2024-12-03,Electronics,Gift Card,124.97,1,True,24.54
+272,524,2024-08-28,Beauty,Credit Card,481.21,10,True,42.17
+273,120,2024-11-01,Sports,Debit Card,208.18,5,True,14.0
+274,789,2024-11-19,Electronics,Gift Card,378.74,4,False,0.0
+275,675,2024-12-03,Home & Garden,Credit Card,416.26,7,True,8.8
+276,324,2024-06-26,Electronics,Debit Card,234.6,8,False,0.0
+277,354,2024-06-17,Sports,Gift Card,119.59,7,False,0.0
+278,764,2024-06-26,Beauty,PayPal,425.58,6,False,0.0
+279,975,2024-11-12,Electronics,Gift Card,50.7,8,False,0.0
+280,415,2024-12-01,Home & Garden,Debit Card,301.07,4,False,0.0
+281,23,2024-11-07,Electronics,Debit Card,393.04,2,True,7.52
+282,236,2024-10-07,Beauty,Gift Card,55.85,6,True,3.57
+283,960,2024-07-23,Sports,Credit Card,301.22,3,True,0.39
+284,988,2024-11-22,Electronics,PayPal,205.49,10,True,28.87
+285,563,2024-07-19,Sports,Credit Card,373.36,1,False,0.0
+286,557,2024-06-29,Sports,PayPal,451.47,5,False,0.0
+287,289,2024-09-09,Clothing,Debit Card,231.65,1,True,5.82
+288,780,2024-06-17,Beauty,Debit Card,31.44,9,True,47.23
+289,94,2024-11-21,Sports,Debit Card,243.08,1,False,0.0
+290,955,2024-07-23,Books,PayPal,321.57,3,True,5.81
+291,41,2024-10-23,Home & Garden,Debit Card,474.77,4,True,32.88
+292,320,2024-08-21,Beauty,Credit Card,40.88,6,False,0.0
+293,990,2024-11-05,Clothing,Debit Card,19.79,1,True,34.78
+294,101,2024-11-21,Clothing,Gift Card,161.89,10,True,47.78
+295,399,2024-10-12,Books,Gift Card,294.94,1,False,0.0
+296,932,2024-09-21,Books,Debit Card,212.94,5,False,0.0
+297,170,2024-11-29,Sports,PayPal,150.43,2,False,0.0
+298,61,2024-11-03,Beauty,PayPal,369.81,5,True,8.09
+299,577,2024-10-22,Clothing,Debit Card,40.36,5,True,9.5
+300,22,2024-11-15,Beauty,Gift Card,450.66,8,False,0.0
+301,948,2024-06-30,Books,PayPal,116.06,5,False,0.0
+302,523,2024-07-30,Sports,Credit Card,450.59,2,False,0.0
+303,902,2024-11-18,Electronics,Credit Card,132.68,7,True,17.05
+304,751,2024-06-26,Beauty,Gift Card,355.45,9,False,0.0
+305,530,2024-07-10,Books,PayPal,101.3,4,False,0.0
+306,462,2024-06-16,Home & Garden,Credit Card,106.35,8,False,0.0
+307,643,2024-10-09,Home & Garden,PayPal,292.9,10,False,0.0
+308,509,2024-10-13,Sports,PayPal,65.08,10,False,0.0
+309,611,2024-06-30,Books,PayPal,433.24,3,True,25.05
+310,772,2024-06-19,Clothing,PayPal,390.17,7,False,0.0
+311,78,2024-07-28,Electronics,PayPal,428.63,1,False,0.0
+312,519,2024-07-11,Books,PayPal,228.92,9,False,0.0
+313,761,2024-08-26,Beauty,Debit Card,324.29,6,True,12.97
+314,329,2024-12-06,Beauty,Debit Card,109.48,6,False,0.0
+315,550,2024-09-22,Books,Debit Card,271.83,7,True,26.45
+316,603,2024-09-25,Sports,Debit Card,367.85,1,False,0.0
+317,680,2024-06-24,Home & Garden,Debit Card,17.04,6,False,0.0
+318,976,2024-10-29,Books,Credit Card,98.58,5,False,0.0
+319,270,2024-12-03,Beauty,Debit Card,201.51,4,False,0.0
+320,244,2024-09-20,Home & Garden,Debit Card,229.08,7,True,22.96
+321,859,2024-11-07,Books,PayPal,131.02,1,True,17.61
+322,32,2024-09-05,Sports,PayPal,319.75,3,True,14.15
+323,188,2024-07-16,Electronics,PayPal,61.85,4,True,38.96
+324,988,2024-08-12,Beauty,Debit Card,223.36,2,False,0.0
+325,833,2024-08-17,Beauty,Debit Card,288.66,10,False,0.0
+326,492,2024-11-20,Home & Garden,PayPal,213.32,4,False,0.0
+327,899,2024-10-29,Home & Garden,PayPal,84.06,3,True,12.34
+328,464,2024-07-26,Sports,Debit Card,331.58,3,False,0.0
+329,686,2024-08-24,Home & Garden,PayPal,278.84,7,True,11.64
+330,822,2024-06-30,Beauty,Gift Card,291.79,3,True,17.58
+331,511,2024-12-12,Home & Garden,Credit Card,101.14,4,True,13.88
+332,561,2024-09-28,Electronics,Credit Card,436.1,6,False,0.0
+333,489,2024-09-16,Books,Gift Card,214.31,10,True,32.38
+334,5,2024-11-29,Sports,PayPal,303.95,1,False,0.0
+335,409,2024-11-08,Home & Garden,PayPal,111.67,8,False,0.0
+336,258,2024-06-17,Electronics,PayPal,496.19,2,True,23.31
+337,214,2024-06-22,Electronics,PayPal,249.44,2,False,0.0
+338,585,2024-10-03,Home & Garden,Gift Card,354.06,6,False,0.0
+339,385,2024-10-22,Clothing,PayPal,109.63,2,True,18.35
+340,366,2024-10-12,Sports,PayPal,416.98,7,False,0.0
+341,121,2024-08-08,Beauty,Debit Card,168.9,7,False,0.0
+342,585,2024-08-10,Home & Garden,PayPal,361.73,5,False,0.0
+343,231,2024-09-25,Electronics,PayPal,496.81,3,True,5.84
+344,766,2024-11-04,Home & Garden,Credit Card,261.44,6,True,42.03
+345,889,2024-09-22,Sports,Credit Card,250.41,7,False,0.0
+346,332,2024-10-31,Clothing,Credit Card,284.82,8,False,0.0
+347,990,2024-06-19,Books,PayPal,144.51,10,True,6.68
+348,170,2024-07-02,Electronics,Gift Card,475.15,6,True,21.4
+349,605,2024-10-20,Electronics,Gift Card,358.68,10,False,0.0
+350,67,2024-12-08,Electronics,Credit Card,78.23,3,False,0.0
+351,674,2024-09-04,Clothing,PayPal,329.39,2,False,0.0
+352,567,2024-12-02,Clothing,Debit Card,478.21,6,False,0.0
+353,831,2024-11-14,Home & Garden,Credit Card,287.12,10,False,0.0
+354,549,2024-12-05,Sports,Debit Card,329.03,7,False,0.0
+355,451,2024-07-07,Beauty,Debit Card,332.74,2,True,6.33
+356,833,2024-11-20,Electronics,Credit Card,233.02,7,False,0.0
+357,8,2024-08-05,Sports,Gift Card,422.59,9,True,49.98
+358,156,2024-06-18,Electronics,PayPal,440.41,7,True,4.53
+359,861,2024-06-19,Sports,PayPal,214.65,7,True,47.37
+360,115,2024-07-04,Electronics,Gift Card,252.67,2,True,16.12
+361,187,2024-09-16,Electronics,Debit Card,442.23,6,True,43.22
+362,681,2024-07-08,Sports,Debit Card,132.48,8,True,38.74
+363,175,2024-08-17,Beauty,Credit Card,363.69,7,False,0.0
+364,109,2024-08-12,Sports,Debit Card,374.3,4,False,0.0
+365,448,2024-07-29,Clothing,Credit Card,357.45,10,True,37.99
+366,358,2024-07-14,Beauty,Gift Card,175.73,5,False,0.0
+367,892,2024-12-02,Books,Gift Card,488.23,5,False,0.0
+368,932,2024-08-01,Home & Garden,Debit Card,123.56,1,False,0.0
+369,35,2024-08-26,Home & Garden,Credit Card,317.75,10,True,23.31
+370,55,2024-07-27,Beauty,Credit Card,446.62,3,True,2.02
+371,15,2024-12-06,Electronics,Debit Card,13.96,7,True,17.25
+372,355,2024-07-06,Books,Gift Card,436.54,1,False,0.0
+373,409,2024-11-06,Clothing,Credit Card,124.82,10,True,30.78
+374,456,2024-12-11,Electronics,Debit Card,304.92,6,False,0.0
+375,819,2024-09-02,Books,Gift Card,419.43,9,True,34.81
+376,39,2024-07-19,Clothing,Debit Card,245.19,8,False,0.0
+377,968,2024-10-15,Sports,PayPal,140.63,3,True,5.55
+378,779,2024-08-24,Electronics,PayPal,431.57,10,False,0.0
+379,883,2024-07-10,Clothing,Credit Card,91.88,3,False,0.0
+380,618,2024-09-02,Sports,Gift Card,236.33,7,True,8.76
+381,605,2024-11-05,Clothing,Gift Card,228.33,10,True,9.65
+382,569,2024-11-22,Sports,Credit Card,108.39,5,True,31.8
+383,644,2024-07-09,Sports,Gift Card,71.49,4,False,0.0
+384,542,2024-08-12,Sports,PayPal,461.03,3,False,0.0
+385,857,2024-11-26,Home & Garden,Credit Card,303.97,6,False,0.0
+386,695,2024-07-28,Books,Credit Card,219.22,2,False,0.0
+387,379,2024-07-07,Sports,Debit Card,312.12,2,False,0.0
+388,391,2024-12-01,Electronics,Debit Card,382.84,3,True,4.07
+389,426,2024-10-20,Electronics,Debit Card,100.05,6,False,0.0
+390,480,2024-08-24,Beauty,Credit Card,472.17,3,True,46.92
+391,162,2024-06-23,Electronics,Gift Card,32.55,3,True,35.74
+392,201,2024-11-02,Books,Debit Card,23.66,9,True,23.0
+393,193,2024-10-02,Electronics,Debit Card,280.57,7,True,30.08
+394,269,2024-07-10,Electronics,PayPal,210.36,8,True,31.66
+395,446,2024-08-18,Electronics,Debit Card,152.83,4,True,41.38
+396,90,2024-07-05,Clothing,Gift Card,316.66,7,True,0.5
+397,957,2024-11-09,Home & Garden,Debit Card,11.74,7,False,0.0
+398,958,2024-06-17,Home & Garden,Gift Card,217.04,2,True,22.63
+399,271,2024-11-24,Beauty,Credit Card,361.76,9,False,0.0
+400,127,2024-11-11,Beauty,Gift Card,307.01,2,False,0.0
+401,736,2024-07-29,Clothing,Credit Card,344.63,4,False,0.0
+402,112,2024-09-15,Home & Garden,PayPal,117.6,5,True,4.93
+403,834,2024-11-28,Clothing,PayPal,237.36,9,True,38.49
+404,815,2024-09-16,Beauty,Credit Card,75.57,7,False,0.0
+405,210,2024-09-04,Home & Garden,PayPal,281.13,4,True,8.27
+406,578,2024-08-17,Clothing,Gift Card,84.29,6,True,13.18
+407,114,2024-06-18,Clothing,PayPal,22.93,7,False,0.0
+408,567,2024-11-07,Sports,Debit Card,417.86,3,False,0.0
+409,972,2024-09-03,Clothing,Credit Card,113.16,5,True,19.93
+410,960,2024-10-31,Home & Garden,PayPal,237.51,8,True,42.88
+411,810,2024-10-06,Beauty,Debit Card,338.77,1,True,31.62
+412,69,2024-09-18,Books,PayPal,408.4,4,True,41.45
+413,438,2024-12-10,Clothing,Gift Card,435.54,5,False,0.0
+414,448,2024-12-05,Sports,Debit Card,229.39,9,False,0.0
+415,826,2024-12-11,Beauty,Credit Card,450.45,10,True,30.36
+416,787,2024-07-10,Home & Garden,Credit Card,380.88,8,False,0.0
+417,362,2024-09-15,Books,PayPal,68.18,5,True,22.05
+418,404,2024-10-24,Sports,Debit Card,395.52,8,True,8.62
+419,976,2024-10-31,Clothing,Credit Card,95.73,4,False,0.0
+420,488,2024-11-28,Books,Credit Card,262.47,9,True,5.49
+421,909,2024-10-16,Books,Debit Card,207.72,1,False,0.0
+422,431,2024-09-26,Books,Debit Card,132.7,8,False,0.0
+423,282,2024-08-23,Clothing,Credit Card,47.16,4,False,0.0
+424,897,2024-07-03,Clothing,Credit Card,260.3,10,False,0.0
+425,247,2024-06-28,Clothing,PayPal,273.4,1,False,0.0
+426,527,2024-11-28,Beauty,Gift Card,90.02,4,True,17.31
+427,290,2024-11-15,Clothing,Credit Card,321.23,6,False,0.0
+428,277,2024-08-24,Books,Gift Card,138.57,7,False,0.0
+429,638,2024-06-30,Sports,Debit Card,26.4,1,True,34.1
+430,702,2024-09-25,Electronics,Gift Card,274.7,8,False,0.0
+431,12,2024-09-09,Electronics,PayPal,420.3,7,False,0.0
+432,731,2024-10-16,Electronics,Gift Card,475.47,8,False,0.0
+433,182,2024-08-18,Home & Garden,Credit Card,229.83,3,True,44.37
+434,740,2024-08-26,Electronics,PayPal,447.2,8,True,25.71
+435,575,2024-07-08,Beauty,Credit Card,146.38,10,False,0.0
+436,933,2024-06-18,Books,Gift Card,404.29,6,False,0.0
+437,916,2024-08-02,Clothing,PayPal,459.55,4,False,0.0
+438,248,2024-09-20,Electronics,PayPal,331.5,8,True,44.82
+439,625,2024-08-17,Beauty,Debit Card,464.72,2,True,10.26
+440,758,2024-06-22,Electronics,Credit Card,283.88,8,False,0.0
+441,91,2024-10-17,Books,Credit Card,400.01,4,True,21.25
+442,497,2024-08-23,Books,Credit Card,386.06,3,True,43.16
+443,307,2024-08-19,Electronics,Gift Card,358.93,3,False,0.0
+444,577,2024-07-15,Sports,Debit Card,69.6,10,True,24.55
+445,536,2024-10-14,Books,Debit Card,130.51,8,False,0.0
+446,44,2024-11-05,Clothing,PayPal,451.96,6,True,25.48
+447,20,2024-07-30,Beauty,Gift Card,459.07,5,True,35.85
+448,773,2024-08-11,Home & Garden,Debit Card,264.01,5,False,0.0
+449,881,2024-10-14,Beauty,Gift Card,250.06,1,True,28.4
+450,451,2024-11-14,Electronics,Credit Card,231.0,6,True,16.95
+451,740,2024-08-26,Electronics,PayPal,122.27,9,False,0.0
+452,661,2024-09-26,Sports,Gift Card,330.69,6,True,16.56
+453,634,2024-08-15,Electronics,Gift Card,368.59,10,False,0.0
+454,248,2024-08-29,Beauty,Gift Card,393.04,6,False,0.0
+455,57,2024-10-07,Books,Gift Card,486.38,1,True,17.16
+456,517,2024-07-01,Books,PayPal,457.36,2,True,7.74
+457,493,2024-07-07,Home & Garden,Debit Card,298.84,7,True,23.49
+458,666,2024-11-25,Beauty,PayPal,302.52,5,False,0.0
+459,49,2024-06-28,Home & Garden,Gift Card,263.24,2,False,0.0
+460,326,2024-12-07,Beauty,PayPal,301.7,6,False,0.0
+461,957,2024-09-29,Beauty,Gift Card,329.94,4,False,0.0
+462,31,2024-08-25,Sports,Credit Card,385.34,2,True,48.49
+463,888,2024-07-10,Books,Debit Card,484.14,4,True,21.08
+464,692,2024-10-17,Electronics,PayPal,224.08,10,False,0.0
+465,590,2024-06-26,Electronics,Debit Card,335.52,7,False,0.0
+466,249,2024-09-20,Sports,Credit Card,444.71,3,True,34.38
+467,980,2024-06-27,Home & Garden,Debit Card,37.68,4,True,4.51
+468,475,2024-11-07,Home & Garden,Credit Card,348.85,5,False,0.0
+469,463,2024-10-07,Beauty,PayPal,452.82,10,True,3.78
+470,228,2024-06-21,Books,Debit Card,243.63,2,True,36.11
+471,438,2024-07-03,Electronics,Debit Card,257.5,6,False,0.0
+472,327,2024-07-27,Books,Credit Card,328.27,6,False,0.0
+473,27,2024-06-18,Clothing,Debit Card,91.8,2,False,0.0
+474,697,2024-11-24,Beauty,Credit Card,229.87,6,False,0.0
+475,799,2024-07-24,Books,PayPal,432.98,4,False,0.0
+476,230,2024-08-22,Home & Garden,Debit Card,91.22,3,True,16.84
+477,385,2024-09-21,Sports,PayPal,38.81,7,True,8.22
+478,845,2024-09-24,Clothing,Gift Card,248.43,3,True,25.11
+479,70,2024-10-17,Sports,Credit Card,372.41,3,True,40.39
+480,436,2024-07-30,Books,Gift Card,334.48,4,True,48.2
+481,597,2024-10-06,Beauty,Debit Card,17.14,10,True,44.01
+482,773,2024-11-24,Books,PayPal,399.99,4,False,0.0
+483,516,2024-11-04,Clothing,Gift Card,34.32,4,True,29.19
+484,869,2024-09-02,Sports,Gift Card,65.36,7,True,29.11
+485,657,2024-10-25,Electronics,Gift Card,280.05,2,False,0.0
+486,707,2024-09-13,Clothing,Gift Card,493.17,1,True,36.25
+487,133,2024-07-07,Clothing,Credit Card,39.27,2,True,11.7
+488,235,2024-09-21,Electronics,Gift Card,385.74,10,False,0.0
+489,274,2024-09-17,Books,PayPal,159.25,7,True,8.09
+490,663,2024-07-03,Clothing,Debit Card,355.39,7,True,35.97
+491,318,2024-12-06,Home & Garden,Credit Card,312.31,7,False,0.0
+492,697,2024-10-20,Clothing,PayPal,356.2,1,False,0.0
+493,259,2024-09-07,Sports,Debit Card,435.23,10,True,48.52
+494,814,2024-07-12,Books,Gift Card,390.61,2,True,49.11
+495,514,2024-08-19,Clothing,Debit Card,334.19,5,False,0.0
+496,628,2024-12-02,Electronics,Credit Card,311.81,5,True,19.7
+497,180,2024-07-22,Home & Garden,Gift Card,34.83,8,False,0.0
+498,859,2024-10-09,Books,Debit Card,464.24,10,False,0.0
+499,220,2024-09-26,Books,PayPal,61.99,6,True,37.01
+500,185,2024-08-18,Home & Garden,PayPal,210.25,1,False,0.0
+501,553,2024-11-18,Beauty,PayPal,192.31,5,False,0.0
+502,862,2024-07-01,Books,PayPal,222.46,1,False,0.0
+503,467,2024-08-18,Home & Garden,Credit Card,178.01,4,True,36.84
+504,858,2024-06-27,Books,PayPal,344.54,2,False,0.0
+505,788,2024-06-24,Electronics,Debit Card,349.19,6,False,0.0
+506,279,2024-11-06,Beauty,Debit Card,10.82,10,False,0.0
+507,415,2024-09-24,Home & Garden,PayPal,333.79,1,True,20.63
+508,35,2024-08-08,Beauty,Debit Card,83.39,4,False,0.0
+509,961,2024-09-23,Electronics,Gift Card,147.13,8,False,0.0
+510,629,2024-10-09,Books,Gift Card,439.29,5,False,0.0
+511,983,2024-07-21,Beauty,Gift Card,305.56,9,False,0.0
+512,284,2024-06-17,Books,PayPal,240.56,8,False,0.0
+513,975,2024-10-13,Electronics,Debit Card,427.43,6,False,0.0
+514,261,2024-08-14,Clothing,Gift Card,247.75,5,True,13.73
+515,169,2024-12-04,Books,Credit Card,253.87,4,True,48.6
+516,528,2024-07-03,Books,PayPal,492.18,9,False,0.0
+517,376,2024-08-19,Books,Debit Card,169.35,5,True,37.88
+518,118,2024-07-05,Sports,Credit Card,251.8,5,False,0.0
+519,897,2024-08-25,Electronics,Credit Card,269.16,5,False,0.0
+520,898,2024-12-03,Clothing,PayPal,20.74,2,True,15.01
+521,502,2024-08-16,Books,Gift Card,75.87,5,True,43.43
+522,219,2024-06-21,Sports,Debit Card,139.96,5,True,36.42
+523,144,2024-07-06,Books,PayPal,102.15,4,True,7.35
+524,902,2024-08-09,Sports,Credit Card,75.61,1,True,3.02
+525,787,2024-10-21,Clothing,Credit Card,438.68,3,True,14.0
+526,606,2024-10-16,Beauty,Credit Card,189.08,2,True,31.16
+527,889,2024-07-11,Clothing,Gift Card,145.73,10,True,47.16
+528,488,2024-08-21,Beauty,Debit Card,275.83,5,False,0.0
+529,866,2024-06-25,Beauty,Credit Card,352.0,1,False,0.0
+530,223,2024-11-05,Beauty,Debit Card,304.34,6,False,0.0
+531,199,2024-09-23,Books,PayPal,448.47,3,False,0.0
+532,475,2024-08-27,Clothing,Gift Card,37.58,1,True,16.99
+533,283,2024-11-10,Beauty,Credit Card,498.53,3,True,49.41
+534,437,2024-08-23,Home & Garden,PayPal,239.1,3,True,31.9
+535,658,2024-06-28,Beauty,Debit Card,26.27,7,False,0.0
+536,442,2024-11-13,Electronics,PayPal,72.56,8,False,0.0
+537,853,2024-07-18,Books,PayPal,270.15,9,False,0.0
+538,793,2024-07-04,Beauty,Credit Card,32.55,8,False,0.0
+539,438,2024-08-10,Sports,Gift Card,31.79,7,True,38.82
+540,879,2024-10-05,Books,Debit Card,29.39,3,False,0.0
+541,338,2024-07-06,Electronics,Credit Card,56.21,3,True,48.5
+542,273,2024-11-15,Clothing,Gift Card,326.59,6,False,0.0
+543,661,2024-08-14,Books,Gift Card,80.29,10,True,19.72
+544,806,2024-08-04,Sports,Debit Card,395.6,2,False,0.0
+545,618,2024-09-18,Home & Garden,Gift Card,159.94,6,False,0.0
+546,168,2024-11-22,Electronics,Debit Card,359.75,4,True,33.34
+547,884,2024-10-28,Home & Garden,Credit Card,210.92,4,True,20.97
+548,762,2024-07-15,Clothing,Debit Card,141.24,6,False,0.0
+549,334,2024-10-24,Electronics,Gift Card,336.72,9,True,25.67
+550,67,2024-09-26,Sports,Gift Card,451.52,7,True,38.85
+551,985,2024-10-15,Clothing,Gift Card,81.91,3,True,1.81
+552,823,2024-08-23,Books,Gift Card,416.64,4,True,41.33
+553,514,2024-09-04,Home & Garden,Gift Card,80.98,1,False,0.0
+554,987,2024-12-08,Clothing,Credit Card,266.88,8,False,0.0
+555,260,2024-11-10,Books,Gift Card,414.61,7,True,43.43
+556,400,2024-11-01,Clothing,Gift Card,474.84,7,True,24.64
+557,666,2024-08-26,Beauty,Gift Card,74.43,7,False,0.0
+558,166,2024-07-27,Sports,Gift Card,306.3,8,False,0.0
+559,838,2024-07-14,Home & Garden,Debit Card,456.83,9,False,0.0
+560,190,2024-10-25,Sports,PayPal,208.14,1,True,7.77
+561,836,2024-09-05,Clothing,PayPal,276.83,3,True,12.34
+562,210,2024-07-06,Books,Debit Card,138.05,4,False,0.0
+563,369,2024-08-11,Beauty,Credit Card,240.02,6,False,0.0
+564,7,2024-08-23,Electronics,Credit Card,92.6,2,True,21.91
+565,633,2024-11-09,Sports,PayPal,316.47,10,False,0.0
+566,893,2024-09-13,Sports,Gift Card,216.55,1,True,19.93
+567,865,2024-07-01,Electronics,Debit Card,92.34,2,True,41.93
+568,459,2024-06-25,Electronics,Credit Card,228.05,6,False,0.0
+569,445,2024-08-27,Books,Debit Card,107.34,4,True,19.85
+570,497,2024-07-24,Electronics,PayPal,218.74,2,False,0.0
+571,449,2024-09-28,Clothing,Credit Card,54.78,6,False,0.0
+572,107,2024-11-10,Clothing,Gift Card,269.07,3,False,0.0
+573,966,2024-11-09,Electronics,PayPal,53.83,1,False,0.0
+574,225,2024-10-06,Books,Gift Card,279.45,2,False,0.0
+575,527,2024-06-26,Beauty,Debit Card,245.44,10,False,0.0
+576,415,2024-09-17,Beauty,Credit Card,107.47,3,False,0.0
+577,302,2024-06-19,Beauty,Debit Card,219.47,5,True,7.78
+578,940,2024-10-14,Beauty,PayPal,346.86,9,False,0.0
+579,442,2024-07-31,Beauty,Credit Card,134.16,7,True,14.93
+580,427,2024-12-11,Books,Debit Card,368.2,10,False,0.0
+581,551,2024-08-10,Electronics,Gift Card,359.28,1,True,10.84
+582,621,2024-06-19,Sports,Credit Card,486.17,8,False,0.0
+583,135,2024-09-03,Sports,Gift Card,43.53,4,True,28.21
+584,705,2024-07-18,Beauty,Debit Card,362.88,1,True,4.83
+585,916,2024-09-12,Home & Garden,Credit Card,472.93,5,False,0.0
+586,362,2024-07-28,Home & Garden,Gift Card,214.55,10,False,0.0
+587,761,2024-07-16,Books,Credit Card,54.69,2,False,0.0
+588,203,2024-12-07,Home & Garden,Gift Card,467.3,6,True,31.11
+589,97,2024-11-02,Beauty,Gift Card,172.54,8,False,0.0
+590,554,2024-08-05,Sports,Debit Card,85.26,3,False,0.0
+591,643,2024-11-10,Electronics,PayPal,311.08,3,True,28.57
+592,367,2024-07-18,Home & Garden,Gift Card,92.32,9,True,14.61
+593,323,2024-09-14,Beauty,Credit Card,384.3,1,False,0.0
+594,722,2024-08-14,Books,PayPal,491.39,10,False,0.0
+595,866,2024-09-01,Electronics,Debit Card,488.42,3,True,8.33
+596,215,2024-09-08,Books,Credit Card,114.07,2,True,33.24
+597,149,2024-09-26,Beauty,Debit Card,184.8,10,False,0.0
+598,248,2024-10-15,Sports,Gift Card,39.8,1,False,0.0
+599,815,2024-10-31,Beauty,PayPal,239.62,10,True,48.24
+600,679,2024-09-16,Books,Gift Card,73.51,10,True,19.85
+601,27,2024-10-18,Beauty,Debit Card,312.93,6,False,0.0
+602,993,2024-11-10,Beauty,Debit Card,81.37,10,False,0.0
+603,192,2024-06-15,Beauty,Gift Card,452.39,6,False,0.0
+604,880,2024-08-21,Home & Garden,Credit Card,189.31,2,True,33.15
+605,335,2024-12-04,Home & Garden,Credit Card,223.41,1,False,0.0
+606,768,2024-09-11,Electronics,Credit Card,228.62,2,True,34.27
+607,121,2024-11-04,Home & Garden,Credit Card,236.33,7,False,0.0
+608,327,2024-12-02,Clothing,Gift Card,309.33,6,True,35.92
+609,874,2024-11-18,Electronics,Credit Card,89.0,4,True,29.12
+610,561,2024-09-21,Books,Gift Card,76.71,5,False,0.0
+611,330,2024-06-27,Beauty,Debit Card,69.16,6,True,20.97
+612,496,2024-08-09,Clothing,Debit Card,115.91,5,True,23.49
+613,710,2024-08-08,Electronics,Credit Card,193.68,7,True,41.25
+614,175,2024-08-15,Beauty,Gift Card,245.68,3,True,34.28
+615,35,2024-09-25,Books,Debit Card,205.71,8,False,0.0
+616,400,2024-06-27,Beauty,Credit Card,306.57,1,True,10.94
+617,531,2024-09-10,Electronics,PayPal,252.49,10,True,29.6
+618,763,2024-12-09,Electronics,Debit Card,387.32,10,True,21.2
+619,128,2024-10-24,Clothing,PayPal,127.97,5,False,0.0
+620,184,2024-07-18,Clothing,PayPal,359.62,8,False,0.0
+621,979,2024-09-28,Electronics,Debit Card,411.48,1,True,6.14
+622,850,2024-11-04,Beauty,Credit Card,124.45,10,False,0.0
+623,856,2024-11-08,Clothing,Debit Card,267.44,7,True,5.78
+624,823,2024-08-03,Clothing,Debit Card,299.98,7,True,40.23
+625,712,2024-08-07,Books,Debit Card,168.75,4,False,0.0
+626,735,2024-08-06,Home & Garden,PayPal,144.75,4,False,0.0
+627,713,2024-10-29,Home & Garden,Credit Card,374.6,2,False,0.0
+628,77,2024-11-24,Home & Garden,PayPal,352.94,3,False,0.0
+629,328,2024-09-25,Beauty,PayPal,40.12,1,True,3.26
+630,659,2024-07-20,Clothing,Debit Card,480.67,7,False,0.0
+631,453,2024-08-11,Clothing,Credit Card,18.54,4,False,0.0
+632,312,2024-07-18,Beauty,Gift Card,252.77,2,False,0.0
+633,253,2024-07-19,Books,Debit Card,427.36,10,False,0.0
+634,340,2024-10-19,Sports,PayPal,359.29,10,True,26.12
+635,977,2024-07-16,Clothing,Debit Card,264.27,5,True,48.7
+636,627,2024-07-07,Clothing,Debit Card,236.68,3,True,29.33
+637,253,2024-11-21,Home & Garden,Debit Card,33.06,10,False,0.0
+638,290,2024-10-03,Beauty,Credit Card,109.24,1,False,0.0
+639,838,2024-11-10,Electronics,Debit Card,24.37,4,False,0.0
+640,312,2024-09-19,Electronics,Gift Card,66.83,10,True,25.3
+641,581,2024-08-11,Sports,Gift Card,434.17,1,False,0.0
+642,712,2024-09-02,Sports,Debit Card,51.5,1,False,0.0
+643,541,2024-08-20,Books,Debit Card,475.03,6,False,0.0
+644,681,2024-10-20,Home & Garden,Credit Card,124.5,2,False,0.0
+645,175,2024-06-17,Beauty,Debit Card,108.56,7,False,0.0
+646,133,2024-06-23,Clothing,Gift Card,110.55,10,True,1.0
+647,54,2024-08-31,Sports,PayPal,266.47,9,False,0.0
+648,47,2024-12-03,Books,Credit Card,321.2,5,True,22.15
+649,143,2024-11-27,Clothing,Credit Card,195.42,8,True,9.59
+650,166,2024-11-13,Clothing,Debit Card,321.11,3,False,0.0
+651,179,2024-07-03,Beauty,PayPal,322.61,6,False,0.0
+652,280,2024-10-24,Books,Debit Card,292.81,6,True,32.07
+653,203,2024-11-23,Sports,Debit Card,445.96,1,False,0.0
+654,856,2024-07-22,Beauty,PayPal,106.67,9,False,0.0
+655,27,2024-09-18,Electronics,Debit Card,378.37,10,True,20.89
+656,882,2024-08-13,Books,Credit Card,273.39,10,False,0.0
+657,767,2024-06-20,Books,Gift Card,236.34,7,True,38.56
+658,627,2024-11-11,Clothing,PayPal,417.69,6,True,41.85
+659,609,2024-06-28,Beauty,PayPal,105.26,5,False,0.0
+660,623,2024-08-26,Home & Garden,Gift Card,49.0,7,False,0.0
+661,832,2024-11-03,Clothing,Gift Card,202.57,7,True,12.11
+662,692,2024-09-15,Sports,Credit Card,309.97,5,True,10.29
+663,805,2024-09-13,Home & Garden,Credit Card,54.34,5,False,0.0
+664,911,2024-08-16,Electronics,Credit Card,486.58,2,True,5.46
+665,597,2024-12-07,Beauty,Gift Card,471.98,4,False,0.0
+666,316,2024-10-09,Clothing,Gift Card,215.78,1,False,0.0
+667,120,2024-09-07,Clothing,Debit Card,340.23,5,True,1.37
+668,857,2024-11-03,Clothing,Gift Card,261.34,5,False,0.0
+669,287,2024-11-23,Beauty,Debit Card,455.59,2,True,48.68
+670,460,2024-08-06,Electronics,Debit Card,116.2,4,False,0.0
+671,549,2024-07-30,Home & Garden,Debit Card,418.58,3,True,19.5
+672,85,2024-10-20,Sports,Credit Card,226.81,10,True,30.18
+673,502,2024-11-24,Beauty,Gift Card,348.97,7,False,0.0
+674,388,2024-07-29,Clothing,PayPal,66.43,8,False,0.0
+675,805,2024-10-18,Sports,Debit Card,238.72,5,True,35.96
+676,397,2024-11-11,Books,Debit Card,422.42,1,False,0.0
+677,491,2024-09-18,Books,Credit Card,432.94,8,True,14.17
+678,573,2024-12-02,Beauty,Credit Card,347.6,2,True,9.74
+679,443,2024-06-22,Home & Garden,Gift Card,296.27,10,True,41.15
+680,532,2024-11-23,Clothing,Credit Card,463.67,7,False,0.0
+681,403,2024-07-06,Beauty,PayPal,299.11,3,False,0.0
+682,871,2024-10-07,Home & Garden,Credit Card,94.86,7,True,17.61
+683,351,2024-10-02,Home & Garden,PayPal,56.87,10,False,0.0
+684,748,2024-07-02,Beauty,PayPal,148.59,10,True,25.6
+685,743,2024-09-14,Home & Garden,PayPal,204.55,10,True,29.25
+686,525,2024-09-28,Electronics,Gift Card,390.61,9,True,39.1
+687,200,2024-08-10,Sports,Gift Card,419.61,1,False,0.0
+688,557,2024-09-21,Clothing,PayPal,193.47,6,True,32.46
+689,749,2024-11-13,Sports,Gift Card,88.87,8,False,0.0
+690,42,2024-11-25,Electronics,Debit Card,299.78,6,False,0.0
+691,396,2024-11-27,Books,Gift Card,181.9,10,True,21.89
+692,239,2024-08-24,Books,Debit Card,226.33,10,True,23.51
+693,373,2024-09-22,Clothing,Debit Card,499.16,3,False,0.0
+694,671,2024-09-16,Home & Garden,Credit Card,483.47,7,True,33.6
+695,333,2024-09-12,Electronics,PayPal,307.2,1,False,0.0
+696,568,2024-07-05,Electronics,Debit Card,306.6,7,False,0.0
+697,1,2024-07-24,Books,Credit Card,352.54,7,False,0.0
+698,335,2024-08-14,Books,PayPal,329.9,2,False,0.0
+699,732,2024-11-19,Electronics,Credit Card,142.38,2,True,18.14
+700,406,2024-08-04,Home & Garden,Credit Card,206.66,7,True,7.84
+701,610,2024-10-20,Beauty,Gift Card,78.32,4,False,0.0
+702,432,2024-11-05,Clothing,Gift Card,177.84,6,False,0.0
+703,313,2024-06-30,Beauty,Credit Card,423.51,8,True,17.56
+704,183,2024-10-06,Beauty,PayPal,491.7,8,False,0.0
+705,627,2024-06-26,Electronics,Debit Card,246.97,10,True,6.34
+706,651,2024-12-02,Home & Garden,Gift Card,448.59,10,False,0.0
+707,119,2024-07-27,Electronics,Debit Card,122.35,5,True,5.48
+708,349,2024-08-05,Home & Garden,Debit Card,236.21,4,False,0.0
+709,36,2024-07-30,Sports,PayPal,433.73,4,True,5.9
+710,797,2024-06-29,Beauty,PayPal,200.97,6,True,49.25
+711,940,2024-08-14,Clothing,PayPal,229.24,3,False,0.0
+712,951,2024-09-13,Books,Gift Card,350.6,5,False,0.0
+713,211,2024-12-11,Home & Garden,PayPal,179.87,1,False,0.0
+714,561,2024-08-12,Sports,Credit Card,70.37,1,True,44.85
+715,679,2024-09-27,Clothing,Gift Card,236.25,1,False,0.0
+716,395,2024-06-27,Sports,Gift Card,408.23,4,False,0.0
+717,588,2024-08-22,Books,Debit Card,209.04,1,False,0.0
+718,892,2024-09-01,Sports,Debit Card,179.82,6,True,10.05
+719,126,2024-06-18,Books,Gift Card,479.27,9,True,0.8
+720,540,2024-08-15,Sports,PayPal,345.8,9,True,49.11
+721,516,2024-11-20,Electronics,Debit Card,418.51,8,True,4.51
+722,691,2024-09-19,Clothing,PayPal,161.71,3,False,0.0
+723,581,2024-08-27,Books,Debit Card,430.13,9,True,24.18
+724,936,2024-10-15,Electronics,Credit Card,300.2,1,True,28.26
+725,337,2024-08-13,Clothing,PayPal,349.89,8,True,24.92
+726,788,2024-07-06,Electronics,Gift Card,92.12,8,False,0.0
+727,665,2024-09-06,Clothing,PayPal,270.04,5,True,26.36
+728,775,2024-11-12,Electronics,Gift Card,255.26,7,True,13.23
+729,269,2024-11-15,Clothing,Credit Card,327.54,6,True,23.35
+730,7,2024-07-02,Clothing,PayPal,274.11,10,True,33.55
+731,340,2024-09-11,Sports,Gift Card,402.4,7,True,11.95
+732,652,2024-09-22,Electronics,PayPal,419.05,8,True,7.9
+733,927,2024-12-07,Sports,PayPal,64.73,9,True,28.41
+734,735,2024-12-10,Clothing,Gift Card,341.45,2,True,18.14
+735,402,2024-08-18,Electronics,Debit Card,127.75,3,True,29.61
+736,961,2024-08-01,Home & Garden,PayPal,426.48,7,False,0.0
+737,431,2024-11-16,Electronics,Debit Card,165.36,1,True,8.3
+738,229,2024-11-01,Sports,Gift Card,401.36,1,True,16.84
+739,632,2024-07-17,Electronics,Credit Card,304.71,4,False,0.0
+740,372,2024-11-17,Beauty,Gift Card,417.83,8,True,18.4
+741,460,2024-07-11,Beauty,PayPal,296.97,9,False,0.0
+742,749,2024-07-24,Books,Debit Card,472.03,5,True,48.8
+743,567,2024-09-07,Electronics,Debit Card,149.25,2,True,3.25
+744,548,2024-07-05,Books,Debit Card,473.82,4,False,0.0
+745,397,2024-09-09,Beauty,Credit Card,17.74,8,True,11.19
+746,684,2024-08-22,Clothing,Credit Card,56.7,2,True,47.23
+747,860,2024-12-04,Home & Garden,Debit Card,481.15,4,True,26.38
+748,854,2024-08-19,Electronics,PayPal,276.01,9,False,0.0
+749,854,2024-10-27,Clothing,Debit Card,372.29,10,False,0.0
+750,545,2024-11-14,Home & Garden,Credit Card,274.22,10,False,0.0
+751,478,2024-08-12,Beauty,Gift Card,197.54,6,False,0.0
+752,571,2024-10-26,Clothing,PayPal,334.3,10,False,0.0
+753,871,2024-06-24,Clothing,Gift Card,253.72,9,True,15.92
+754,238,2024-10-23,Clothing,Debit Card,245.29,9,True,25.04
+755,357,2024-06-21,Home & Garden,Credit Card,468.0,8,False,0.0
+756,967,2024-07-24,Clothing,PayPal,53.72,10,False,0.0
+757,995,2024-09-28,Books,Debit Card,308.47,1,False,0.0
+758,354,2024-11-20,Electronics,Credit Card,266.53,10,True,45.06
+759,893,2024-07-15,Beauty,Credit Card,105.24,6,False,0.0
+760,776,2024-07-26,Books,Credit Card,331.58,5,False,0.0
+761,643,2024-07-31,Electronics,Debit Card,311.35,8,True,37.77
+762,872,2024-08-26,Home & Garden,Debit Card,130.64,5,False,0.0
+763,59,2024-09-14,Sports,PayPal,87.07,4,False,0.0
+764,234,2024-08-18,Books,Credit Card,267.03,8,True,44.12
+765,389,2024-11-14,Beauty,Debit Card,257.25,3,False,0.0
+766,396,2024-07-23,Books,Credit Card,94.39,9,True,48.51
+767,513,2024-11-13,Home & Garden,Credit Card,499.79,4,True,3.97
+768,633,2024-09-28,Electronics,Gift Card,417.09,5,False,0.0
+769,393,2024-09-22,Electronics,PayPal,349.9,3,True,20.97
+770,568,2024-12-01,Beauty,Debit Card,426.6,7,True,19.6
+771,120,2024-10-25,Books,Debit Card,154.51,7,False,0.0
+772,263,2024-11-24,Books,Gift Card,65.77,7,True,45.82
+773,547,2024-06-23,Beauty,Gift Card,61.38,5,True,35.84
+774,503,2024-07-05,Books,Gift Card,115.58,6,True,24.36
+775,744,2024-09-07,Electronics,Debit Card,298.2,8,False,0.0
+776,117,2024-07-22,Electronics,Credit Card,454.96,7,True,36.76
+777,76,2024-07-02,Clothing,PayPal,345.7,4,False,0.0
+778,479,2024-09-12,Clothing,PayPal,304.0,8,True,25.84
+779,460,2024-09-15,Home & Garden,PayPal,319.76,4,False,0.0
+780,32,2024-10-20,Books,Debit Card,477.09,9,False,0.0
+781,649,2024-07-26,Electronics,Credit Card,467.68,4,False,0.0
+782,933,2024-09-16,Home & Garden,PayPal,271.84,10,False,0.0
+783,372,2024-12-06,Clothing,Credit Card,297.08,5,False,0.0
+784,974,2024-11-08,Books,Gift Card,234.58,4,True,1.58
+785,634,2024-07-27,Sports,PayPal,413.89,5,True,29.83
+786,446,2024-12-02,Books,PayPal,233.85,10,False,0.0
+787,815,2024-06-30,Sports,Credit Card,60.78,3,True,13.79
+788,487,2024-07-26,Books,PayPal,85.09,2,True,26.83
+789,533,2024-09-09,Books,Credit Card,71.07,3,True,14.83
+790,711,2024-09-13,Sports,Credit Card,310.59,10,True,31.45
+791,407,2024-12-10,Books,PayPal,295.0,7,True,29.16
+792,308,2024-08-16,Home & Garden,Credit Card,23.99,9,False,0.0
+793,232,2024-07-15,Clothing,Gift Card,482.85,5,True,18.42
+794,606,2024-12-12,Beauty,PayPal,198.76,4,False,0.0
+795,476,2024-08-08,Beauty,PayPal,173.04,4,True,48.4
+796,920,2024-08-05,Home & Garden,Debit Card,308.14,3,False,0.0
+797,426,2024-10-09,Home & Garden,PayPal,423.31,9,True,29.17
+798,734,2024-10-24,Electronics,Debit Card,313.75,4,True,11.95
+799,691,2024-08-14,Home & Garden,PayPal,221.98,3,True,21.06
+800,534,2024-08-07,Clothing,PayPal,365.45,9,False,0.0
+801,467,2024-08-06,Clothing,Debit Card,443.03,6,False,0.0
+802,969,2024-09-10,Books,Credit Card,47.3,4,False,0.0
+803,527,2024-09-11,Home & Garden,Gift Card,84.96,4,False,0.0
+804,579,2024-07-15,Beauty,Gift Card,487.86,9,False,0.0
+805,361,2024-07-12,Sports,PayPal,403.93,9,False,0.0
+806,818,2024-07-24,Home & Garden,PayPal,221.05,1,True,1.91
+807,641,2024-07-18,Clothing,PayPal,359.58,1,False,0.0
+808,727,2024-09-13,Beauty,Credit Card,317.12,6,True,47.39
+809,368,2024-09-06,Electronics,PayPal,157.18,6,True,18.8
+810,757,2024-11-16,Home & Garden,PayPal,202.95,4,False,0.0
+811,376,2024-08-06,Sports,Credit Card,330.61,4,True,21.93
+812,502,2024-09-03,Sports,Debit Card,314.0,7,False,0.0
+813,829,2024-07-11,Beauty,PayPal,183.11,5,False,0.0
+814,218,2024-08-18,Books,Gift Card,491.46,7,False,0.0
+815,790,2024-08-08,Electronics,Credit Card,215.27,7,False,0.0
+816,116,2024-09-17,Books,PayPal,289.69,3,False,0.0
+817,115,2024-08-27,Sports,Gift Card,347.2,9,False,0.0
+818,188,2024-10-27,Books,Debit Card,197.73,9,False,0.0
+819,417,2024-11-09,Electronics,PayPal,77.04,5,False,0.0
+820,148,2024-09-22,Beauty,Gift Card,291.79,5,True,35.5
+821,362,2024-09-04,Beauty,Credit Card,449.78,1,False,0.0
+822,676,2024-10-03,Books,Credit Card,332.08,4,True,18.28
+823,458,2024-08-24,Home & Garden,Credit Card,480.3,6,True,7.98
+824,726,2024-06-21,Electronics,PayPal,142.91,5,False,0.0
+825,816,2024-07-12,Sports,PayPal,457.46,8,False,0.0
+826,979,2024-07-16,Books,PayPal,273.1,1,False,0.0
+827,984,2024-08-11,Sports,PayPal,287.47,6,False,0.0
+828,326,2024-12-12,Home & Garden,Gift Card,12.96,6,True,42.71
+829,19,2024-08-07,Home & Garden,Credit Card,196.86,5,False,0.0
+830,780,2024-06-29,Beauty,Debit Card,369.31,5,False,0.0
+831,604,2024-08-25,Beauty,Gift Card,304.36,5,False,0.0
+832,691,2024-09-09,Books,Credit Card,176.95,5,True,27.27
+833,919,2024-09-02,Books,Credit Card,116.14,1,False,0.0
+834,292,2024-08-13,Home & Garden,Gift Card,300.28,4,True,37.14
+835,837,2024-10-05,Clothing,PayPal,333.11,6,True,34.65
+836,945,2024-09-02,Clothing,Debit Card,340.15,9,False,0.0
+837,291,2024-07-21,Clothing,Gift Card,375.43,8,False,0.0
+838,355,2024-11-12,Books,Debit Card,235.99,10,True,40.11
+839,539,2024-11-17,Beauty,Credit Card,352.67,9,False,0.0
+840,810,2024-08-26,Home & Garden,PayPal,436.47,3,False,0.0
+841,547,2024-11-30,Home & Garden,Credit Card,90.19,2,False,0.0
+842,788,2024-10-15,Sports,Debit Card,33.19,10,False,0.0
+843,866,2024-10-17,Beauty,Credit Card,480.49,8,True,25.53
+844,966,2024-07-30,Clothing,Gift Card,233.89,9,False,0.0
+845,689,2024-10-14,Clothing,Debit Card,233.5,9,False,0.0
+846,133,2024-11-24,Sports,PayPal,77.73,6,False,0.0
+847,507,2024-08-01,Electronics,Gift Card,333.12,9,True,33.94
+848,924,2024-07-16,Sports,PayPal,350.11,7,True,13.11
+849,171,2024-09-16,Sports,Credit Card,255.01,9,False,0.0
+850,687,2024-12-03,Electronics,Gift Card,102.77,1,False,0.0
+851,912,2024-08-24,Books,Credit Card,436.64,8,True,3.5
+852,370,2024-08-16,Clothing,PayPal,179.34,5,True,25.16
+853,342,2024-08-01,Sports,PayPal,281.93,10,True,18.63
+854,771,2024-07-16,Beauty,PayPal,64.17,8,False,0.0
+855,71,2024-10-23,Beauty,Debit Card,181.88,5,True,44.78
+856,259,2024-08-15,Electronics,Gift Card,319.37,8,False,0.0
+857,255,2024-09-21,Beauty,Credit Card,404.94,9,True,38.76
+858,399,2024-09-22,Home & Garden,Credit Card,274.52,9,True,2.54
+859,391,2024-10-01,Books,Gift Card,311.65,1,True,7.51
+860,714,2024-08-05,Beauty,Debit Card,214.41,8,True,28.0
+861,134,2024-10-30,Electronics,Debit Card,203.52,3,True,10.57
+862,733,2024-07-10,Home & Garden,Credit Card,475.23,6,True,3.35
+863,958,2024-11-17,Clothing,Gift Card,142.53,1,False,0.0
+864,349,2024-08-07,Sports,Credit Card,152.48,1,True,2.11
+865,428,2024-08-07,Clothing,Gift Card,446.5,6,False,0.0
+866,276,2024-09-16,Sports,Credit Card,213.09,4,False,0.0
+867,64,2024-07-22,Sports,PayPal,288.12,8,False,0.0
+868,634,2024-09-13,Beauty,Debit Card,312.85,5,True,31.92
+869,445,2024-09-07,Clothing,PayPal,22.08,7,True,11.41
+870,309,2024-06-25,Home & Garden,Debit Card,116.02,3,False,0.0
+871,237,2024-10-10,Home & Garden,Credit Card,281.79,6,True,46.91
+872,197,2024-08-21,Beauty,Credit Card,155.73,7,False,0.0
+873,261,2024-07-06,Home & Garden,Gift Card,102.62,5,False,0.0
+874,456,2024-07-19,Beauty,Gift Card,367.99,6,False,0.0
+875,425,2024-07-09,Clothing,Debit Card,463.81,6,True,43.41
+876,753,2024-11-19,Home & Garden,Credit Card,11.72,1,False,0.0
+877,697,2024-08-07,Sports,Debit Card,348.07,8,False,0.0
+878,551,2024-09-18,Home & Garden,Gift Card,28.16,10,False,0.0
+879,220,2024-12-03,Electronics,Debit Card,305.17,6,True,35.3
+880,497,2024-11-29,Clothing,Debit Card,405.22,7,True,23.15
+881,881,2024-09-17,Home & Garden,Debit Card,154.34,6,False,0.0
+882,228,2024-12-10,Home & Garden,Gift Card,420.23,3,True,31.68
+883,817,2024-06-22,Clothing,Gift Card,34.59,5,False,0.0
+884,217,2024-09-22,Home & Garden,Gift Card,366.36,4,False,0.0
+885,492,2024-06-29,Electronics,Debit Card,198.88,9,False,0.0
+886,608,2024-10-17,Sports,PayPal,342.14,7,True,46.03
+887,128,2024-08-27,Electronics,Gift Card,417.67,9,True,17.18
+888,269,2024-10-02,Home & Garden,Gift Card,135.11,6,False,0.0
+889,994,2024-12-07,Electronics,PayPal,112.78,3,False,0.0
+890,880,2024-11-17,Sports,Credit Card,402.31,10,False,0.0
+891,422,2024-07-09,Sports,PayPal,62.66,2,False,0.0
+892,506,2024-07-09,Clothing,PayPal,468.99,2,False,0.0
+893,929,2024-06-15,Sports,Credit Card,259.94,4,True,30.84
+894,419,2024-07-14,Clothing,PayPal,477.1,5,True,35.25
+895,282,2024-08-01,Electronics,Gift Card,378.89,5,False,0.0
+896,14,2024-07-12,Beauty,Debit Card,464.25,3,True,17.07
+897,666,2024-07-13,Home & Garden,PayPal,131.89,3,False,0.0
+898,784,2024-09-04,Sports,PayPal,244.73,6,False,0.0
+899,948,2024-09-24,Home & Garden,Credit Card,441.32,9,True,41.85
+900,188,2024-08-02,Books,Gift Card,359.89,1,False,0.0
+901,665,2024-10-30,Clothing,PayPal,159.05,10,False,0.0
+902,962,2024-08-27,Sports,Gift Card,115.45,4,False,0.0
+903,934,2024-10-29,Beauty,Debit Card,397.47,10,False,0.0
+904,940,2024-07-24,Beauty,Credit Card,377.18,2,False,0.0
+905,691,2024-10-01,Beauty,PayPal,288.78,7,True,18.99
+906,522,2024-06-23,Books,PayPal,414.02,7,False,0.0
+907,761,2024-09-19,Beauty,Credit Card,433.87,9,True,49.29
+908,820,2024-08-12,Clothing,Debit Card,73.38,6,False,0.0
+909,881,2024-09-01,Books,Debit Card,192.4,4,True,1.41
+910,37,2024-06-20,Books,Gift Card,113.53,2,False,0.0
+911,975,2024-11-28,Sports,Credit Card,127.72,8,False,0.0
+912,544,2024-09-11,Sports,Credit Card,289.62,2,False,0.0
+913,980,2024-09-23,Books,Debit Card,180.29,1,True,11.22
+914,866,2024-06-22,Books,Gift Card,191.54,5,False,0.0
+915,896,2024-11-22,Electronics,Gift Card,323.76,4,True,48.96
+916,609,2024-06-23,Electronics,Debit Card,269.16,8,False,0.0
+917,247,2024-11-07,Beauty,Gift Card,242.51,3,False,0.0
+918,477,2024-12-02,Sports,Debit Card,69.69,5,True,31.26
+919,254,2024-11-07,Beauty,Credit Card,380.03,9,False,0.0
+920,621,2024-07-12,Beauty,Credit Card,346.64,1,True,10.27
+921,776,2024-11-23,Home & Garden,Gift Card,417.27,8,True,48.13
+922,490,2024-10-29,Sports,PayPal,70.85,3,True,6.67
+923,437,2024-08-14,Beauty,Credit Card,92.84,9,False,0.0
+924,100,2024-09-20,Electronics,PayPal,102.66,6,True,43.54
+925,473,2024-08-01,Home & Garden,Debit Card,427.52,8,False,0.0
+926,983,2024-10-25,Clothing,PayPal,463.77,10,True,29.67
+927,761,2024-11-16,Electronics,Gift Card,72.28,9,True,18.57
+928,217,2024-09-28,Books,Gift Card,236.64,7,False,0.0
+929,314,2024-09-09,Beauty,Gift Card,425.72,9,False,0.0
+930,801,2024-10-09,Sports,Gift Card,267.84,5,False,0.0
+931,221,2024-11-14,Beauty,Gift Card,25.61,5,False,0.0
+932,965,2024-12-11,Sports,Credit Card,378.19,3,False,0.0
+933,812,2024-07-13,Books,Debit Card,254.2,7,False,0.0
+934,851,2024-07-21,Beauty,Credit Card,307.13,10,False,0.0
+935,176,2024-07-09,Clothing,Gift Card,328.17,2,False,0.0
+936,139,2024-06-19,Electronics,PayPal,272.93,9,True,38.83
+937,148,2024-11-01,Clothing,Gift Card,112.8,4,True,28.55
+938,104,2024-11-13,Sports,Gift Card,49.07,9,True,18.2
+939,405,2024-11-29,Home & Garden,Debit Card,98.25,9,True,13.91
+940,743,2024-11-27,Sports,Gift Card,432.55,3,False,0.0
+941,635,2024-10-20,Electronics,Credit Card,446.67,7,True,38.08
+942,889,2024-06-20,Clothing,Debit Card,135.7,7,False,0.0
+943,517,2024-10-11,Sports,PayPal,384.89,2,True,20.79
+944,465,2024-11-18,Sports,Debit Card,111.47,8,False,0.0
+945,438,2024-08-10,Home & Garden,PayPal,87.14,8,False,0.0
+946,287,2024-10-16,Books,PayPal,108.17,2,True,0.56
+947,65,2024-07-17,Home & Garden,PayPal,28.46,3,False,0.0
+948,867,2024-11-18,Home & Garden,Gift Card,101.6,5,False,0.0
+949,62,2024-06-27,Electronics,Debit Card,201.28,3,False,0.0
+950,69,2024-11-30,Sports,PayPal,215.36,6,False,0.0
+951,75,2024-10-20,Beauty,Gift Card,352.45,5,False,0.0
+952,450,2024-07-20,Books,Credit Card,474.38,2,False,0.0
+953,833,2024-08-03,Books,Gift Card,28.53,2,True,8.62
+954,684,2024-09-05,Sports,Debit Card,376.74,4,True,38.45
+955,303,2024-07-19,Electronics,Debit Card,422.12,6,False,0.0
+956,959,2024-11-09,Electronics,Gift Card,251.76,5,True,38.93
+957,972,2024-10-19,Sports,Credit Card,417.52,7,False,0.0
+958,144,2024-06-21,Books,Credit Card,128.82,7,False,0.0
+959,420,2024-09-07,Electronics,Credit Card,87.65,2,False,0.0
+960,810,2024-11-16,Beauty,Gift Card,234.35,9,False,0.0
+961,659,2024-12-11,Clothing,PayPal,279.06,2,False,0.0
+962,343,2024-12-12,Electronics,Gift Card,498.48,1,False,0.0
+963,244,2024-06-15,Home & Garden,Credit Card,161.88,4,False,0.0
+964,162,2024-07-04,Electronics,Gift Card,449.29,5,True,15.01
+965,315,2024-12-02,Beauty,Debit Card,324.13,3,True,22.17
+966,164,2024-07-24,Sports,Debit Card,229.83,10,False,0.0
+967,793,2024-10-13,Clothing,PayPal,170.45,4,False,0.0
+968,372,2024-10-19,Electronics,Credit Card,435.66,1,True,34.03
+969,620,2024-08-24,Beauty,Gift Card,79.41,9,False,0.0
+970,71,2024-11-18,Beauty,Gift Card,284.6,4,False,0.0
+971,908,2024-09-29,Home & Garden,Credit Card,31.94,5,False,0.0
+972,645,2024-10-13,Beauty,PayPal,277.5,1,False,0.0
+973,554,2024-10-30,Home & Garden,PayPal,332.95,3,False,0.0
+974,131,2024-08-15,Electronics,Gift Card,443.46,1,True,21.66
+975,127,2024-12-01,Electronics,Debit Card,233.44,1,False,0.0
+976,876,2024-08-01,Clothing,Credit Card,121.04,9,True,16.81
+977,102,2024-09-13,Beauty,Gift Card,306.84,6,False,0.0
+978,262,2024-08-25,Beauty,Debit Card,154.71,2,False,0.0
+979,514,2024-10-23,Sports,Debit Card,158.53,4,True,24.85
+980,992,2024-08-18,Books,PayPal,315.48,5,False,0.0
+981,928,2024-07-09,Electronics,Debit Card,343.44,5,False,0.0
+982,6,2024-07-14,Beauty,Gift Card,242.21,7,True,10.25
+983,698,2024-08-06,Clothing,Debit Card,393.48,3,False,0.0
+984,480,2024-10-11,Electronics,Credit Card,173.7,2,True,5.23
+985,942,2024-12-04,Clothing,Credit Card,288.92,1,True,10.61
+986,946,2024-10-17,Home & Garden,Credit Card,397.46,9,False,0.0
+987,520,2024-09-14,Clothing,Gift Card,270.72,7,True,21.86
+988,495,2024-08-17,Home & Garden,Debit Card,76.5,6,True,17.99
+989,446,2024-08-10,Books,Debit Card,494.77,10,False,0.0
+990,85,2024-08-19,Electronics,Debit Card,189.19,10,False,0.0
+991,774,2024-07-25,Clothing,Gift Card,322.46,5,False,0.0
+992,752,2024-06-25,Clothing,Credit Card,355.37,2,True,10.55
+993,824,2024-06-18,Books,Gift Card,38.31,3,True,31.8
+994,944,2024-08-29,Books,PayPal,278.96,4,True,1.14
+995,543,2024-10-01,Beauty,Gift Card,263.48,9,False,0.0
+996,993,2024-10-23,Beauty,Gift Card,441.96,1,True,42.12
+997,156,2024-10-17,Clothing,Gift Card,382.75,4,False,0.0
+998,577,2024-12-12,Books,Credit Card,296.71,5,True,8.66
+999,378,2024-07-05,Clothing,Credit Card,95.12,5,False,0.0
+1000,107,2024-08-29,Sports,Debit Card,153.98,5,True,6.99
+1001,735,2024-08-03,Sports,PayPal,170.15,3,True,18.54
+1002,255,2024-11-14,Books,Gift Card,399.64,7,False,0.0
+1003,712,2024-10-05,Clothing,Credit Card,483.64,5,True,28.66
+1004,652,2024-09-30,Home & Garden,Debit Card,36.94,10,False,0.0
+1005,875,2024-07-28,Sports,Credit Card,86.27,9,True,21.05
+1006,797,2024-08-27,Electronics,Debit Card,447.69,9,False,0.0
+1007,665,2024-09-03,Clothing,Gift Card,323.81,3,False,0.0
+1008,85,2024-08-13,Home & Garden,Gift Card,38.2,1,True,17.28
+1009,436,2024-09-16,Clothing,PayPal,445.05,4,True,30.68
+1010,297,2024-07-28,Sports,PayPal,467.76,9,True,47.17
+1011,322,2024-09-05,Books,Gift Card,195.36,8,False,0.0
+1012,129,2024-09-11,Beauty,Gift Card,438.07,2,False,0.0
+1013,990,2024-06-25,Books,Gift Card,354.86,1,True,32.3
+1014,287,2024-09-12,Sports,PayPal,183.73,2,True,9.47
+1015,930,2024-10-07,Books,Debit Card,302.47,7,True,26.58
+1016,93,2024-11-24,Home & Garden,Credit Card,16.14,6,False,0.0
+1017,60,2024-07-05,Home & Garden,PayPal,366.4,3,False,0.0
+1018,324,2024-11-20,Electronics,Gift Card,341.02,5,True,15.22
+1019,689,2024-07-02,Clothing,Credit Card,232.44,9,False,0.0
+1020,618,2024-07-23,Beauty,Debit Card,209.5,10,True,20.5
+1021,674,2024-10-21,Books,Debit Card,420.11,10,True,27.06
+1022,759,2024-11-30,Clothing,Credit Card,308.47,9,True,12.56
+1023,683,2024-08-17,Home & Garden,Debit Card,473.43,4,False,0.0
+1024,867,2024-11-21,Beauty,Credit Card,467.73,5,False,0.0
+1025,88,2024-12-12,Clothing,Gift Card,48.98,7,False,0.0
+1026,873,2024-10-30,Clothing,Gift Card,341.37,6,True,43.88
+1027,851,2024-07-21,Sports,Gift Card,368.01,7,False,0.0
+1028,27,2024-12-11,Electronics,PayPal,191.15,9,False,0.0
+1029,125,2024-09-16,Clothing,Credit Card,323.25,4,False,0.0
+1030,398,2024-11-03,Home & Garden,Gift Card,468.55,3,False,0.0
+1031,963,2024-06-25,Sports,Gift Card,103.74,2,False,0.0
+1032,258,2024-08-28,Clothing,PayPal,361.25,5,False,0.0
+1033,412,2024-09-23,Sports,PayPal,40.27,6,False,0.0
+1034,17,2024-10-14,Beauty,Gift Card,226.96,10,True,12.66
+1035,753,2024-08-22,Electronics,Credit Card,416.44,3,True,42.65
+1036,20,2024-09-29,Home & Garden,Credit Card,499.6,7,False,0.0
+1037,780,2024-11-05,Sports,Debit Card,469.21,1,False,0.0
+1038,390,2024-09-19,Beauty,PayPal,225.76,6,False,0.0
+1039,345,2024-08-16,Books,Gift Card,404.5,7,False,0.0
+1040,514,2024-10-30,Home & Garden,Debit Card,419.22,6,True,40.07
+1041,908,2024-08-27,Electronics,Gift Card,288.62,5,False,0.0
+1042,184,2024-11-22,Electronics,Credit Card,458.17,9,True,6.25
+1043,789,2024-10-25,Electronics,PayPal,56.2,5,False,0.0
+1044,117,2024-07-29,Home & Garden,PayPal,419.09,2,True,42.58
+1045,377,2024-06-15,Home & Garden,Gift Card,124.16,3,False,0.0
+1046,932,2024-07-09,Home & Garden,Debit Card,192.71,6,False,0.0
+1047,587,2024-11-13,Sports,PayPal,241.7,4,False,0.0
+1048,602,2024-08-01,Beauty,PayPal,240.78,2,True,47.79
+1049,626,2024-12-01,Electronics,Debit Card,141.13,3,True,5.49
+1050,856,2024-08-02,Beauty,Debit Card,296.02,5,False,0.0
+1051,439,2024-06-17,Books,Credit Card,358.97,10,True,29.19
+1052,177,2024-07-18,Sports,Gift Card,486.4,2,True,22.54
+1053,815,2024-07-01,Beauty,Credit Card,403.26,4,True,40.97
+1054,779,2024-10-27,Electronics,Credit Card,16.21,2,True,17.86
+1055,338,2024-06-30,Home & Garden,Gift Card,198.74,9,False,0.0
+1056,318,2024-10-06,Electronics,Gift Card,392.53,4,False,0.0
+1057,96,2024-12-10,Books,Debit Card,375.43,3,False,0.0
+1058,25,2024-07-29,Electronics,Credit Card,187.85,9,True,40.28
+1059,522,2024-12-10,Home & Garden,Credit Card,96.65,4,False,0.0
+1060,477,2024-07-10,Sports,Credit Card,328.22,2,False,0.0
+1061,948,2024-08-19,Books,PayPal,75.55,5,False,0.0
+1062,500,2024-11-04,Electronics,Debit Card,183.67,4,True,12.57
+1063,110,2024-11-13,Home & Garden,Debit Card,86.15,6,True,47.87
+1064,727,2024-10-06,Beauty,PayPal,375.64,10,False,0.0
+1065,339,2024-11-14,Beauty,Gift Card,150.23,9,False,0.0
+1066,732,2024-11-13,Beauty,Gift Card,310.07,7,False,0.0
+1067,879,2024-11-23,Beauty,PayPal,54.4,6,True,2.23
+1068,297,2024-07-03,Sports,PayPal,180.82,10,True,47.62
+1069,67,2024-10-23,Beauty,Credit Card,490.7,1,True,17.68
+1070,495,2024-12-04,Clothing,Gift Card,158.92,1,False,0.0
+1071,200,2024-07-17,Books,Debit Card,139.63,4,True,19.9
+1072,274,2024-11-10,Clothing,Credit Card,321.16,1,False,0.0
+1073,706,2024-09-02,Books,Gift Card,481.73,4,True,39.68
+1074,393,2024-12-01,Beauty,PayPal,312.2,7,True,40.2
+1075,712,2024-07-16,Sports,Credit Card,23.26,5,False,0.0
+1076,206,2024-11-05,Sports,PayPal,125.18,6,True,9.55
+1077,726,2024-09-11,Beauty,Debit Card,73.82,6,False,0.0
+1078,83,2024-11-13,Sports,Gift Card,242.28,6,False,0.0
+1079,764,2024-10-24,Beauty,PayPal,492.12,5,False,0.0
+1080,628,2024-07-06,Books,Debit Card,413.75,2,True,7.69
+1081,612,2024-08-23,Books,Gift Card,87.14,3,True,1.01
+1082,756,2024-10-16,Clothing,Gift Card,489.96,7,True,10.15
+1083,295,2024-09-04,Clothing,Credit Card,272.23,3,False,0.0
+1084,634,2024-07-17,Sports,PayPal,83.86,8,True,19.08
+1085,587,2024-06-23,Books,Debit Card,247.79,5,True,25.39
+1086,337,2024-09-23,Beauty,PayPal,440.34,1,False,0.0
+1087,683,2024-08-29,Sports,Gift Card,94.4,8,False,0.0
+1088,187,2024-08-24,Electronics,Credit Card,287.56,10,False,0.0
+1089,109,2024-10-07,Home & Garden,Credit Card,257.39,4,True,49.42
+1090,396,2024-08-08,Electronics,Debit Card,253.83,10,True,36.32
+1091,475,2024-09-04,Home & Garden,Debit Card,316.39,5,False,0.0
+1092,339,2024-06-30,Beauty,Credit Card,76.24,3,True,0.37
+1093,627,2024-12-11,Sports,Credit Card,428.5,1,True,5.19
+1094,139,2024-12-07,Beauty,Credit Card,183.66,2,False,0.0
+1095,779,2024-08-25,Electronics,Gift Card,424.17,10,False,0.0
+1096,667,2024-07-20,Sports,Gift Card,420.27,10,True,49.52
+1097,278,2024-11-06,Clothing,Debit Card,141.49,9,True,5.11
+1098,932,2024-10-25,Electronics,Credit Card,284.65,10,False,0.0
+1099,807,2024-11-17,Beauty,PayPal,111.97,9,True,5.61
+1100,49,2024-11-02,Home & Garden,Gift Card,461.19,9,True,24.93
+1101,692,2024-11-03,Clothing,Debit Card,358.94,2,True,18.32
+1102,933,2024-08-14,Beauty,PayPal,280.67,10,False,0.0
+1103,750,2024-09-05,Books,Debit Card,86.51,6,True,29.1
+1104,845,2024-11-27,Home & Garden,Debit Card,232.65,6,False,0.0
+1105,313,2024-06-28,Sports,Gift Card,255.54,5,True,2.32
+1106,257,2024-12-09,Books,PayPal,199.52,7,True,29.1
+1107,270,2024-08-09,Home & Garden,PayPal,98.93,1,False,0.0
+1108,175,2024-09-05,Electronics,Debit Card,140.33,5,False,0.0
+1109,420,2024-10-20,Clothing,Credit Card,185.07,9,False,0.0
+1110,968,2024-11-25,Sports,Gift Card,326.82,1,False,0.0
+1111,632,2024-06-26,Clothing,Credit Card,168.59,5,False,0.0
+1112,774,2024-11-14,Electronics,PayPal,368.09,8,True,14.45
+1113,25,2024-06-23,Clothing,Gift Card,125.23,7,True,34.92
+1114,878,2024-11-10,Books,Credit Card,482.02,9,False,0.0
+1115,517,2024-08-25,Beauty,Credit Card,280.83,1,True,13.76
+1116,792,2024-12-01,Electronics,Credit Card,60.28,3,False,0.0
+1117,484,2024-10-17,Books,Gift Card,174.71,10,True,14.29
+1118,381,2024-09-08,Sports,Credit Card,343.49,3,True,0.67
+1119,458,2024-08-07,Clothing,Gift Card,85.56,9,True,38.15
+1120,578,2024-10-13,Books,PayPal,419.26,4,False,0.0
+1121,227,2024-10-26,Sports,Debit Card,175.77,8,True,19.16
+1122,284,2024-08-12,Sports,Gift Card,21.17,9,False,0.0
+1123,262,2024-08-03,Electronics,PayPal,295.87,5,False,0.0
+1124,890,2024-08-25,Books,PayPal,318.16,3,False,0.0
+1125,488,2024-11-24,Beauty,Credit Card,353.42,4,True,11.94
+1126,907,2024-07-03,Beauty,PayPal,383.46,9,False,0.0
+1127,286,2024-07-28,Electronics,Credit Card,126.36,10,True,29.88
+1128,443,2024-07-26,Home & Garden,Gift Card,49.36,9,True,24.29
+1129,850,2024-06-15,Books,Debit Card,275.17,10,True,44.66
+1130,152,2024-10-17,Beauty,Gift Card,96.03,7,False,0.0
+1131,112,2024-11-29,Books,Credit Card,251.23,5,False,0.0
+1132,711,2024-10-15,Beauty,PayPal,212.81,9,True,44.41
+1133,353,2024-07-07,Beauty,Credit Card,327.85,6,False,0.0
+1134,650,2024-08-05,Beauty,Debit Card,81.61,5,True,28.35
+1135,501,2024-09-17,Clothing,Credit Card,257.16,4,True,32.99
+1136,992,2024-11-16,Home & Garden,Debit Card,302.7,6,False,0.0
+1137,230,2024-08-08,Electronics,PayPal,63.51,4,False,0.0
+1138,147,2024-09-14,Home & Garden,PayPal,186.49,9,True,39.68
+1139,683,2024-08-01,Books,Credit Card,411.5,10,True,11.2
+1140,710,2024-08-05,Clothing,PayPal,164.1,1,True,34.27
+1141,228,2024-09-20,Beauty,Debit Card,456.49,3,True,36.44
+1142,543,2024-07-04,Clothing,Debit Card,313.12,2,False,0.0
+1143,236,2024-06-25,Books,Credit Card,350.04,10,True,44.26
+1144,981,2024-07-10,Home & Garden,Gift Card,279.48,10,True,17.82
+1145,615,2024-07-16,Sports,Credit Card,181.63,8,False,0.0
+1146,224,2024-12-07,Books,Gift Card,455.73,7,True,45.87
+1147,662,2024-11-08,Sports,Debit Card,374.86,8,False,0.0
+1148,888,2024-08-27,Clothing,Credit Card,62.12,2,False,0.0
+1149,112,2024-07-27,Electronics,PayPal,242.16,7,True,44.07
+1150,810,2024-09-02,Clothing,Credit Card,73.4,4,False,0.0
+1151,806,2024-12-09,Books,PayPal,337.21,9,False,0.0
+1152,941,2024-12-03,Clothing,Gift Card,23.0,10,False,0.0
+1153,943,2024-08-12,Electronics,Debit Card,486.76,8,False,0.0
+1154,670,2024-12-12,Clothing,Gift Card,81.98,4,True,13.63
+1155,152,2024-11-26,Beauty,Debit Card,260.58,3,False,0.0
+1156,851,2024-11-18,Electronics,Debit Card,176.43,2,True,17.87
+1157,709,2024-12-09,Home & Garden,PayPal,243.0,8,False,0.0
+1158,161,2024-11-29,Home & Garden,Gift Card,457.99,9,True,48.2
+1159,679,2024-06-20,Sports,Credit Card,475.17,2,True,4.95
+1160,959,2024-10-06,Beauty,Gift Card,269.42,3,True,42.89
+1161,231,2024-11-14,Home & Garden,PayPal,212.38,9,True,44.24
+1162,986,2024-07-09,Clothing,Gift Card,469.76,10,True,32.43
+1163,256,2024-11-03,Clothing,Gift Card,341.51,4,True,20.15
+1164,39,2024-08-23,Books,Debit Card,121.76,9,True,12.16
+1165,1000,2024-11-12,Electronics,Credit Card,59.41,2,False,0.0
+1166,436,2024-08-12,Clothing,Debit Card,337.79,2,False,0.0
+1167,9,2024-09-07,Books,Debit Card,46.58,8,False,0.0
+1168,136,2024-07-30,Electronics,Gift Card,419.95,3,False,0.0
+1169,150,2024-08-23,Home & Garden,PayPal,124.24,4,False,0.0
+1170,293,2024-08-11,Home & Garden,Credit Card,363.35,10,False,0.0
+1171,602,2024-07-20,Beauty,Credit Card,358.64,9,True,27.56
+1172,196,2024-07-12,Sports,PayPal,108.42,1,True,41.98
+1173,516,2024-07-06,Books,Debit Card,232.64,6,False,0.0
+1174,288,2024-11-14,Beauty,Gift Card,85.18,6,True,40.05
+1175,567,2024-07-10,Home & Garden,PayPal,160.48,8,True,49.23
+1176,824,2024-09-19,Books,PayPal,403.67,1,True,24.69
+1177,460,2024-08-19,Books,PayPal,56.9,10,True,20.27
+1178,59,2024-11-28,Electronics,PayPal,150.43,4,True,12.47
+1179,175,2024-10-28,Sports,Gift Card,119.08,9,True,35.18
+1180,117,2024-10-17,Sports,Debit Card,10.35,9,True,46.79
+1181,544,2024-08-20,Home & Garden,Credit Card,71.74,8,True,15.14
+1182,682,2024-07-05,Electronics,Credit Card,479.78,3,False,0.0
+1183,233,2024-08-29,Clothing,Debit Card,155.86,3,True,28.86
+1184,677,2024-12-03,Home & Garden,Credit Card,93.88,5,False,0.0
+1185,113,2024-07-03,Sports,Gift Card,399.65,9,True,22.58
+1186,279,2024-08-31,Electronics,Debit Card,240.01,5,False,0.0
+1187,185,2024-09-07,Books,Debit Card,324.71,3,False,0.0
+1188,500,2024-11-15,Beauty,Credit Card,442.55,2,False,0.0
+1189,543,2024-06-16,Sports,PayPal,132.35,7,False,0.0
+1190,744,2024-07-29,Beauty,Credit Card,377.71,1,True,34.77
+1191,154,2024-10-09,Sports,Credit Card,170.91,2,False,0.0
+1192,844,2024-10-30,Sports,Credit Card,404.44,6,False,0.0
+1193,212,2024-09-12,Electronics,PayPal,190.33,7,False,0.0
+1194,78,2024-11-13,Electronics,PayPal,78.67,1,False,0.0
+1195,386,2024-11-25,Home & Garden,Gift Card,140.07,10,True,10.35
+1196,989,2024-11-03,Clothing,Credit Card,494.48,4,True,11.7
+1197,816,2024-08-28,Beauty,PayPal,266.04,6,False,0.0
+1198,446,2024-10-11,Clothing,Credit Card,361.7,1,True,5.43
+1199,543,2024-11-12,Electronics,PayPal,405.7,5,False,0.0
+1200,615,2024-07-22,Clothing,Gift Card,277.07,4,False,0.0
+1201,415,2024-08-14,Books,Debit Card,322.99,1,True,26.08
+1202,717,2024-06-19,Sports,Debit Card,40.24,4,True,36.48
+1203,23,2024-09-21,Books,Gift Card,446.92,9,False,0.0
+1204,47,2024-12-02,Electronics,Gift Card,221.83,1,True,6.49
+1205,800,2024-10-02,Home & Garden,PayPal,465.58,2,True,10.65
+1206,434,2024-10-13,Books,PayPal,410.31,4,False,0.0
+1207,215,2024-11-02,Sports,PayPal,337.65,4,True,13.63
+1208,105,2024-09-02,Sports,Debit Card,373.24,4,False,0.0
+1209,40,2024-08-10,Electronics,PayPal,437.38,2,False,0.0
+1210,576,2024-06-21,Books,Credit Card,346.1,9,False,0.0
+1211,575,2024-11-15,Beauty,PayPal,85.32,4,False,0.0
+1212,806,2024-08-01,Home & Garden,Gift Card,128.52,7,True,11.43
+1213,385,2024-10-15,Sports,Debit Card,364.08,10,True,42.91
+1214,840,2024-12-09,Clothing,Debit Card,388.77,2,True,8.47
+1215,358,2024-08-21,Home & Garden,PayPal,36.01,10,True,46.29
+1216,342,2024-09-24,Books,Credit Card,244.95,7,False,0.0
+1217,789,2024-10-09,Beauty,Credit Card,321.67,4,True,8.11
+1218,796,2024-06-16,Sports,Debit Card,220.22,1,False,0.0
+1219,213,2024-09-17,Sports,Debit Card,436.56,2,False,0.0
+1220,332,2024-07-31,Books,Gift Card,115.5,6,True,13.27
+1221,897,2024-07-03,Sports,PayPal,61.98,4,True,48.56
+1222,788,2024-11-27,Clothing,Gift Card,337.33,6,True,19.27
+1223,40,2024-12-06,Beauty,PayPal,309.16,10,True,21.86
+1224,965,2024-10-12,Sports,Gift Card,219.16,5,False,0.0
+1225,35,2024-09-13,Electronics,Debit Card,446.3,1,False,0.0
+1226,544,2024-08-05,Books,PayPal,400.77,2,False,0.0
+1227,350,2024-09-11,Sports,Debit Card,218.53,4,False,0.0
+1228,369,2024-07-27,Books,PayPal,392.09,1,True,42.0
+1229,976,2024-08-23,Electronics,Gift Card,495.72,5,False,0.0
+1230,79,2024-07-06,Clothing,PayPal,191.53,7,True,46.4
+1231,532,2024-06-26,Books,PayPal,309.2,9,True,47.41
+1232,745,2024-08-31,Books,Debit Card,256.46,10,False,0.0
+1233,775,2024-09-09,Electronics,Gift Card,319.34,1,True,19.39
+1234,352,2024-07-14,Books,Debit Card,74.54,6,True,14.71
+1235,917,2024-07-05,Books,Credit Card,50.57,5,True,34.79
+1236,573,2024-10-15,Sports,Gift Card,374.1,9,False,0.0
+1237,937,2024-07-17,Beauty,PayPal,400.23,4,False,0.0
+1238,35,2024-10-26,Books,Credit Card,391.68,10,True,18.07
+1239,155,2024-10-30,Clothing,Credit Card,271.78,3,True,46.26
+1240,793,2024-09-03,Beauty,Credit Card,96.62,4,False,0.0
+1241,858,2024-07-30,Books,Gift Card,353.54,6,False,0.0
+1242,384,2024-08-08,Home & Garden,Debit Card,151.86,9,False,0.0
+1243,292,2024-11-19,Home & Garden,PayPal,292.83,10,False,0.0
+1244,837,2024-12-06,Clothing,PayPal,16.76,1,False,0.0
+1245,682,2024-06-17,Home & Garden,Gift Card,228.67,6,True,30.76
+1246,547,2024-11-04,Electronics,Gift Card,78.09,4,False,0.0
+1247,483,2024-09-22,Books,PayPal,104.27,8,False,0.0
+1248,811,2024-09-06,Clothing,Debit Card,265.32,1,True,10.02
+1249,869,2024-06-26,Sports,PayPal,141.96,3,True,32.53
+1250,985,2024-08-25,Electronics,PayPal,440.75,1,True,25.3
+1251,226,2024-09-19,Books,PayPal,479.27,5,True,37.58
+1252,708,2024-10-05,Sports,Credit Card,379.87,4,False,0.0
+1253,133,2024-10-02,Sports,Debit Card,450.66,9,True,25.16
+1254,348,2024-07-28,Beauty,Gift Card,406.26,8,True,5.23
+1255,582,2024-09-12,Books,PayPal,441.72,1,False,0.0
+1256,754,2024-10-15,Home & Garden,Credit Card,411.0,3,False,0.0
+1257,472,2024-11-23,Sports,PayPal,475.8,3,False,0.0
+1258,405,2024-08-07,Beauty,Credit Card,140.29,6,True,4.07
+1259,632,2024-09-22,Clothing,Credit Card,148.84,9,False,0.0
+1260,813,2024-08-08,Home & Garden,Credit Card,231.84,8,False,0.0
+1261,43,2024-11-08,Beauty,PayPal,460.66,10,False,0.0
+1262,712,2024-07-24,Clothing,Gift Card,298.44,6,False,0.0
+1263,53,2024-08-19,Clothing,Debit Card,432.11,8,True,38.02
+1264,730,2024-06-24,Beauty,Gift Card,446.31,1,False,0.0
+1265,343,2024-08-27,Electronics,Debit Card,483.48,4,True,41.01
+1266,87,2024-10-04,Books,Gift Card,74.31,9,True,26.63
+1267,654,2024-06-23,Beauty,Gift Card,337.63,4,True,46.94
+1268,438,2024-09-22,Electronics,Gift Card,352.64,6,True,16.38
+1269,4,2024-12-08,Clothing,Credit Card,85.37,10,True,16.0
+1270,234,2024-11-25,Electronics,PayPal,328.69,7,True,17.69
+1271,950,2024-07-30,Sports,PayPal,212.07,7,True,48.43
+1272,321,2024-11-22,Sports,PayPal,396.78,5,False,0.0
+1273,121,2024-12-06,Electronics,PayPal,421.97,7,False,0.0
+1274,315,2024-07-13,Clothing,Credit Card,314.79,4,True,49.24
+1275,327,2024-11-05,Sports,Credit Card,316.85,5,False,0.0
+1276,614,2024-11-16,Books,PayPal,450.16,8,False,0.0
+1277,57,2024-08-19,Books,Debit Card,10.12,6,True,23.61
+1278,71,2024-11-06,Electronics,Gift Card,169.27,4,True,12.54
+1279,678,2024-09-02,Books,Credit Card,69.37,4,True,23.29
+1280,694,2024-10-14,Clothing,Credit Card,185.01,7,True,32.93
+1281,381,2024-11-06,Clothing,Debit Card,56.5,1,True,10.35
+1282,457,2024-12-05,Sports,Credit Card,421.37,6,False,0.0
+1283,350,2024-11-28,Home & Garden,PayPal,294.17,4,True,1.48
+1284,674,2024-11-26,Clothing,PayPal,499.45,4,True,5.43
+1285,138,2024-08-20,Home & Garden,PayPal,271.87,10,False,0.0
+1286,753,2024-08-26,Clothing,Credit Card,286.77,10,False,0.0
+1287,904,2024-09-23,Sports,Gift Card,149.05,4,False,0.0
+1288,95,2024-08-15,Books,PayPal,16.79,4,False,0.0
+1289,935,2024-08-12,Sports,Debit Card,213.62,1,False,0.0
+1290,200,2024-07-01,Sports,Credit Card,17.33,7,True,22.23
+1291,448,2024-11-01,Sports,Credit Card,228.59,3,False,0.0
+1292,795,2024-10-06,Sports,Gift Card,260.59,8,True,18.1
+1293,818,2024-08-08,Home & Garden,PayPal,199.36,6,True,13.59
+1294,177,2024-09-09,Books,PayPal,396.19,8,True,38.34
+1295,26,2024-10-02,Beauty,Credit Card,167.4,6,False,0.0
+1296,499,2024-09-17,Sports,PayPal,417.05,3,True,33.34
+1297,652,2024-11-15,Electronics,Debit Card,426.9,6,False,0.0
+1298,240,2024-06-28,Electronics,Credit Card,414.13,4,False,0.0
+1299,212,2024-08-28,Electronics,Debit Card,97.89,3,False,0.0
+1300,148,2024-07-11,Electronics,Debit Card,492.18,7,True,18.37
+1301,790,2024-07-07,Sports,Gift Card,13.16,10,True,45.86
+1302,211,2024-09-28,Electronics,Debit Card,192.3,1,False,0.0
+1303,430,2024-09-26,Beauty,PayPal,16.32,6,False,0.0
+1304,151,2024-11-22,Books,PayPal,324.85,5,False,0.0
+1305,460,2024-10-27,Electronics,Gift Card,453.02,9,True,22.32
+1306,26,2024-11-01,Sports,Debit Card,233.86,5,True,5.55
+1307,906,2024-08-04,Books,Gift Card,400.7,6,False,0.0
+1308,564,2024-09-07,Clothing,Debit Card,380.19,8,False,0.0
+1309,164,2024-07-05,Electronics,Debit Card,41.54,4,True,5.06
+1310,243,2024-06-25,Clothing,Gift Card,169.36,4,False,0.0
+1311,891,2024-11-18,Electronics,Gift Card,274.86,8,False,0.0
+1312,878,2024-06-18,Sports,Credit Card,478.87,5,True,24.44
+1313,941,2024-11-06,Home & Garden,Debit Card,36.88,9,False,0.0
+1314,273,2024-07-10,Electronics,Credit Card,79.64,3,True,49.34
+1315,406,2024-11-21,Home & Garden,Gift Card,188.84,10,True,3.77
+1316,960,2024-07-29,Sports,Gift Card,120.48,7,True,38.96
+1317,620,2024-10-16,Home & Garden,Debit Card,157.34,9,True,34.26
+1318,819,2024-10-07,Clothing,Gift Card,205.13,2,True,8.14
+1319,701,2024-12-07,Electronics,PayPal,352.74,9,True,36.61
+1320,12,2024-07-30,Books,PayPal,250.11,9,False,0.0
+1321,623,2024-10-16,Electronics,Gift Card,392.28,5,True,37.4
+1322,919,2024-06-15,Beauty,PayPal,118.7,5,False,0.0
+1323,308,2024-11-22,Home & Garden,Credit Card,461.91,4,True,8.81
+1324,266,2024-08-12,Home & Garden,PayPal,182.66,1,True,47.46
+1325,264,2024-09-06,Home & Garden,PayPal,342.08,9,False,0.0
+1326,245,2024-06-15,Home & Garden,Debit Card,378.82,9,False,0.0
+1327,903,2024-06-27,Beauty,Credit Card,88.53,5,True,20.64
+1328,597,2024-07-10,Beauty,Debit Card,323.66,8,False,0.0
+1329,938,2024-06-27,Electronics,Gift Card,446.04,9,False,0.0
+1330,328,2024-07-02,Home & Garden,Gift Card,491.11,6,False,0.0
+1331,8,2024-09-24,Electronics,Gift Card,163.96,4,False,0.0
+1332,207,2024-12-04,Sports,PayPal,421.84,7,True,15.18
+1333,354,2024-07-18,Books,PayPal,414.3,4,True,29.23
+1334,760,2024-11-23,Books,PayPal,150.23,10,False,0.0
+1335,390,2024-11-03,Home & Garden,PayPal,422.08,7,False,0.0
+1336,266,2024-10-31,Electronics,PayPal,194.79,1,True,14.55
+1337,214,2024-11-12,Clothing,Gift Card,432.25,10,False,0.0
+1338,75,2024-08-03,Beauty,PayPal,397.97,4,False,0.0
+1339,693,2024-08-03,Sports,Gift Card,39.81,8,True,47.14
+1340,246,2024-09-21,Beauty,Debit Card,218.48,1,False,0.0
+1341,358,2024-07-31,Electronics,PayPal,284.45,6,False,0.0
+1342,560,2024-09-28,Clothing,Credit Card,346.41,10,False,0.0
+1343,204,2024-06-27,Books,Gift Card,325.14,5,False,0.0
+1344,935,2024-11-19,Home & Garden,Debit Card,59.26,5,True,29.56
+1345,229,2024-08-26,Books,PayPal,73.44,7,False,0.0
+1346,660,2024-09-04,Electronics,PayPal,321.2,4,False,0.0
+1347,266,2024-07-04,Home & Garden,Credit Card,84.29,10,False,0.0
+1348,360,2024-11-24,Sports,Credit Card,329.7,1,True,43.79
+1349,551,2024-07-11,Clothing,Debit Card,443.85,6,True,19.3
+1350,895,2024-09-28,Books,Debit Card,250.97,9,True,26.79
+1351,404,2024-06-17,Clothing,Debit Card,432.1,5,False,0.0
+1352,305,2024-10-18,Electronics,Debit Card,45.17,9,False,0.0
+1353,525,2024-09-03,Books,Debit Card,350.18,7,False,0.0
+1354,534,2024-09-20,Clothing,Gift Card,236.25,9,True,14.66
+1355,823,2024-11-28,Electronics,PayPal,491.73,4,False,0.0
+1356,674,2024-06-21,Home & Garden,Debit Card,404.56,4,False,0.0
+1357,842,2024-09-07,Electronics,PayPal,169.01,1,True,20.03
+1358,137,2024-08-11,Electronics,Credit Card,236.38,1,False,0.0
+1359,994,2024-08-07,Clothing,Debit Card,179.76,3,False,0.0
+1360,308,2024-07-08,Home & Garden,Gift Card,65.87,1,True,29.03
+1361,333,2024-06-29,Sports,Debit Card,54.29,3,False,0.0
+1362,283,2024-08-24,Beauty,PayPal,210.64,5,True,28.04
+1363,767,2024-06-21,Books,Debit Card,427.3,4,False,0.0
+1364,590,2024-09-28,Clothing,Debit Card,150.17,5,False,0.0
+1365,648,2024-10-01,Electronics,Credit Card,274.69,4,True,39.95
+1366,928,2024-08-18,Sports,Debit Card,233.27,8,False,0.0
+1367,961,2024-10-04,Books,Gift Card,255.15,1,True,20.11
+1368,925,2024-10-04,Beauty,Credit Card,146.59,9,False,0.0
+1369,129,2024-09-10,Books,Gift Card,147.97,4,False,0.0
+1370,79,2024-09-21,Home & Garden,Debit Card,475.59,10,True,35.81
+1371,370,2024-07-12,Electronics,Gift Card,23.34,7,True,47.08
+1372,23,2024-10-06,Books,Gift Card,492.98,9,True,21.89
+1373,732,2024-09-03,Books,Gift Card,30.54,9,False,0.0
+1374,465,2024-10-29,Clothing,Credit Card,368.2,1,True,31.57
+1375,461,2024-06-22,Clothing,PayPal,433.97,7,False,0.0
+1376,238,2024-07-20,Electronics,Credit Card,498.8,4,False,0.0
+1377,354,2024-07-23,Home & Garden,Credit Card,431.03,1,False,0.0
+1378,198,2024-07-06,Electronics,PayPal,257.84,5,True,33.96
+1379,165,2024-07-19,Books,Debit Card,18.63,5,False,0.0
+1380,771,2024-07-17,Electronics,Debit Card,162.3,9,False,0.0
+1381,901,2024-11-28,Clothing,Credit Card,62.27,8,True,16.08
+1382,876,2024-08-07,Sports,Gift Card,359.51,6,False,0.0
+1383,26,2024-10-11,Home & Garden,Debit Card,383.09,4,True,10.25
+1384,391,2024-07-03,Home & Garden,PayPal,266.6,1,True,16.96
+1385,847,2024-06-25,Beauty,Credit Card,362.41,3,True,26.76
+1386,928,2024-10-11,Sports,Debit Card,22.61,10,True,16.69
+1387,235,2024-08-01,Clothing,PayPal,437.5,3,False,0.0
+1388,219,2024-07-20,Sports,Debit Card,248.92,9,False,0.0
+1389,196,2024-09-08,Clothing,Gift Card,469.4,3,False,0.0
+1390,301,2024-11-11,Electronics,Gift Card,204.67,8,True,25.38
+1391,233,2024-08-01,Home & Garden,Debit Card,490.5,1,False,0.0
+1392,95,2024-09-01,Home & Garden,Credit Card,306.18,9,False,0.0
+1393,502,2024-11-19,Electronics,Credit Card,57.2,7,False,0.0
+1394,430,2024-12-01,Sports,PayPal,229.52,10,True,41.98
+1395,458,2024-10-24,Electronics,Debit Card,93.48,8,True,46.47
+1396,643,2024-08-11,Books,Debit Card,270.56,8,True,13.63
+1397,47,2024-09-24,Sports,Debit Card,475.74,5,False,0.0
+1398,45,2024-09-17,Books,Gift Card,446.74,3,False,0.0
+1399,385,2024-09-12,Beauty,Gift Card,248.37,7,True,1.54
+1400,679,2024-07-15,Clothing,PayPal,486.01,2,False,0.0
+1401,456,2024-08-05,Books,Debit Card,68.09,4,False,0.0
+1402,634,2024-10-30,Books,Credit Card,491.5,6,True,33.11
+1403,836,2024-07-07,Clothing,PayPal,445.03,2,True,48.71
+1404,757,2024-11-05,Beauty,Credit Card,257.41,1,False,0.0
+1405,701,2024-06-20,Beauty,Credit Card,325.68,10,True,43.52
+1406,54,2024-07-11,Clothing,Credit Card,87.0,10,False,0.0
+1407,501,2024-06-17,Sports,Gift Card,230.05,8,False,0.0
+1408,823,2024-08-05,Home & Garden,Debit Card,415.41,2,True,39.47
+1409,784,2024-12-10,Home & Garden,PayPal,361.0,9,False,0.0
+1410,130,2024-11-07,Electronics,Gift Card,32.19,2,False,0.0
+1411,652,2024-09-26,Beauty,Credit Card,208.02,8,False,0.0
+1412,786,2024-08-20,Sports,Gift Card,480.16,10,False,0.0
+1413,813,2024-07-26,Books,PayPal,119.67,4,False,0.0
+1414,713,2024-10-25,Beauty,PayPal,170.58,7,False,0.0
+1415,185,2024-08-12,Beauty,Debit Card,121.1,3,False,0.0
+1416,498,2024-10-27,Electronics,Credit Card,139.22,1,False,0.0
+1417,342,2024-11-13,Electronics,Gift Card,408.15,8,False,0.0
+1418,305,2024-07-27,Books,PayPal,164.78,10,True,5.45
+1419,830,2024-09-27,Books,Debit Card,172.22,7,True,10.51
+1420,600,2024-12-12,Books,Gift Card,287.14,5,False,0.0
+1421,351,2024-06-25,Books,Gift Card,390.09,5,False,0.0
+1422,472,2024-07-25,Electronics,Credit Card,386.2,6,False,0.0
+1423,852,2024-12-09,Home & Garden,Gift Card,231.21,10,False,0.0
+1424,952,2024-10-05,Clothing,Debit Card,248.56,7,False,0.0
+1425,196,2024-08-18,Sports,Debit Card,446.54,1,True,15.52
+1426,128,2024-09-10,Sports,Debit Card,96.62,1,True,27.6
+1427,649,2024-08-14,Electronics,Gift Card,405.71,1,True,49.49
+1428,269,2024-11-23,Books,Credit Card,147.59,2,False,0.0
+1429,277,2024-09-12,Books,Credit Card,455.64,7,False,0.0
+1430,189,2024-08-09,Home & Garden,Debit Card,477.99,4,True,7.86
+1431,986,2024-10-13,Beauty,Gift Card,275.23,8,False,0.0
+1432,253,2024-12-07,Beauty,PayPal,181.09,1,True,5.23
+1433,509,2024-06-18,Home & Garden,PayPal,179.23,9,True,14.07
+1434,616,2024-06-23,Electronics,PayPal,494.39,9,True,4.44
+1435,186,2024-10-15,Electronics,PayPal,383.85,3,True,32.9
+1436,373,2024-12-08,Clothing,Credit Card,182.62,10,False,0.0
+1437,626,2024-08-31,Electronics,PayPal,316.47,4,True,49.57
+1438,443,2024-12-05,Clothing,Gift Card,21.74,5,True,11.68
+1439,650,2024-09-23,Sports,PayPal,109.49,10,True,4.05
+1440,971,2024-12-03,Sports,Gift Card,405.02,4,False,0.0
+1441,390,2024-11-24,Clothing,Debit Card,340.0,3,True,31.2
+1442,784,2024-10-16,Books,PayPal,452.75,6,False,0.0
+1443,352,2024-09-01,Books,PayPal,267.08,1,False,0.0
+1444,59,2024-09-07,Beauty,PayPal,455.97,2,False,0.0
+1445,302,2024-06-26,Beauty,Gift Card,149.74,6,True,14.9
+1446,75,2024-09-25,Clothing,PayPal,288.94,5,True,26.03
+1447,421,2024-09-02,Clothing,PayPal,82.0,8,True,39.89
+1448,516,2024-11-19,Electronics,Gift Card,225.17,2,True,22.67
+1449,625,2024-08-23,Home & Garden,Gift Card,119.6,2,True,40.93
+1450,825,2024-11-23,Sports,Credit Card,494.75,4,False,0.0
+1451,120,2024-07-21,Home & Garden,Debit Card,44.11,2,True,33.33
+1452,876,2024-10-23,Sports,Gift Card,153.21,10,True,48.38
+1453,878,2024-08-12,Electronics,Debit Card,213.58,6,True,6.45
+1454,929,2024-09-19,Sports,Debit Card,488.41,3,True,16.8
+1455,331,2024-10-09,Sports,Credit Card,159.08,1,False,0.0
+1456,450,2024-10-29,Clothing,Debit Card,412.03,8,False,0.0
+1457,648,2024-11-01,Electronics,PayPal,248.46,4,True,35.58
+1458,312,2024-09-17,Books,PayPal,277.78,5,False,0.0
+1459,365,2024-09-17,Sports,Debit Card,289.21,3,True,47.77
+1460,244,2024-12-10,Home & Garden,Debit Card,217.13,5,True,24.78
+1461,500,2024-11-01,Home & Garden,Debit Card,412.72,6,False,0.0
+1462,362,2024-09-07,Sports,Gift Card,151.36,2,False,0.0
+1463,248,2024-11-18,Books,Credit Card,249.24,5,True,37.98
+1464,701,2024-09-10,Clothing,Credit Card,58.89,6,False,0.0
+1465,353,2024-07-18,Beauty,Debit Card,221.26,1,True,16.17
+1466,898,2024-11-30,Books,Credit Card,64.69,3,True,8.0
+1467,891,2024-10-24,Electronics,Credit Card,346.98,3,False,0.0
+1468,381,2024-11-22,Books,Debit Card,257.26,6,False,0.0
+1469,920,2024-10-18,Sports,Credit Card,494.12,3,True,0.23
+1470,820,2024-12-08,Sports,Gift Card,73.14,6,False,0.0
+1471,523,2024-11-04,Beauty,Gift Card,450.22,8,False,0.0
+1472,64,2024-10-07,Books,Debit Card,396.74,4,True,30.45
+1473,681,2024-12-03,Electronics,Credit Card,82.53,8,False,0.0
+1474,159,2024-11-28,Home & Garden,Debit Card,346.28,9,True,26.8
+1475,350,2024-10-12,Home & Garden,Credit Card,308.75,5,True,23.15
+1476,855,2024-08-26,Electronics,Gift Card,127.95,9,False,0.0
+1477,336,2024-10-01,Home & Garden,Credit Card,314.05,8,False,0.0
+1478,946,2024-11-09,Beauty,Debit Card,55.07,2,False,0.0
+1479,372,2024-07-22,Books,PayPal,86.14,1,True,43.87
+1480,513,2024-09-13,Home & Garden,PayPal,82.87,2,True,12.46
+1481,169,2024-11-16,Books,Debit Card,70.14,3,True,49.44
+1482,897,2024-12-09,Home & Garden,Credit Card,203.57,6,False,0.0
+1483,236,2024-07-17,Electronics,Debit Card,159.87,8,False,0.0
+1484,92,2024-09-21,Books,Debit Card,29.1,2,True,43.38
+1485,804,2024-08-04,Clothing,Credit Card,314.81,2,True,25.87
+1486,950,2024-07-13,Sports,Debit Card,184.5,2,False,0.0
+1487,440,2024-08-25,Clothing,Debit Card,411.09,3,True,33.13
+1488,694,2024-11-03,Clothing,PayPal,315.88,9,True,36.32
+1489,837,2024-08-30,Books,Gift Card,98.45,2,False,0.0
+1490,74,2024-10-13,Sports,PayPal,206.42,8,True,17.52
+1491,663,2024-11-15,Electronics,Gift Card,153.14,10,True,20.23
+1492,780,2024-07-02,Clothing,PayPal,476.23,1,False,0.0
+1493,630,2024-06-29,Clothing,Debit Card,383.56,3,True,21.96
+1494,649,2024-11-22,Books,Gift Card,292.95,3,False,0.0
+1495,600,2024-07-08,Sports,Debit Card,366.42,7,True,18.44
+1496,926,2024-09-08,Books,PayPal,175.75,8,False,0.0
+1497,873,2024-06-23,Electronics,PayPal,481.16,10,False,0.0
+1498,917,2024-11-21,Beauty,Gift Card,45.08,10,True,11.55
+1499,680,2024-11-08,Home & Garden,Credit Card,340.63,8,False,0.0
+1500,159,2024-09-19,Electronics,Gift Card,43.75,8,True,45.99
+1501,229,2024-10-16,Beauty,Gift Card,385.27,2,False,0.0
+1502,713,2024-07-25,Beauty,PayPal,19.65,7,False,0.0
+1503,939,2024-11-20,Books,Gift Card,23.1,2,False,0.0
+1504,371,2024-10-12,Home & Garden,PayPal,298.02,4,False,0.0
+1505,293,2024-10-06,Sports,Gift Card,33.28,8,True,28.06
+1506,669,2024-07-21,Electronics,PayPal,103.48,4,True,29.55
+1507,694,2024-10-03,Books,PayPal,412.73,5,True,22.3
+1508,386,2024-08-09,Clothing,Credit Card,350.08,2,True,8.97
+1509,84,2024-09-21,Books,PayPal,415.76,7,False,0.0
+1510,738,2024-10-25,Books,Debit Card,235.27,10,False,0.0
+1511,76,2024-07-03,Books,PayPal,196.15,4,True,12.85
+1512,749,2024-08-16,Beauty,Gift Card,132.74,2,True,35.82
+1513,477,2024-08-18,Electronics,Credit Card,298.52,10,False,0.0
+1514,413,2024-09-12,Electronics,Credit Card,140.87,7,True,25.93
+1515,759,2024-08-27,Clothing,Gift Card,482.21,2,False,0.0
+1516,806,2024-09-22,Beauty,Debit Card,387.52,8,True,18.58
+1517,566,2024-09-06,Books,Debit Card,123.79,9,False,0.0
+1518,409,2024-06-16,Beauty,Credit Card,431.4,7,False,0.0
+1519,918,2024-09-23,Books,Credit Card,417.89,9,False,0.0
+1520,376,2024-10-13,Beauty,Credit Card,26.39,5,True,46.61
+1521,465,2024-07-02,Books,Credit Card,292.81,5,False,0.0
+1522,945,2024-12-04,Books,Credit Card,113.6,10,False,0.0
+1523,269,2024-08-29,Beauty,PayPal,23.84,9,False,0.0
+1524,405,2024-09-21,Books,PayPal,420.69,8,True,18.58
+1525,675,2024-09-05,Sports,PayPal,283.5,8,False,0.0
+1526,129,2024-11-28,Electronics,PayPal,102.0,5,False,0.0
+1527,667,2024-08-16,Books,Debit Card,194.71,9,True,20.98
+1528,707,2024-11-16,Beauty,Gift Card,327.58,2,True,1.77
+1529,73,2024-09-14,Sports,Gift Card,347.4,7,True,40.39
+1530,671,2024-11-08,Sports,Credit Card,123.06,9,False,0.0
+1531,10,2024-08-12,Books,Debit Card,452.39,10,False,0.0
+1532,19,2024-07-07,Beauty,PayPal,383.45,5,True,23.3
+1533,428,2024-08-09,Home & Garden,Debit Card,277.91,3,False,0.0
+1534,998,2024-08-24,Home & Garden,Credit Card,436.45,6,False,0.0
+1535,107,2024-06-29,Home & Garden,Credit Card,127.89,3,True,18.16
+1536,334,2024-08-06,Clothing,PayPal,161.73,4,False,0.0
+1537,642,2024-11-28,Books,Debit Card,203.92,7,False,0.0
+1538,726,2024-07-31,Sports,Credit Card,82.84,9,False,0.0
+1539,927,2024-10-27,Books,Debit Card,85.52,7,True,14.44
+1540,657,2024-06-25,Sports,Credit Card,207.93,8,False,0.0
+1541,370,2024-10-22,Clothing,Credit Card,35.25,2,True,48.83
+1542,523,2024-11-12,Sports,Debit Card,165.94,9,True,31.71
+1543,269,2024-07-01,Clothing,PayPal,41.76,2,False,0.0
+1544,262,2024-07-31,Books,Gift Card,307.78,2,False,0.0
+1545,7,2024-10-10,Sports,PayPal,16.39,3,True,41.07
+1546,917,2024-07-18,Books,PayPal,59.9,10,False,0.0
+1547,388,2024-06-27,Sports,Credit Card,93.55,9,True,35.77
+1548,913,2024-08-10,Electronics,Credit Card,142.06,10,False,0.0
+1549,754,2024-07-03,Clothing,PayPal,134.44,1,True,9.92
+1550,475,2024-12-03,Beauty,Debit Card,382.25,1,True,34.5
+1551,944,2024-08-25,Beauty,Gift Card,79.38,1,True,35.02
+1552,358,2024-11-23,Books,Debit Card,357.98,5,True,16.4
+1553,725,2024-12-04,Electronics,Debit Card,382.34,9,True,6.11
+1554,805,2024-10-03,Home & Garden,Gift Card,104.71,1,False,0.0
+1555,736,2024-08-03,Beauty,Gift Card,141.54,1,False,0.0
+1556,275,2024-10-26,Beauty,PayPal,356.64,1,True,38.01
+1557,661,2024-08-04,Electronics,Debit Card,78.92,8,True,44.84
+1558,180,2024-06-20,Home & Garden,Gift Card,88.01,5,True,14.73
+1559,764,2024-08-12,Sports,Credit Card,222.88,8,True,5.9
+1560,780,2024-08-16,Sports,PayPal,490.79,9,False,0.0
+1561,181,2024-08-07,Home & Garden,Credit Card,455.59,1,True,44.4
+1562,896,2024-07-17,Electronics,Gift Card,175.54,7,False,0.0
+1563,658,2024-09-09,Sports,PayPal,313.37,6,False,0.0
+1564,69,2024-07-12,Books,PayPal,79.38,10,False,0.0
+1565,260,2024-09-30,Home & Garden,Gift Card,426.77,5,False,0.0
+1566,864,2024-09-16,Electronics,Gift Card,395.42,10,True,36.72
+1567,712,2024-07-16,Clothing,Credit Card,73.01,1,False,0.0
+1568,540,2024-09-10,Sports,Debit Card,12.93,7,False,0.0
+1569,912,2024-12-05,Electronics,Gift Card,283.44,9,False,0.0
+1570,659,2024-09-08,Books,PayPal,208.64,5,True,4.9
+1571,605,2024-09-02,Clothing,Gift Card,59.41,5,False,0.0
+1572,628,2024-07-23,Beauty,Debit Card,45.64,4,False,0.0
+1573,790,2024-10-20,Beauty,Debit Card,81.34,10,True,22.5
+1574,252,2024-12-12,Electronics,PayPal,424.57,4,False,0.0
+1575,335,2024-12-04,Sports,Credit Card,172.35,1,False,0.0
+1576,86,2024-09-04,Beauty,PayPal,319.94,7,False,0.0
+1577,857,2024-06-22,Beauty,PayPal,136.42,4,False,0.0
+1578,319,2024-07-02,Books,Credit Card,281.63,8,False,0.0
+1579,614,2024-08-05,Home & Garden,Credit Card,38.61,1,False,0.0
+1580,224,2024-08-06,Electronics,Debit Card,38.08,3,True,41.87
+1581,760,2024-06-29,Clothing,Gift Card,45.73,2,True,49.7
+1582,926,2024-12-09,Clothing,Credit Card,235.17,3,False,0.0
+1583,534,2024-07-22,Sports,PayPal,154.21,5,False,0.0
+1584,846,2024-10-01,Beauty,PayPal,350.11,8,True,25.23
+1585,369,2024-07-29,Home & Garden,PayPal,43.41,1,False,0.0
+1586,332,2024-09-10,Home & Garden,Gift Card,12.74,10,True,3.18
+1587,170,2024-11-02,Beauty,Gift Card,363.65,6,True,35.05
+1588,252,2024-09-26,Sports,Debit Card,396.22,2,True,24.03
+1589,385,2024-11-12,Electronics,Debit Card,327.64,10,True,22.35
+1590,419,2024-09-30,Books,PayPal,293.99,1,True,12.46
+1591,18,2024-09-10,Sports,Credit Card,137.29,4,False,0.0
+1592,600,2024-12-12,Electronics,Debit Card,127.61,7,False,0.0
+1593,277,2024-11-24,Beauty,PayPal,11.26,10,False,0.0
+1594,284,2024-10-06,Books,Debit Card,125.67,1,True,24.15
+1595,763,2024-09-19,Home & Garden,Debit Card,441.53,10,False,0.0
+1596,789,2024-10-18,Sports,Gift Card,472.86,3,False,0.0
+1597,624,2024-11-20,Sports,Debit Card,120.51,1,False,0.0
+1598,180,2024-08-10,Home & Garden,Gift Card,103.33,5,True,46.08
+1599,268,2024-12-03,Electronics,PayPal,252.86,9,False,0.0
+1600,908,2024-09-17,Clothing,Gift Card,350.99,6,True,24.24
+1601,423,2024-07-06,Home & Garden,Debit Card,389.11,4,True,29.12
+1602,976,2024-10-29,Clothing,Debit Card,24.55,5,True,38.75
+1603,871,2024-08-23,Electronics,Gift Card,380.25,9,False,0.0
+1604,615,2024-08-30,Home & Garden,Debit Card,474.82,4,True,42.08
+1605,338,2024-08-18,Beauty,Gift Card,110.57,1,True,4.94
+1606,239,2024-08-12,Sports,PayPal,130.77,2,False,0.0
+1607,224,2024-06-27,Beauty,Credit Card,420.65,10,False,0.0
+1608,227,2024-08-13,Home & Garden,Credit Card,310.36,7,True,25.47
+1609,11,2024-06-25,Sports,Debit Card,97.38,3,False,0.0
+1610,622,2024-11-28,Clothing,Credit Card,381.84,8,False,0.0
+1611,246,2024-06-15,Clothing,PayPal,230.27,8,False,0.0
+1612,219,2024-11-09,Electronics,Credit Card,59.35,1,False,0.0
+1613,747,2024-11-10,Books,PayPal,316.66,7,True,15.77
+1614,100,2024-08-10,Electronics,Credit Card,387.44,2,True,48.06
+1615,100,2024-10-13,Sports,Gift Card,460.34,10,True,34.99
+1616,465,2024-10-18,Books,PayPal,167.91,9,False,0.0
+1617,271,2024-07-04,Books,Debit Card,394.11,6,False,0.0
+1618,521,2024-11-02,Electronics,Credit Card,67.04,4,True,34.42
+1619,894,2024-06-24,Electronics,Debit Card,379.09,7,True,9.11
+1620,724,2024-11-11,Home & Garden,Debit Card,148.79,6,True,9.17
+1621,167,2024-09-14,Home & Garden,Credit Card,175.99,7,False,0.0
+1622,587,2024-09-29,Home & Garden,PayPal,116.93,4,False,0.0
+1623,64,2024-09-05,Books,Credit Card,295.6,6,True,18.17
+1624,783,2024-11-02,Home & Garden,Credit Card,85.98,8,False,0.0
+1625,376,2024-07-11,Clothing,Credit Card,408.39,3,False,0.0
+1626,184,2024-07-16,Home & Garden,Debit Card,99.41,10,False,0.0
+1627,948,2024-12-01,Sports,Credit Card,197.89,1,True,32.98
+1628,498,2024-10-04,Beauty,Credit Card,223.51,4,True,39.18
+1629,952,2024-08-15,Electronics,Gift Card,90.15,6,False,0.0
+1630,483,2024-12-08,Clothing,Debit Card,22.43,2,True,37.1
+1631,55,2024-10-23,Sports,Debit Card,226.6,10,True,17.36
+1632,490,2024-11-15,Sports,PayPal,139.84,10,True,14.01
+1633,411,2024-09-20,Electronics,Debit Card,246.23,7,False,0.0
+1634,20,2024-11-14,Electronics,PayPal,421.11,9,True,44.91
+1635,152,2024-10-06,Sports,Gift Card,451.51,8,False,0.0
+1636,582,2024-11-08,Sports,PayPal,45.59,3,False,0.0
+1637,965,2024-12-11,Home & Garden,Gift Card,176.84,2,False,0.0
+1638,108,2024-09-27,Clothing,Credit Card,449.9,5,False,0.0
+1639,704,2024-09-25,Clothing,Debit Card,20.82,3,True,40.83
+1640,912,2024-11-20,Electronics,Debit Card,481.63,6,False,0.0
+1641,84,2024-10-29,Beauty,Debit Card,167.35,1,False,0.0
+1642,179,2024-09-09,Clothing,Gift Card,364.46,8,True,35.9
+1643,966,2024-09-20,Beauty,Gift Card,286.78,4,False,0.0
+1644,793,2024-10-06,Electronics,Gift Card,138.6,8,True,41.27
+1645,427,2024-08-12,Beauty,PayPal,117.73,1,False,0.0
+1646,901,2024-09-20,Books,Credit Card,185.88,10,True,29.73
+1647,489,2024-11-18,Sports,Debit Card,305.02,4,True,13.1
+1648,625,2024-10-14,Sports,Debit Card,170.43,3,True,24.52
+1649,352,2024-10-14,Books,Debit Card,347.35,1,True,12.48
+1650,117,2024-09-16,Home & Garden,Credit Card,471.09,5,False,0.0
+1651,283,2024-07-10,Clothing,Credit Card,290.36,1,False,0.0
+1652,446,2024-07-25,Clothing,PayPal,52.35,9,True,39.44
+1653,199,2024-06-17,Electronics,Debit Card,48.86,7,True,7.4
+1654,130,2024-10-20,Beauty,Credit Card,103.06,7,False,0.0
+1655,424,2024-08-19,Sports,Credit Card,225.23,7,True,27.64
+1656,710,2024-10-09,Books,Debit Card,496.38,6,True,32.83
+1657,342,2024-11-05,Electronics,Debit Card,103.35,5,False,0.0
+1658,162,2024-07-12,Sports,PayPal,223.41,1,False,0.0
+1659,77,2024-10-27,Home & Garden,Gift Card,345.86,1,False,0.0
+1660,977,2024-10-24,Books,Debit Card,266.1,8,False,0.0
+1661,224,2024-11-13,Sports,PayPal,483.61,5,False,0.0
+1662,125,2024-09-09,Books,Credit Card,485.93,5,False,0.0
+1663,209,2024-10-31,Clothing,PayPal,497.95,10,True,20.47
+1664,754,2024-07-13,Home & Garden,Gift Card,444.93,8,True,44.25
+1665,482,2024-07-28,Clothing,Debit Card,221.83,2,True,21.73
+1666,978,2024-08-19,Beauty,Gift Card,56.71,2,False,0.0
+1667,913,2024-08-31,Electronics,Gift Card,398.38,4,True,17.69
+1668,89,2024-09-22,Home & Garden,Debit Card,258.69,9,True,46.77
+1669,549,2024-09-23,Clothing,Debit Card,303.35,5,True,0.33
+1670,583,2024-09-26,Clothing,Gift Card,449.62,10,True,12.86
+1671,752,2024-07-17,Electronics,Credit Card,88.27,9,True,4.89
+1672,971,2024-06-27,Electronics,PayPal,292.29,6,True,30.77
+1673,775,2024-09-15,Electronics,PayPal,168.53,6,True,41.69
+1674,621,2024-11-24,Home & Garden,Gift Card,111.04,7,False,0.0
+1675,367,2024-07-05,Home & Garden,PayPal,409.02,7,False,0.0
+1676,601,2024-09-08,Home & Garden,Credit Card,140.33,6,True,47.86
+1677,762,2024-11-23,Beauty,Debit Card,178.7,2,False,0.0
+1678,303,2024-09-17,Electronics,PayPal,240.29,9,True,33.19
+1679,278,2024-06-23,Clothing,Gift Card,377.48,10,False,0.0
+1680,473,2024-11-20,Books,Debit Card,131.34,2,True,45.77
+1681,863,2024-07-13,Books,Debit Card,48.29,8,True,36.37
+1682,41,2024-08-04,Clothing,PayPal,412.52,9,True,46.51
+1683,43,2024-12-05,Electronics,Credit Card,72.82,3,False,0.0
+1684,402,2024-07-16,Books,Gift Card,408.81,6,True,30.14
+1685,797,2024-06-28,Clothing,Credit Card,404.15,7,False,0.0
+1686,307,2024-07-25,Clothing,PayPal,127.6,2,True,42.51
+1687,372,2024-10-20,Home & Garden,Debit Card,212.48,8,True,26.75
+1688,911,2024-06-27,Home & Garden,Gift Card,479.93,10,False,0.0
+1689,542,2024-08-08,Electronics,Gift Card,333.89,3,False,0.0
+1690,479,2024-09-12,Books,Debit Card,359.81,5,False,0.0
+1691,962,2024-08-18,Books,Credit Card,175.05,6,True,36.75
+1692,952,2024-10-10,Books,Debit Card,312.45,4,True,26.3
+1693,835,2024-09-05,Home & Garden,Credit Card,444.51,2,False,0.0
+1694,180,2024-07-09,Electronics,Gift Card,374.54,9,True,4.16
+1695,401,2024-09-28,Books,Gift Card,203.95,10,True,42.64
+1696,442,2024-10-21,Sports,Gift Card,27.45,1,True,48.42
+1697,947,2024-06-19,Clothing,Debit Card,153.89,3,False,0.0
+1698,843,2024-07-23,Electronics,Gift Card,294.9,3,True,15.4
+1699,91,2024-12-08,Sports,PayPal,361.24,1,True,11.76
+1700,464,2024-11-03,Electronics,Credit Card,80.34,2,True,36.76
+1701,732,2024-12-11,Sports,PayPal,124.86,6,False,0.0
+1702,295,2024-07-30,Books,Gift Card,362.67,2,True,38.76
+1703,768,2024-11-21,Clothing,PayPal,252.86,10,False,0.0
+1704,441,2024-11-27,Electronics,Credit Card,441.13,4,False,0.0
+1705,386,2024-10-19,Sports,Gift Card,478.66,7,False,0.0
+1706,851,2024-11-19,Home & Garden,Credit Card,185.04,8,True,14.12
+1707,930,2024-07-20,Books,Credit Card,312.4,3,True,44.93
+1708,59,2024-12-06,Books,Credit Card,227.05,8,True,14.75
+1709,784,2024-08-31,Sports,Debit Card,36.86,8,False,0.0
+1710,7,2024-09-16,Clothing,Credit Card,461.15,3,True,17.57
+1711,309,2024-08-16,Sports,Credit Card,191.35,9,True,48.96
+1712,150,2024-07-21,Electronics,Gift Card,47.59,8,False,0.0
+1713,826,2024-07-23,Electronics,PayPal,413.88,5,True,25.12
+1714,58,2024-07-17,Electronics,Credit Card,317.14,9,False,0.0
+1715,736,2024-10-09,Beauty,Debit Card,356.32,8,False,0.0
+1716,590,2024-12-08,Beauty,Credit Card,73.69,2,True,48.65
+1717,316,2024-10-23,Home & Garden,Gift Card,104.46,1,True,9.78
+1718,275,2024-07-18,Books,PayPal,278.95,1,False,0.0
+1719,671,2024-09-15,Books,PayPal,187.07,6,False,0.0
+1720,260,2024-07-23,Sports,Credit Card,236.93,6,True,13.47
+1721,361,2024-07-13,Sports,Gift Card,177.43,6,True,15.47
+1722,192,2024-08-20,Home & Garden,Gift Card,373.28,10,True,35.39
+1723,802,2024-10-13,Sports,Credit Card,232.59,4,False,0.0
+1724,253,2024-10-28,Beauty,Credit Card,165.99,1,True,32.82
+1725,203,2024-08-20,Beauty,Credit Card,223.75,6,False,0.0
+1726,834,2024-10-03,Books,Credit Card,242.66,1,False,0.0
+1727,86,2024-11-24,Books,PayPal,134.4,2,True,43.64
+1728,131,2024-11-11,Books,PayPal,378.04,6,False,0.0
+1729,130,2024-08-30,Sports,PayPal,304.06,7,False,0.0
+1730,147,2024-09-04,Clothing,Credit Card,286.18,9,False,0.0
+1731,646,2024-08-09,Books,Gift Card,256.89,8,True,31.6
+1732,556,2024-09-29,Books,Credit Card,245.19,6,False,0.0
+1733,888,2024-06-21,Sports,Credit Card,435.06,8,False,0.0
+1734,787,2024-09-19,Electronics,Debit Card,336.51,2,True,13.88
+1735,969,2024-09-02,Sports,Debit Card,391.03,2,False,0.0
+1736,308,2024-07-09,Clothing,PayPal,365.51,5,True,26.23
+1737,803,2024-10-12,Beauty,PayPal,332.24,7,False,0.0
+1738,395,2024-11-12,Home & Garden,Credit Card,146.68,3,False,0.0
+1739,397,2024-10-20,Clothing,Debit Card,181.52,10,False,0.0
+1740,361,2024-06-21,Beauty,Gift Card,214.83,10,False,0.0
+1741,621,2024-11-29,Books,PayPal,136.6,8,True,49.11
+1742,51,2024-09-24,Beauty,Credit Card,260.59,5,True,5.88
+1743,914,2024-07-20,Clothing,Gift Card,177.6,3,False,0.0
+1744,370,2024-09-08,Home & Garden,Credit Card,495.34,1,True,5.52
+1745,219,2024-12-09,Home & Garden,Gift Card,297.58,6,False,0.0
+1746,606,2024-12-10,Home & Garden,Gift Card,477.9,2,True,48.8
+1747,131,2024-08-09,Beauty,Gift Card,181.98,8,False,0.0
+1748,134,2024-11-26,Sports,Gift Card,155.53,5,False,0.0
+1749,902,2024-11-08,Home & Garden,Credit Card,240.82,5,False,0.0
+1750,60,2024-09-13,Beauty,Credit Card,129.75,1,True,43.31
+1751,458,2024-08-11,Home & Garden,Gift Card,479.07,6,True,4.9
+1752,395,2024-08-05,Sports,PayPal,119.44,2,False,0.0
+1753,313,2024-11-04,Sports,PayPal,147.21,10,True,36.79
+1754,359,2024-06-27,Books,Credit Card,415.74,9,False,0.0
+1755,400,2024-10-08,Clothing,Debit Card,479.17,1,True,2.08
+1756,338,2024-12-08,Books,Debit Card,475.56,5,False,0.0
+1757,112,2024-07-07,Home & Garden,Gift Card,348.26,6,True,49.88
+1758,151,2024-08-31,Sports,PayPal,115.81,10,True,5.96
+1759,705,2024-07-03,Home & Garden,Credit Card,431.15,9,False,0.0
+1760,347,2024-10-13,Home & Garden,PayPal,48.12,9,True,0.71
+1761,190,2024-11-15,Clothing,Credit Card,319.01,4,False,0.0
+1762,35,2024-12-06,Books,PayPal,422.11,7,False,0.0
+1763,933,2024-06-20,Electronics,Credit Card,88.8,10,False,0.0
+1764,816,2024-11-24,Books,Credit Card,436.95,10,True,3.75
+1765,257,2024-07-14,Home & Garden,Debit Card,407.87,2,False,0.0
+1766,402,2024-11-30,Clothing,Debit Card,356.47,6,True,41.29
+1767,36,2024-07-11,Beauty,Debit Card,181.28,7,True,2.84
+1768,993,2024-10-23,Beauty,PayPal,162.61,8,False,0.0
+1769,338,2024-07-22,Books,PayPal,71.35,6,False,0.0
+1770,77,2024-09-18,Sports,PayPal,27.22,2,True,42.94
+1771,670,2024-07-24,Clothing,Credit Card,95.09,6,False,0.0
+1772,45,2024-10-03,Electronics,Credit Card,332.92,9,True,39.39
+1773,797,2024-09-30,Electronics,Credit Card,347.52,8,True,0.78
+1774,104,2024-10-31,Beauty,Credit Card,388.13,2,False,0.0
+1775,398,2024-09-09,Electronics,Debit Card,490.91,1,True,40.14
+1776,550,2024-11-12,Clothing,Gift Card,448.52,5,False,0.0
+1777,235,2024-12-02,Books,Gift Card,454.68,6,True,5.83
+1778,187,2024-11-13,Home & Garden,Debit Card,324.61,1,True,16.57
+1779,632,2024-10-27,Books,Credit Card,451.2,4,False,0.0
+1780,502,2024-09-27,Beauty,Gift Card,292.25,7,False,0.0
+1781,876,2024-10-11,Clothing,Debit Card,249.95,9,True,15.96
+1782,114,2024-12-02,Books,Debit Card,33.44,2,False,0.0
+1783,268,2024-08-19,Electronics,Credit Card,440.16,2,False,0.0
+1784,439,2024-09-29,Sports,Debit Card,25.21,6,True,11.59
+1785,577,2024-10-17,Home & Garden,Credit Card,326.56,2,False,0.0
+1786,632,2024-08-24,Books,Debit Card,132.93,5,False,0.0
+1787,156,2024-09-23,Sports,PayPal,256.37,9,False,0.0
+1788,269,2024-12-07,Electronics,Credit Card,174.59,7,False,0.0
+1789,502,2024-11-26,Beauty,PayPal,232.53,4,False,0.0
+1790,740,2024-10-06,Clothing,PayPal,305.9,1,False,0.0
+1791,971,2024-08-18,Books,Debit Card,197.27,4,False,0.0
+1792,549,2024-11-17,Clothing,Gift Card,153.9,10,False,0.0
+1793,158,2024-09-23,Sports,Debit Card,213.0,10,False,0.0
+1794,59,2024-09-24,Sports,Credit Card,494.54,8,True,8.22
+1795,567,2024-06-21,Beauty,Credit Card,78.1,3,True,45.01
+1796,648,2024-09-14,Electronics,Credit Card,146.58,10,True,12.67
+1797,853,2024-09-15,Beauty,Gift Card,428.79,9,True,16.82
+1798,164,2024-09-17,Books,PayPal,467.05,6,False,0.0
+1799,780,2024-12-07,Clothing,Debit Card,18.12,3,False,0.0
+1800,127,2024-08-05,Sports,Credit Card,168.71,8,True,32.86
+1801,308,2024-11-18,Clothing,PayPal,122.4,2,False,0.0
+1802,299,2024-09-21,Home & Garden,Debit Card,387.62,1,True,14.84
+1803,418,2024-11-06,Home & Garden,Debit Card,53.88,5,True,12.5
+1804,660,2024-08-02,Sports,Credit Card,244.01,4,False,0.0
+1805,119,2024-09-16,Books,Debit Card,337.05,6,True,40.09
+1806,186,2024-11-26,Beauty,Debit Card,355.27,4,True,7.92
+1807,160,2024-09-19,Beauty,Debit Card,86.2,10,False,0.0
+1808,129,2024-08-19,Home & Garden,PayPal,31.75,7,False,0.0
+1809,878,2024-11-29,Books,Debit Card,199.68,4,True,42.25
+1810,310,2024-09-02,Books,Debit Card,320.03,10,False,0.0
+1811,103,2024-11-30,Clothing,Gift Card,413.44,6,False,0.0
+1812,346,2024-11-21,Home & Garden,Gift Card,303.21,4,False,0.0
+1813,218,2024-09-09,Home & Garden,Debit Card,333.66,1,True,36.12
+1814,239,2024-06-30,Books,PayPal,245.71,9,False,0.0
+1815,325,2024-09-12,Beauty,Debit Card,289.43,8,True,45.53
+1816,770,2024-10-29,Home & Garden,Credit Card,158.43,8,False,0.0
+1817,375,2024-08-28,Home & Garden,Credit Card,373.64,10,True,22.9
+1818,904,2024-10-03,Home & Garden,PayPal,215.95,7,False,0.0
+1819,285,2024-11-06,Electronics,Credit Card,417.18,2,False,0.0
+1820,94,2024-11-13,Books,Credit Card,52.18,1,False,0.0
+1821,201,2024-07-30,Home & Garden,Debit Card,284.43,3,False,0.0
+1822,182,2024-09-28,Beauty,Debit Card,124.92,10,False,0.0
+1823,729,2024-07-13,Home & Garden,Debit Card,52.34,1,True,41.75
+1824,484,2024-07-09,Clothing,Gift Card,452.12,9,True,24.61
+1825,313,2024-08-10,Sports,Credit Card,450.98,2,True,16.28
+1826,591,2024-06-27,Books,PayPal,178.59,10,False,0.0
+1827,41,2024-10-20,Beauty,Gift Card,154.32,10,False,0.0
+1828,422,2024-07-07,Clothing,PayPal,456.12,6,True,7.96
+1829,107,2024-06-17,Home & Garden,Debit Card,354.19,5,False,0.0
+1830,646,2024-07-28,Beauty,Debit Card,238.14,5,True,12.85
+1831,786,2024-10-11,Electronics,Credit Card,330.14,7,False,0.0
+1832,994,2024-07-02,Sports,Credit Card,210.4,2,False,0.0
+1833,432,2024-10-19,Home & Garden,Debit Card,64.07,10,False,0.0
+1834,108,2024-09-22,Clothing,Gift Card,149.03,3,False,0.0
+1835,339,2024-08-19,Sports,Debit Card,483.09,6,False,0.0
+1836,547,2024-11-21,Sports,PayPal,161.4,1,True,40.63
+1837,601,2024-08-17,Books,Debit Card,146.01,3,False,0.0
+1838,308,2024-12-10,Clothing,Gift Card,156.04,10,False,0.0
+1839,810,2024-08-14,Clothing,Debit Card,238.06,6,False,0.0
+1840,248,2024-07-29,Electronics,Gift Card,193.66,8,True,25.08
+1841,539,2024-11-25,Books,Gift Card,156.09,6,True,44.22
+1842,620,2024-08-10,Beauty,Debit Card,40.4,2,True,39.31
+1843,517,2024-11-01,Books,Gift Card,121.32,2,True,17.43
+1844,697,2024-11-23,Clothing,PayPal,482.04,9,False,0.0
+1845,138,2024-08-27,Beauty,Credit Card,470.13,3,True,16.71
+1846,256,2024-10-28,Books,Credit Card,255.84,2,False,0.0
+1847,717,2024-09-12,Electronics,Credit Card,92.46,2,False,0.0
+1848,818,2024-07-24,Sports,Debit Card,408.44,5,True,16.21
+1849,814,2024-06-24,Sports,Gift Card,299.7,2,False,0.0
+1850,914,2024-10-18,Sports,PayPal,386.12,7,False,0.0
+1851,150,2024-11-20,Electronics,Gift Card,460.3,6,True,8.21
+1852,905,2024-10-06,Clothing,PayPal,123.73,5,True,26.43
+1853,420,2024-07-26,Beauty,Gift Card,165.82,7,True,2.93
+1854,816,2024-10-03,Beauty,PayPal,198.62,7,True,33.55
+1855,707,2024-11-24,Clothing,Credit Card,346.48,1,True,19.23
+1856,310,2024-11-07,Electronics,Credit Card,371.37,5,True,40.05
+1857,860,2024-07-26,Books,Gift Card,12.9,9,True,31.4
+1858,680,2024-07-10,Electronics,Gift Card,364.97,4,False,0.0
+1859,923,2024-06-22,Clothing,Gift Card,113.21,5,False,0.0
+1860,318,2024-10-26,Clothing,Debit Card,147.04,4,False,0.0
+1861,566,2024-07-30,Home & Garden,Gift Card,271.0,7,True,33.55
+1862,508,2024-08-20,Electronics,Gift Card,125.96,7,False,0.0
+1863,267,2024-08-24,Clothing,Debit Card,100.09,6,False,0.0
+1864,121,2024-09-11,Clothing,PayPal,75.94,3,False,0.0
+1865,18,2024-07-15,Electronics,Gift Card,28.97,2,True,48.92
+1866,772,2024-09-01,Books,Gift Card,59.42,4,True,22.29
+1867,78,2024-11-07,Beauty,Gift Card,203.85,10,True,31.08
+1868,644,2024-12-01,Clothing,Gift Card,277.44,3,False,0.0
+1869,986,2024-07-07,Home & Garden,Credit Card,38.78,9,False,0.0
+1870,482,2024-07-18,Sports,Debit Card,203.64,7,True,10.24
+1871,98,2024-09-10,Sports,Debit Card,455.71,5,False,0.0
+1872,826,2024-11-08,Electronics,PayPal,235.79,9,True,31.14
+1873,546,2024-08-30,Sports,Debit Card,125.23,10,True,37.93
+1874,423,2024-07-10,Clothing,Gift Card,228.05,6,False,0.0
+1875,951,2024-11-16,Electronics,Gift Card,197.1,7,True,38.77
+1876,953,2024-08-06,Books,Gift Card,253.01,2,True,49.66
+1877,190,2024-12-10,Electronics,Debit Card,419.16,6,True,5.78
+1878,990,2024-10-16,Sports,Debit Card,343.52,9,True,35.88
+1879,908,2024-08-16,Clothing,Credit Card,254.71,4,True,28.53
+1880,117,2024-07-05,Beauty,PayPal,405.81,2,False,0.0
+1881,860,2024-08-18,Beauty,Gift Card,174.3,4,True,37.98
+1882,803,2024-06-28,Clothing,PayPal,394.05,2,True,1.8
+1883,750,2024-11-24,Beauty,Debit Card,249.52,6,True,11.25
+1884,678,2024-11-19,Electronics,PayPal,315.87,8,False,0.0
+1885,818,2024-07-23,Books,PayPal,498.45,2,True,11.49
+1886,915,2024-06-23,Electronics,PayPal,183.43,3,False,0.0
+1887,817,2024-08-24,Clothing,Debit Card,278.49,7,False,0.0
+1888,407,2024-11-30,Clothing,Gift Card,191.3,7,False,0.0
+1889,42,2024-09-15,Clothing,Gift Card,397.07,4,True,20.99
+1890,111,2024-08-31,Books,Credit Card,115.14,4,False,0.0
+1891,177,2024-07-20,Home & Garden,Credit Card,461.17,4,True,12.66
+1892,22,2024-06-23,Home & Garden,Gift Card,450.72,6,True,39.22
+1893,595,2024-09-29,Beauty,Debit Card,137.1,9,True,45.48
+1894,149,2024-06-15,Beauty,Credit Card,94.42,1,True,13.86
+1895,855,2024-09-19,Books,Gift Card,329.19,2,True,41.06
+1896,886,2024-08-03,Electronics,Credit Card,277.32,10,False,0.0
+1897,69,2024-10-10,Clothing,PayPal,464.09,2,True,40.01
+1898,869,2024-06-17,Electronics,PayPal,290.47,3,True,47.81
+1899,196,2024-08-27,Sports,Debit Card,426.54,1,False,0.0
+1900,641,2024-12-01,Home & Garden,Gift Card,125.63,2,True,17.37
+1901,245,2024-09-08,Beauty,PayPal,364.95,3,True,35.87
+1902,103,2024-08-18,Home & Garden,Credit Card,445.15,1,True,11.44
+1903,584,2024-09-08,Clothing,Debit Card,126.6,6,True,35.74
+1904,591,2024-10-17,Beauty,PayPal,95.46,10,False,0.0
+1905,282,2024-11-10,Sports,PayPal,191.74,6,True,28.39
+1906,279,2024-09-14,Beauty,Credit Card,409.36,6,True,25.18
+1907,644,2024-06-30,Clothing,Credit Card,425.03,3,True,2.61
+1908,575,2024-07-27,Books,Credit Card,303.3,6,True,32.44
+1909,840,2024-10-06,Home & Garden,PayPal,160.71,3,False,0.0
+1910,725,2024-07-03,Clothing,Credit Card,200.65,10,False,0.0
+1911,897,2024-08-05,Clothing,Gift Card,350.69,1,True,38.62
+1912,382,2024-09-12,Home & Garden,Credit Card,252.06,7,False,0.0
+1913,617,2024-07-29,Clothing,Debit Card,35.35,9,False,0.0
+1914,353,2024-10-26,Electronics,Gift Card,199.27,7,True,30.19
+1915,375,2024-07-28,Home & Garden,PayPal,379.49,8,False,0.0
+1916,166,2024-08-27,Home & Garden,PayPal,369.48,10,False,0.0
+1917,304,2024-09-02,Beauty,PayPal,418.01,10,False,0.0
+1918,179,2024-10-22,Electronics,Credit Card,96.21,5,False,0.0
+1919,551,2024-11-21,Sports,Debit Card,75.28,1,False,0.0
+1920,454,2024-08-06,Electronics,Credit Card,380.46,6,True,48.61
+1921,872,2024-11-02,Clothing,Debit Card,176.12,7,False,0.0
+1922,991,2024-07-24,Books,PayPal,465.26,8,False,0.0
+1923,349,2024-09-29,Electronics,Gift Card,143.68,2,True,26.18
+1924,475,2024-10-13,Sports,Gift Card,41.49,4,False,0.0
+1925,949,2024-11-24,Beauty,Credit Card,146.56,5,True,42.53
+1926,798,2024-07-09,Electronics,Credit Card,120.75,9,False,0.0
+1927,369,2024-09-18,Sports,Debit Card,81.17,7,True,31.45
+1928,471,2024-11-09,Beauty,Gift Card,95.08,1,True,28.98
+1929,774,2024-11-22,Beauty,Debit Card,373.55,5,False,0.0
+1930,475,2024-10-07,Clothing,Gift Card,97.44,8,True,10.39
+1931,119,2024-09-13,Clothing,Debit Card,335.0,8,False,0.0
+1932,385,2024-08-14,Clothing,Debit Card,196.38,8,True,15.53
+1933,281,2024-07-14,Books,Debit Card,145.49,5,True,41.75
+1934,138,2024-07-23,Books,Debit Card,78.05,5,False,0.0
+1935,692,2024-11-24,Books,Credit Card,20.48,6,False,0.0
+1936,749,2024-08-21,Electronics,Credit Card,365.16,4,False,0.0
+1937,528,2024-06-16,Sports,Credit Card,244.55,1,True,41.43
+1938,267,2024-10-20,Electronics,Gift Card,126.47,10,True,5.54
+1939,221,2024-08-19,Electronics,Gift Card,302.95,4,False,0.0
+1940,45,2024-12-06,Beauty,Gift Card,34.54,10,True,37.13
+1941,38,2024-11-18,Clothing,PayPal,266.1,9,False,0.0
+1942,916,2024-10-15,Sports,Credit Card,99.75,2,True,48.44
+1943,56,2024-09-23,Electronics,Debit Card,426.55,3,True,24.03
+1944,607,2024-11-01,Electronics,Debit Card,401.46,2,False,0.0
+1945,664,2024-11-20,Clothing,Debit Card,260.77,4,True,27.51
+1946,357,2024-10-16,Home & Garden,PayPal,265.33,4,False,0.0
+1947,518,2024-11-09,Beauty,PayPal,205.01,2,False,0.0
+1948,62,2024-06-24,Sports,Gift Card,202.67,8,False,0.0
+1949,256,2024-12-01,Sports,Debit Card,410.0,1,True,27.07
+1950,426,2024-06-19,Books,PayPal,228.84,2,False,0.0
+1951,707,2024-07-27,Beauty,Credit Card,268.44,3,False,0.0
+1952,418,2024-08-29,Electronics,Debit Card,195.43,3,True,46.74
+1953,206,2024-08-03,Sports,PayPal,310.98,9,False,0.0
+1954,764,2024-11-09,Electronics,Debit Card,394.27,6,False,0.0
+1955,639,2024-09-26,Electronics,Credit Card,275.04,6,True,41.38
+1956,793,2024-10-31,Clothing,PayPal,448.73,8,False,0.0
+1957,379,2024-11-11,Clothing,Credit Card,179.08,2,False,0.0
+1958,22,2024-10-08,Home & Garden,Gift Card,374.27,6,False,0.0
+1959,268,2024-07-21,Sports,PayPal,84.65,1,False,0.0
+1960,608,2024-09-27,Electronics,PayPal,263.44,4,True,7.51
+1961,759,2024-09-30,Clothing,Debit Card,440.74,2,False,0.0
+1962,977,2024-10-20,Electronics,Debit Card,180.37,3,False,0.0
+1963,89,2024-11-30,Books,Gift Card,33.74,6,False,0.0
+1964,488,2024-08-02,Sports,Debit Card,259.84,7,False,0.0
+1965,28,2024-08-16,Sports,Credit Card,172.4,4,True,1.16
+1966,915,2024-08-10,Sports,Gift Card,150.94,5,True,21.78
+1967,195,2024-07-27,Clothing,Gift Card,251.19,10,True,24.76
+1968,600,2024-08-02,Sports,Credit Card,336.86,4,False,0.0
+1969,156,2024-07-30,Sports,PayPal,72.91,7,True,45.41
+1970,208,2024-08-15,Books,Credit Card,454.75,8,False,0.0
+1971,723,2024-08-24,Beauty,Debit Card,130.14,6,True,40.2
+1972,151,2024-12-08,Sports,Credit Card,483.31,10,False,0.0
+1973,161,2024-09-26,Books,Debit Card,409.64,2,True,28.69
+1974,944,2024-07-09,Home & Garden,Credit Card,43.36,4,True,14.79
+1975,307,2024-07-11,Home & Garden,PayPal,163.84,8,False,0.0
+1976,644,2024-09-14,Electronics,Debit Card,252.69,6,True,41.05
+1977,814,2024-10-04,Books,PayPal,350.85,10,True,35.35
+1978,178,2024-08-29,Beauty,Gift Card,343.69,8,False,0.0
+1979,887,2024-08-12,Beauty,Credit Card,476.97,1,False,0.0
+1980,335,2024-11-27,Electronics,Debit Card,388.08,3,False,0.0
+1981,354,2024-07-08,Clothing,Gift Card,117.87,2,False,0.0
+1982,628,2024-09-15,Beauty,Credit Card,382.91,7,False,0.0
+1983,494,2024-09-23,Sports,PayPal,257.1,3,False,0.0
+1984,451,2024-09-01,Beauty,Debit Card,466.83,8,False,0.0
+1985,260,2024-10-11,Home & Garden,Credit Card,460.38,8,False,0.0
+1986,159,2024-08-20,Sports,Credit Card,56.52,5,False,0.0
+1987,192,2024-08-11,Electronics,Debit Card,281.47,10,False,0.0
+1988,481,2024-08-01,Sports,Credit Card,326.76,2,False,0.0
+1989,959,2024-11-18,Books,Debit Card,338.12,7,True,37.22
+1990,925,2024-12-04,Sports,Gift Card,22.13,5,True,2.39
+1991,361,2024-11-22,Sports,Credit Card,418.8,1,True,10.52
+1992,5,2024-07-06,Clothing,Gift Card,389.57,10,False,0.0
+1993,362,2024-06-26,Home & Garden,Debit Card,185.49,9,False,0.0
+1994,165,2024-09-19,Sports,Debit Card,256.31,3,False,0.0
+1995,265,2024-10-20,Books,Gift Card,113.49,6,True,21.92
+1996,317,2024-11-13,Sports,Credit Card,169.7,5,True,43.48
+1997,317,2024-07-04,Home & Garden,Gift Card,369.47,5,False,0.0
+1998,751,2024-08-16,Books,Credit Card,232.86,4,True,22.59
+1999,500,2024-11-20,Home & Garden,Debit Card,433.01,4,False,0.0
+2000,737,2024-07-03,Books,PayPal,243.84,9,True,31.52
+2001,14,2024-09-21,Beauty,Debit Card,332.41,2,True,43.37
+2002,724,2024-11-12,Home & Garden,Credit Card,10.24,9,False,0.0
+2003,330,2024-11-30,Books,Gift Card,294.42,4,False,0.0
+2004,591,2024-11-20,Sports,PayPal,416.54,4,True,37.75
+2005,759,2024-08-10,Home & Garden,Gift Card,166.54,10,False,0.0
+2006,278,2024-08-29,Home & Garden,PayPal,275.51,9,False,0.0
+2007,579,2024-11-21,Clothing,Gift Card,336.15,8,True,20.53
+2008,797,2024-07-18,Sports,PayPal,208.76,9,True,24.28
+2009,593,2024-07-23,Electronics,Debit Card,272.92,9,False,0.0
+2010,571,2024-09-30,Beauty,PayPal,38.02,4,True,9.69
+2011,125,2024-10-09,Electronics,PayPal,329.97,1,True,17.23
+2012,385,2024-11-10,Sports,Gift Card,120.8,4,True,26.11
+2013,781,2024-07-22,Books,Credit Card,331.4,8,False,0.0
+2014,122,2024-09-04,Clothing,PayPal,235.67,7,False,0.0
+2015,349,2024-11-10,Beauty,Debit Card,444.91,5,True,45.34
+2016,520,2024-11-17,Electronics,Gift Card,65.92,9,True,0.87
+2017,362,2024-11-25,Sports,Credit Card,442.01,6,False,0.0
+2018,260,2024-08-15,Beauty,Debit Card,228.54,4,False,0.0
+2019,761,2024-08-14,Beauty,PayPal,278.28,1,False,0.0
+2020,684,2024-07-21,Clothing,Credit Card,275.05,7,False,0.0
+2021,817,2024-10-09,Sports,Gift Card,378.02,9,False,0.0
+2022,373,2024-07-16,Books,Credit Card,123.56,10,True,23.82
+2023,985,2024-08-04,Clothing,Credit Card,356.79,6,False,0.0
+2024,807,2024-11-13,Books,PayPal,472.15,7,True,7.24
+2025,245,2024-11-20,Beauty,Gift Card,128.63,8,True,39.55
+2026,212,2024-10-03,Sports,Gift Card,467.2,9,True,14.11
+2027,802,2024-12-12,Beauty,Credit Card,453.88,2,True,5.73
+2028,785,2024-10-17,Home & Garden,PayPal,33.72,9,False,0.0
+2029,903,2024-10-09,Books,Credit Card,423.55,10,True,5.52
+2030,400,2024-11-10,Sports,PayPal,405.32,8,True,0.95
+2031,350,2024-10-22,Sports,Credit Card,226.18,5,True,28.38
+2032,853,2024-11-29,Books,Credit Card,352.75,3,False,0.0
+2033,650,2024-09-10,Clothing,PayPal,144.26,4,False,0.0
+2034,981,2024-11-14,Books,Gift Card,383.64,10,True,17.91
+2035,286,2024-06-19,Beauty,Debit Card,131.56,5,False,0.0
+2036,66,2024-11-12,Electronics,PayPal,113.14,8,False,0.0
+2037,72,2024-07-14,Sports,Debit Card,52.98,8,True,33.97
+2038,465,2024-08-21,Electronics,Gift Card,459.82,4,True,42.57
+2039,773,2024-09-09,Electronics,Gift Card,321.31,3,False,0.0
+2040,968,2024-07-20,Beauty,Gift Card,131.69,6,True,6.55
+2041,368,2024-07-01,Clothing,PayPal,378.18,4,False,0.0
+2042,205,2024-07-01,Beauty,Debit Card,298.29,7,True,43.66
+2043,364,2024-08-31,Clothing,Debit Card,215.05,4,True,1.03
+2044,517,2024-07-24,Beauty,Debit Card,241.77,8,True,41.76
+2045,618,2024-07-07,Beauty,Gift Card,133.34,6,False,0.0
+2046,843,2024-09-30,Beauty,Debit Card,314.55,7,False,0.0
+2047,315,2024-10-23,Clothing,Debit Card,412.11,5,False,0.0
+2048,950,2024-11-27,Electronics,PayPal,432.8,5,False,0.0
+2049,368,2024-11-08,Beauty,Debit Card,393.93,6,False,0.0
+2050,785,2024-08-19,Books,Debit Card,237.66,4,False,0.0
+2051,222,2024-11-23,Home & Garden,Credit Card,90.71,8,False,0.0
+2052,555,2024-06-27,Clothing,Gift Card,191.95,7,False,0.0
+2053,423,2024-08-15,Clothing,Debit Card,242.17,5,True,12.05
+2054,31,2024-11-15,Books,PayPal,142.75,7,True,21.57
+2055,1,2024-11-12,Sports,Debit Card,37.45,6,True,37.55
+2056,484,2024-09-05,Beauty,Gift Card,270.59,10,False,0.0
+2057,673,2024-10-01,Beauty,PayPal,460.01,6,True,38.21
+2058,190,2024-10-18,Beauty,Debit Card,29.56,9,True,8.3
+2059,977,2024-09-09,Sports,Credit Card,93.96,2,False,0.0
+2060,122,2024-08-30,Beauty,Credit Card,294.24,5,True,6.52
+2061,194,2024-07-07,Clothing,PayPal,308.59,1,False,0.0
+2062,449,2024-08-29,Beauty,Debit Card,198.95,3,False,0.0
+2063,414,2024-08-04,Electronics,PayPal,343.41,2,False,0.0
+2064,855,2024-11-15,Clothing,Gift Card,164.05,10,False,0.0
+2065,314,2024-11-25,Sports,Gift Card,379.26,2,True,41.32
+2066,29,2024-12-07,Home & Garden,PayPal,101.82,10,False,0.0
+2067,234,2024-06-23,Home & Garden,Debit Card,213.86,7,True,16.66
+2068,895,2024-12-11,Beauty,Debit Card,155.92,4,True,34.6
+2069,518,2024-11-06,Sports,Debit Card,92.35,10,True,35.32
+2070,702,2024-10-21,Home & Garden,Credit Card,252.07,4,False,0.0
+2071,551,2024-11-25,Clothing,Gift Card,156.65,10,False,0.0
+2072,863,2024-08-15,Books,Debit Card,372.34,1,True,34.1
+2073,525,2024-12-10,Beauty,Debit Card,448.15,1,True,46.84
+2074,967,2024-11-07,Electronics,Credit Card,118.07,5,False,0.0
+2075,262,2024-10-29,Beauty,Debit Card,447.89,2,True,8.33
+2076,191,2024-07-06,Electronics,Gift Card,374.08,8,True,7.83
+2077,152,2024-08-30,Clothing,Debit Card,490.55,3,True,24.1
+2078,190,2024-11-04,Beauty,Credit Card,253.66,4,False,0.0
+2079,653,2024-07-04,Clothing,Gift Card,302.92,4,False,0.0
+2080,703,2024-06-28,Sports,PayPal,64.11,2,False,0.0
+2081,586,2024-09-11,Electronics,PayPal,231.36,8,True,29.3
+2082,679,2024-08-19,Clothing,Gift Card,476.94,4,False,0.0
+2083,537,2024-07-09,Beauty,Gift Card,390.47,4,True,16.75
+2084,751,2024-10-03,Electronics,Debit Card,417.3,7,False,0.0
+2085,876,2024-09-05,Books,PayPal,122.19,3,False,0.0
+2086,507,2024-11-04,Home & Garden,Credit Card,117.13,4,True,13.82
+2087,771,2024-08-29,Home & Garden,Gift Card,401.7,5,True,5.42
+2088,892,2024-06-20,Beauty,Debit Card,249.61,10,True,47.89
+2089,283,2024-10-01,Home & Garden,Credit Card,431.94,2,False,0.0
+2090,833,2024-07-10,Home & Garden,PayPal,44.59,6,True,44.5
+2091,286,2024-07-30,Sports,Credit Card,204.72,10,False,0.0
+2092,239,2024-10-13,Clothing,Gift Card,260.29,4,True,7.4
+2093,665,2024-10-24,Sports,Debit Card,225.47,1,True,14.97
+2094,748,2024-11-06,Clothing,Debit Card,362.93,2,True,37.35
+2095,397,2024-07-15,Clothing,PayPal,491.3,5,False,0.0
+2096,724,2024-10-21,Home & Garden,Gift Card,335.86,4,True,9.9
+2097,599,2024-07-07,Books,Gift Card,477.9,6,True,14.53
+2098,563,2024-08-16,Clothing,Debit Card,50.01,7,False,0.0
+2099,134,2024-11-24,Home & Garden,Gift Card,457.35,10,False,0.0
+2100,112,2024-08-27,Home & Garden,Debit Card,479.44,2,True,2.37
+2101,432,2024-09-07,Clothing,Gift Card,90.61,10,False,0.0
+2102,482,2024-10-29,Books,Gift Card,144.74,9,True,31.32
+2103,786,2024-09-05,Books,PayPal,83.38,3,True,34.62
+2104,734,2024-12-03,Electronics,PayPal,211.1,9,True,17.19
+2105,543,2024-12-01,Clothing,Debit Card,105.45,4,False,0.0
+2106,534,2024-09-13,Home & Garden,Gift Card,114.89,7,False,0.0
+2107,219,2024-09-05,Electronics,Debit Card,315.61,6,True,12.88
+2108,679,2024-07-01,Home & Garden,PayPal,373.26,4,False,0.0
+2109,627,2024-12-09,Beauty,Credit Card,400.3,8,True,15.29
+2110,989,2024-09-27,Books,Debit Card,250.53,3,True,20.96
+2111,446,2024-09-02,Home & Garden,Credit Card,345.0,10,True,46.12
+2112,315,2024-11-18,Books,Debit Card,227.92,10,True,7.65
+2113,389,2024-10-21,Electronics,Gift Card,271.28,5,False,0.0
+2114,111,2024-10-21,Home & Garden,Debit Card,200.61,7,True,16.9
+2115,286,2024-09-06,Clothing,Gift Card,411.39,10,False,0.0
+2116,556,2024-12-10,Home & Garden,Gift Card,374.07,8,False,0.0
+2117,341,2024-10-04,Clothing,Debit Card,98.19,4,True,39.56
+2118,861,2024-10-07,Books,PayPal,82.22,3,True,48.64
+2119,512,2024-10-10,Home & Garden,PayPal,301.11,2,False,0.0
+2120,783,2024-06-30,Electronics,PayPal,29.01,1,True,38.59
+2121,938,2024-09-30,Sports,Credit Card,66.88,7,True,48.17
+2122,836,2024-11-02,Electronics,Gift Card,43.7,7,True,40.95
+2123,6,2024-10-29,Electronics,Debit Card,457.89,6,False,0.0
+2124,418,2024-07-17,Beauty,PayPal,399.22,2,True,8.69
+2125,16,2024-08-16,Sports,Gift Card,102.45,4,False,0.0
+2126,745,2024-08-05,Home & Garden,Credit Card,259.1,2,False,0.0
+2127,587,2024-09-12,Home & Garden,Debit Card,127.05,6,True,28.37
+2128,938,2024-08-22,Beauty,PayPal,464.59,10,True,30.55
+2129,464,2024-06-28,Electronics,Debit Card,217.33,2,True,38.55
+2130,794,2024-08-10,Electronics,Debit Card,277.06,2,True,43.13
+2131,937,2024-08-30,Sports,Debit Card,221.25,3,True,40.54
+2132,449,2024-11-23,Electronics,Credit Card,17.2,9,False,0.0
+2133,860,2024-11-13,Home & Garden,Credit Card,452.28,4,False,0.0
+2134,992,2024-10-24,Home & Garden,Debit Card,113.25,9,False,0.0
+2135,24,2024-12-03,Books,PayPal,82.32,3,True,3.31
+2136,960,2024-07-30,Beauty,Credit Card,346.98,1,True,0.42
+2137,915,2024-08-08,Books,Gift Card,453.06,6,True,43.23
+2138,73,2024-12-02,Home & Garden,Gift Card,71.52,7,True,27.27
+2139,319,2024-07-05,Home & Garden,Gift Card,150.58,9,False,0.0
+2140,933,2024-11-05,Beauty,Gift Card,350.35,1,True,5.07
+2141,589,2024-08-18,Sports,Credit Card,300.25,9,True,15.37
+2142,259,2024-11-09,Clothing,PayPal,370.22,1,False,0.0
+2143,58,2024-11-16,Home & Garden,Credit Card,209.04,7,False,0.0
+2144,291,2024-06-16,Books,Credit Card,472.09,1,True,12.32
+2145,727,2024-10-30,Books,PayPal,113.18,2,False,0.0
+2146,456,2024-07-25,Sports,Gift Card,44.36,1,True,41.1
+2147,960,2024-10-29,Sports,Credit Card,149.48,7,False,0.0
+2148,741,2024-10-20,Clothing,Debit Card,18.23,1,False,0.0
+2149,252,2024-06-16,Electronics,Debit Card,367.75,6,True,30.04
+2150,899,2024-09-07,Electronics,Credit Card,487.23,6,False,0.0
+2151,827,2024-09-03,Clothing,PayPal,335.27,2,False,0.0
+2152,736,2024-11-12,Electronics,Gift Card,233.71,10,False,0.0
+2153,322,2024-09-18,Sports,PayPal,139.38,1,False,0.0
+2154,233,2024-08-10,Clothing,Gift Card,395.53,8,False,0.0
+2155,257,2024-07-16,Electronics,Credit Card,315.96,10,False,0.0
+2156,411,2024-10-15,Clothing,PayPal,375.33,10,True,42.72
+2157,688,2024-07-09,Clothing,Credit Card,288.2,10,True,20.31
+2158,122,2024-07-18,Home & Garden,Credit Card,295.5,3,False,0.0
+2159,604,2024-09-05,Electronics,Gift Card,347.49,2,True,27.43
+2160,522,2024-12-06,Books,Debit Card,267.41,5,True,33.68
+2161,12,2024-07-02,Books,Credit Card,237.49,1,False,0.0
+2162,733,2024-11-14,Books,PayPal,369.01,8,False,0.0
+2163,230,2024-10-16,Beauty,Credit Card,413.41,2,True,15.9
+2164,711,2024-09-06,Sports,Gift Card,454.1,8,False,0.0
+2165,450,2024-06-19,Clothing,Debit Card,468.35,2,True,28.44
+2166,213,2024-10-10,Clothing,Credit Card,69.68,7,False,0.0
+2167,197,2024-10-23,Home & Garden,Gift Card,145.21,10,False,0.0
+2168,803,2024-10-28,Sports,PayPal,265.12,4,True,24.93
+2169,289,2024-10-27,Books,PayPal,231.75,9,True,48.36
+2170,199,2024-07-03,Books,Gift Card,272.89,1,False,0.0
+2171,371,2024-10-29,Sports,Credit Card,407.5,8,False,0.0
+2172,531,2024-09-29,Beauty,Debit Card,244.47,1,False,0.0
+2173,100,2024-10-04,Beauty,Gift Card,145.99,1,False,0.0
+2174,837,2024-07-16,Home & Garden,PayPal,373.5,2,False,0.0
+2175,605,2024-08-12,Home & Garden,PayPal,226.44,9,False,0.0
+2176,916,2024-11-14,Sports,Gift Card,302.97,6,False,0.0
+2177,464,2024-09-13,Clothing,Gift Card,237.77,1,True,44.8
+2178,631,2024-09-27,Books,Credit Card,442.21,2,False,0.0
+2179,646,2024-08-22,Beauty,Gift Card,34.76,5,False,0.0
+2180,545,2024-07-27,Electronics,Credit Card,279.69,10,False,0.0
+2181,423,2024-12-07,Home & Garden,Gift Card,137.1,5,True,48.83
+2182,796,2024-09-16,Books,Debit Card,62.18,1,True,34.46
+2183,795,2024-10-07,Electronics,Credit Card,234.94,8,True,25.6
+2184,625,2024-07-21,Electronics,Gift Card,429.67,7,False,0.0
+2185,196,2024-09-08,Beauty,Gift Card,381.05,1,False,0.0
+2186,352,2024-10-23,Books,PayPal,351.04,10,True,6.83
+2187,580,2024-07-07,Books,Gift Card,494.6,4,True,24.02
+2188,138,2024-09-22,Books,Debit Card,404.0,6,False,0.0
+2189,787,2024-06-22,Clothing,Credit Card,276.57,9,False,0.0
+2190,667,2024-10-12,Sports,Credit Card,248.72,9,True,11.37
+2191,192,2024-06-15,Beauty,Debit Card,411.52,6,False,0.0
+2192,455,2024-09-19,Home & Garden,Credit Card,229.1,2,False,0.0
+2193,417,2024-08-30,Sports,Debit Card,226.79,6,True,32.12
+2194,140,2024-07-02,Beauty,Debit Card,13.26,9,True,13.21
+2195,834,2024-08-06,Books,PayPal,90.42,5,True,41.45
+2196,766,2024-09-28,Beauty,PayPal,188.67,5,False,0.0
+2197,86,2024-11-04,Books,PayPal,166.0,3,True,21.94
+2198,786,2024-08-21,Clothing,PayPal,274.42,1,True,8.96
+2199,303,2024-09-15,Electronics,Credit Card,111.1,2,False,0.0
+2200,749,2024-11-21,Home & Garden,Credit Card,19.67,3,False,0.0
+2201,115,2024-11-20,Home & Garden,PayPal,49.72,10,False,0.0
+2202,709,2024-09-25,Beauty,Debit Card,28.47,7,True,13.42
+2203,867,2024-12-10,Clothing,Credit Card,387.97,7,False,0.0
+2204,218,2024-09-29,Electronics,Credit Card,297.57,9,False,0.0
+2205,40,2024-09-22,Sports,Credit Card,131.32,3,False,0.0
+2206,730,2024-07-02,Sports,PayPal,457.68,9,False,0.0
+2207,683,2024-08-03,Electronics,Gift Card,452.81,4,False,0.0
+2208,606,2024-11-08,Electronics,Credit Card,431.0,1,False,0.0
+2209,222,2024-11-12,Home & Garden,PayPal,345.77,2,True,43.36
+2210,294,2024-10-27,Clothing,Credit Card,271.69,2,False,0.0
+2211,451,2024-08-14,Electronics,Gift Card,303.19,7,False,0.0
+2212,479,2024-12-06,Electronics,PayPal,378.73,10,True,12.3
+2213,238,2024-07-19,Books,Gift Card,445.34,2,False,0.0
+2214,991,2024-08-26,Sports,PayPal,349.81,4,True,10.0
+2215,832,2024-12-05,Clothing,PayPal,173.72,4,True,39.5
+2216,472,2024-09-02,Books,Credit Card,229.57,6,False,0.0
+2217,373,2024-08-25,Beauty,PayPal,325.68,2,False,0.0
+2218,21,2024-11-07,Beauty,PayPal,355.51,7,False,0.0
+2219,812,2024-08-07,Home & Garden,Debit Card,149.26,4,True,36.54
+2220,187,2024-11-13,Sports,Debit Card,54.6,4,False,0.0
+2221,589,2024-11-21,Books,PayPal,51.6,7,False,0.0
+2222,173,2024-09-05,Electronics,Credit Card,259.66,8,True,38.51
+2223,582,2024-12-04,Electronics,PayPal,282.05,7,True,35.02
+2224,873,2024-06-24,Clothing,Gift Card,79.29,2,True,24.55
+2225,391,2024-09-19,Beauty,Gift Card,46.0,6,True,26.63
+2226,269,2024-09-24,Books,PayPal,406.54,10,False,0.0
+2227,282,2024-10-14,Home & Garden,Credit Card,400.7,2,False,0.0
+2228,280,2024-10-09,Sports,Debit Card,205.45,7,True,49.54
+2229,544,2024-11-18,Books,Credit Card,99.19,10,True,49.99
+2230,598,2024-11-01,Beauty,PayPal,469.16,9,False,0.0
+2231,653,2024-07-31,Beauty,Gift Card,32.89,3,True,45.92
+2232,926,2024-11-29,Home & Garden,Debit Card,297.08,9,False,0.0
+2233,845,2024-07-29,Beauty,Debit Card,248.3,1,True,38.25
+2234,704,2024-10-02,Beauty,PayPal,78.01,4,False,0.0
+2235,919,2024-09-23,Clothing,PayPal,454.87,7,True,12.75
+2236,769,2024-07-16,Books,PayPal,213.72,5,False,0.0
+2237,782,2024-09-08,Sports,Credit Card,270.88,10,True,48.42
+2238,70,2024-10-25,Home & Garden,PayPal,92.1,9,True,7.12
+2239,93,2024-11-22,Sports,Debit Card,328.87,1,True,46.11
+2240,343,2024-09-03,Home & Garden,Gift Card,493.25,2,False,0.0
+2241,954,2024-09-01,Sports,PayPal,305.23,2,True,46.7
+2242,581,2024-07-29,Electronics,Credit Card,19.79,4,False,0.0
+2243,249,2024-06-19,Electronics,PayPal,230.22,8,True,22.1
+2244,246,2024-10-01,Sports,PayPal,290.55,8,False,0.0
+2245,195,2024-09-22,Sports,Gift Card,194.85,2,False,0.0
+2246,612,2024-07-21,Books,Debit Card,300.42,8,True,16.18
+2247,930,2024-10-14,Home & Garden,Credit Card,493.37,9,False,0.0
+2248,206,2024-08-20,Sports,Credit Card,427.22,10,False,0.0
+2249,853,2024-06-27,Home & Garden,Credit Card,256.6,8,True,34.44
+2250,150,2024-12-02,Sports,Debit Card,281.1,2,True,31.74
+2251,840,2024-10-23,Books,PayPal,487.44,1,False,0.0
+2252,253,2024-09-07,Sports,PayPal,231.95,10,False,0.0
+2253,785,2024-09-19,Beauty,PayPal,217.6,1,True,46.6
+2254,267,2024-10-28,Electronics,Credit Card,133.86,2,False,0.0
+2255,858,2024-09-18,Sports,Debit Card,97.84,4,False,0.0
+2256,549,2024-08-08,Home & Garden,PayPal,292.87,1,False,0.0
+2257,118,2024-10-05,Books,PayPal,60.02,3,False,0.0
+2258,989,2024-07-02,Home & Garden,Debit Card,408.17,1,False,0.0
+2259,124,2024-09-14,Clothing,Gift Card,208.82,6,True,30.72
+2260,2,2024-10-12,Clothing,PayPal,444.76,4,False,0.0
+2261,508,2024-08-16,Clothing,Credit Card,159.21,6,True,25.65
+2262,411,2024-07-12,Home & Garden,Debit Card,66.03,6,True,23.86
+2263,298,2024-12-04,Electronics,PayPal,473.62,5,False,0.0
+2264,763,2024-08-23,Electronics,Gift Card,99.73,8,True,11.0
+2265,969,2024-12-01,Clothing,Credit Card,114.62,4,False,0.0
+2266,509,2024-10-08,Clothing,Credit Card,161.91,1,False,0.0
+2267,339,2024-12-06,Clothing,PayPal,268.65,3,False,0.0
+2268,973,2024-10-29,Clothing,Credit Card,121.86,6,False,0.0
+2269,858,2024-10-05,Electronics,Gift Card,420.5,5,True,8.77
+2270,259,2024-12-02,Books,Gift Card,211.51,1,False,0.0
+2271,211,2024-08-07,Sports,Debit Card,311.38,1,False,0.0
+2272,22,2024-06-21,Sports,Credit Card,84.64,4,False,0.0
+2273,194,2024-11-02,Clothing,Debit Card,217.29,4,False,0.0
+2274,162,2024-08-01,Sports,Gift Card,457.43,8,True,12.83
+2275,28,2024-10-13,Clothing,PayPal,467.57,3,False,0.0
+2276,787,2024-12-12,Beauty,PayPal,257.41,3,True,21.11
+2277,642,2024-10-14,Electronics,Gift Card,349.57,2,False,0.0
+2278,472,2024-08-29,Home & Garden,Credit Card,356.29,8,False,0.0
+2279,564,2024-10-19,Home & Garden,PayPal,272.13,2,False,0.0
+2280,12,2024-10-02,Sports,Debit Card,68.52,2,True,3.4
+2281,652,2024-09-09,Sports,PayPal,301.16,10,False,0.0
+2282,472,2024-08-11,Sports,Credit Card,23.62,10,True,0.56
+2283,726,2024-07-31,Sports,Credit Card,338.1,2,False,0.0
+2284,958,2024-12-06,Electronics,Credit Card,262.12,10,False,0.0
+2285,150,2024-07-28,Home & Garden,PayPal,27.77,8,False,0.0
+2286,65,2024-11-27,Books,PayPal,234.11,2,True,21.53
+2287,366,2024-09-25,Beauty,PayPal,211.0,6,False,0.0
+2288,459,2024-11-22,Home & Garden,Gift Card,106.98,9,False,0.0
+2289,544,2024-08-21,Clothing,PayPal,203.54,1,False,0.0
+2290,348,2024-06-23,Books,Gift Card,177.59,6,False,0.0
+2291,625,2024-07-12,Sports,PayPal,405.99,2,True,30.35
+2292,306,2024-11-10,Home & Garden,Debit Card,372.21,9,True,2.83
+2293,705,2024-11-26,Clothing,PayPal,199.17,7,False,0.0
+2294,547,2024-09-02,Sports,PayPal,154.48,1,True,18.42
+2295,312,2024-07-06,Home & Garden,Debit Card,478.56,5,True,40.9
+2296,881,2024-09-02,Beauty,Credit Card,370.66,1,True,32.68
+2297,940,2024-07-24,Sports,Debit Card,369.89,10,False,0.0
+2298,312,2024-07-31,Electronics,Credit Card,160.42,6,True,17.29
+2299,817,2024-07-14,Sports,Gift Card,481.32,7,False,0.0
+2300,661,2024-07-22,Clothing,PayPal,106.25,5,False,0.0
+2301,385,2024-07-13,Beauty,PayPal,13.99,8,True,10.92
+2302,737,2024-06-25,Clothing,Debit Card,264.57,10,True,15.42
+2303,425,2024-07-22,Home & Garden,PayPal,405.55,10,False,0.0
+2304,276,2024-11-01,Sports,Credit Card,158.34,10,True,47.83
+2305,559,2024-10-29,Beauty,PayPal,68.73,3,False,0.0
+2306,697,2024-08-09,Sports,Credit Card,318.46,4,False,0.0
+2307,45,2024-07-26,Home & Garden,Gift Card,178.53,3,True,48.56
+2308,423,2024-09-02,Clothing,Debit Card,234.22,8,False,0.0
+2309,710,2024-08-24,Books,Debit Card,181.02,5,False,0.0
+2310,703,2024-07-24,Clothing,Debit Card,348.73,9,True,34.75
+2311,922,2024-10-06,Sports,Debit Card,64.56,4,False,0.0
+2312,799,2024-08-11,Sports,Credit Card,102.83,10,False,0.0
+2313,225,2024-07-26,Books,Credit Card,111.8,3,False,0.0
+2314,769,2024-08-04,Beauty,Credit Card,484.61,4,True,21.35
+2315,274,2024-08-25,Clothing,Debit Card,90.96,8,False,0.0
+2316,445,2024-11-24,Home & Garden,Gift Card,159.8,2,False,0.0
+2317,383,2024-11-05,Sports,Debit Card,30.57,2,False,0.0
+2318,159,2024-12-09,Beauty,Debit Card,32.46,10,True,21.55
+2319,623,2024-08-29,Clothing,Credit Card,440.3,7,True,13.13
+2320,211,2024-06-21,Sports,PayPal,398.83,5,False,0.0
+2321,28,2024-07-16,Books,PayPal,292.52,5,False,0.0
+2322,698,2024-08-15,Electronics,Debit Card,221.14,3,True,19.55
+2323,675,2024-07-24,Sports,Credit Card,341.73,10,False,0.0
+2324,505,2024-11-24,Electronics,Credit Card,24.21,3,True,44.14
+2325,526,2024-08-21,Beauty,Debit Card,308.64,1,False,0.0
+2326,492,2024-10-14,Beauty,Debit Card,52.5,6,False,0.0
+2327,234,2024-10-23,Home & Garden,PayPal,180.21,3,False,0.0
+2328,217,2024-10-11,Clothing,PayPal,116.94,9,False,0.0
+2329,417,2024-10-09,Electronics,Credit Card,38.15,8,False,0.0
+2330,954,2024-11-14,Beauty,Debit Card,111.85,3,True,18.96
+2331,273,2024-10-13,Home & Garden,Debit Card,344.05,2,True,7.94
+2332,988,2024-06-20,Books,Debit Card,266.65,10,False,0.0
+2333,475,2024-07-05,Books,Credit Card,13.1,5,False,0.0
+2334,65,2024-09-11,Beauty,Gift Card,391.76,7,True,36.17
+2335,393,2024-10-21,Beauty,Debit Card,173.14,4,True,41.93
+2336,849,2024-12-12,Home & Garden,Credit Card,487.6,8,False,0.0
+2337,874,2024-09-23,Home & Garden,Credit Card,138.54,10,True,31.86
+2338,292,2024-12-02,Books,Credit Card,293.3,1,False,0.0
+2339,778,2024-10-16,Home & Garden,Debit Card,174.63,2,True,38.2
+2340,822,2024-06-15,Clothing,Debit Card,418.46,9,True,19.99
+2341,421,2024-11-20,Sports,Credit Card,175.08,6,True,36.38
+2342,584,2024-09-06,Sports,Debit Card,338.75,8,True,42.75
+2343,900,2024-08-06,Beauty,Credit Card,487.38,2,True,7.84
+2344,995,2024-11-29,Electronics,Credit Card,398.27,9,False,0.0
+2345,517,2024-10-22,Sports,Gift Card,451.69,10,True,45.15
+2346,783,2024-08-20,Clothing,PayPal,146.83,3,True,44.91
+2347,585,2024-11-20,Sports,Debit Card,32.83,9,True,41.18
+2348,824,2024-11-03,Books,Credit Card,248.36,5,False,0.0
+2349,495,2024-08-24,Books,Gift Card,419.73,7,True,36.51
+2350,407,2024-08-23,Beauty,Gift Card,296.3,9,False,0.0
+2351,810,2024-11-09,Beauty,Gift Card,156.32,1,False,0.0
+2352,764,2024-11-01,Sports,Gift Card,27.45,4,True,7.27
+2353,397,2024-06-20,Sports,PayPal,144.75,7,False,0.0
+2354,449,2024-06-16,Books,Credit Card,59.06,9,True,3.57
+2355,914,2024-07-17,Clothing,Debit Card,200.15,7,True,43.54
+2356,833,2024-10-13,Electronics,Credit Card,146.45,7,False,0.0
+2357,524,2024-11-26,Beauty,Debit Card,118.07,1,True,45.79
+2358,230,2024-09-27,Sports,Debit Card,410.78,10,True,39.1
+2359,469,2024-09-18,Electronics,Credit Card,375.12,10,True,9.3
+2360,239,2024-08-05,Beauty,Credit Card,88.45,4,False,0.0
+2361,102,2024-06-20,Electronics,Credit Card,108.94,2,False,0.0
+2362,822,2024-08-05,Sports,PayPal,413.44,7,False,0.0
+2363,587,2024-11-21,Home & Garden,Credit Card,166.37,4,True,2.93
+2364,794,2024-07-13,Sports,PayPal,67.21,7,True,40.87
+2365,969,2024-12-11,Electronics,Gift Card,19.14,7,False,0.0
+2366,31,2024-07-09,Clothing,Gift Card,301.35,2,True,26.24
+2367,880,2024-07-16,Clothing,Debit Card,12.48,2,False,0.0
+2368,637,2024-09-27,Electronics,PayPal,194.57,8,False,0.0
+2369,337,2024-06-16,Beauty,PayPal,471.5,3,True,0.64
+2370,517,2024-11-19,Sports,PayPal,144.62,1,True,14.73
+2371,14,2024-07-19,Beauty,PayPal,284.58,4,True,29.72
+2372,828,2024-10-21,Beauty,PayPal,251.21,5,True,29.96
+2373,685,2024-06-21,Home & Garden,PayPal,479.24,4,False,0.0
+2374,373,2024-11-07,Electronics,Debit Card,382.71,9,False,0.0
+2375,429,2024-10-20,Clothing,Credit Card,21.66,5,True,46.57
+2376,126,2024-08-17,Electronics,PayPal,150.22,7,False,0.0
+2377,234,2024-10-05,Beauty,Debit Card,398.75,10,True,24.34
+2378,564,2024-10-27,Electronics,Debit Card,145.41,6,False,0.0
+2379,890,2024-06-22,Home & Garden,PayPal,132.33,7,True,45.16
+2380,727,2024-08-31,Beauty,Debit Card,313.12,5,False,0.0
+2381,821,2024-09-26,Home & Garden,PayPal,179.09,8,True,43.4
+2382,19,2024-10-14,Beauty,PayPal,370.55,4,False,0.0
+2383,140,2024-10-13,Clothing,Gift Card,89.08,6,False,0.0
+2384,137,2024-11-22,Books,Debit Card,321.29,3,True,7.93
+2385,960,2024-07-31,Clothing,Debit Card,426.96,3,True,32.88
+2386,494,2024-07-08,Clothing,Debit Card,305.37,5,True,16.68
+2387,216,2024-07-02,Home & Garden,Gift Card,359.03,6,True,33.34
+2388,146,2024-08-04,Electronics,Credit Card,218.47,7,False,0.0
+2389,321,2024-08-20,Clothing,Debit Card,27.11,1,False,0.0
+2390,25,2024-10-05,Electronics,Debit Card,60.46,10,True,26.61
+2391,552,2024-09-04,Clothing,Gift Card,172.14,2,True,37.65
+2392,448,2024-08-13,Home & Garden,Debit Card,70.32,2,True,29.38
+2393,435,2024-11-27,Clothing,PayPal,470.08,2,True,18.24
+2394,429,2024-10-06,Sports,Gift Card,486.24,8,False,0.0
+2395,289,2024-11-12,Sports,Gift Card,247.9,2,True,18.5
+2396,427,2024-07-24,Home & Garden,PayPal,47.15,10,True,39.12
+2397,333,2024-11-09,Clothing,Debit Card,258.17,3,False,0.0
+2398,345,2024-06-30,Electronics,Credit Card,138.34,8,False,0.0
+2399,168,2024-09-08,Sports,PayPal,487.86,1,True,12.65
+2400,437,2024-07-27,Electronics,Gift Card,165.99,1,False,0.0
+2401,324,2024-08-17,Books,Debit Card,323.51,9,False,0.0
+2402,404,2024-06-19,Books,Credit Card,204.54,7,True,9.42
+2403,810,2024-12-10,Electronics,Gift Card,174.3,10,False,0.0
+2404,813,2024-11-27,Sports,Debit Card,288.4,5,False,0.0
+2405,425,2024-08-06,Home & Garden,Credit Card,96.09,6,True,46.88
+2406,816,2024-07-30,Home & Garden,Gift Card,392.14,2,True,29.45
+2407,687,2024-10-18,Beauty,Debit Card,83.37,6,False,0.0
+2408,600,2024-09-18,Sports,Debit Card,426.33,10,True,13.25
+2409,680,2024-11-09,Clothing,PayPal,154.13,7,True,10.25
+2410,157,2024-11-29,Electronics,Credit Card,363.98,6,True,33.16
+2411,469,2024-12-06,Home & Garden,PayPal,85.82,6,False,0.0
+2412,440,2024-09-22,Sports,Credit Card,412.68,8,False,0.0
+2413,336,2024-08-15,Electronics,Credit Card,376.97,7,False,0.0
+2414,816,2024-08-23,Sports,Debit Card,342.49,7,False,0.0
+2415,711,2024-06-19,Clothing,Credit Card,319.84,9,True,49.55
+2416,788,2024-11-12,Beauty,Gift Card,454.23,6,True,8.16
+2417,100,2024-11-04,Sports,Gift Card,320.22,5,False,0.0
+2418,395,2024-06-19,Home & Garden,Gift Card,55.83,7,True,37.22
+2419,294,2024-09-23,Clothing,Debit Card,159.09,7,False,0.0
+2420,697,2024-08-25,Clothing,PayPal,323.49,1,True,27.79
+2421,681,2024-09-14,Home & Garden,Credit Card,413.97,2,False,0.0
+2422,20,2024-12-11,Books,Credit Card,104.65,10,False,0.0
+2423,766,2024-11-25,Home & Garden,PayPal,386.63,6,True,1.37
+2424,433,2024-09-17,Beauty,Credit Card,408.98,10,False,0.0
+2425,554,2024-11-26,Sports,Credit Card,105.44,2,True,31.36
+2426,78,2024-11-17,Books,Debit Card,300.84,5,False,0.0
+2427,840,2024-08-18,Home & Garden,Credit Card,206.33,3,False,0.0
+2428,298,2024-10-14,Books,Gift Card,482.99,9,False,0.0
+2429,356,2024-10-02,Electronics,Debit Card,391.64,7,False,0.0
+2430,122,2024-07-27,Beauty,Credit Card,399.01,9,True,45.02
+2431,466,2024-06-15,Clothing,Credit Card,491.91,10,False,0.0
+2432,479,2024-11-14,Sports,PayPal,149.41,7,False,0.0
+2433,707,2024-09-24,Home & Garden,Gift Card,431.02,9,True,12.26
+2434,751,2024-10-25,Home & Garden,Gift Card,428.77,2,False,0.0
+2435,917,2024-06-27,Home & Garden,Gift Card,56.83,10,False,0.0
+2436,484,2024-07-21,Books,Gift Card,39.58,5,True,17.79
+2437,154,2024-11-02,Books,PayPal,474.05,3,True,38.64
+2438,923,2024-09-23,Sports,PayPal,281.64,2,True,27.07
+2439,178,2024-07-01,Books,PayPal,205.76,8,True,1.92
+2440,674,2024-06-23,Sports,Credit Card,475.44,4,True,38.45
+2441,208,2024-06-17,Beauty,Debit Card,403.11,1,True,10.19
+2442,180,2024-08-26,Clothing,PayPal,29.77,6,True,5.4
+2443,493,2024-09-11,Electronics,Gift Card,203.01,9,False,0.0
+2444,909,2024-09-07,Home & Garden,Debit Card,400.65,4,True,23.12
+2445,305,2024-06-29,Electronics,PayPal,429.69,10,False,0.0
+2446,426,2024-10-22,Electronics,PayPal,20.2,7,False,0.0
+2447,916,2024-10-05,Sports,PayPal,283.3,5,True,15.17
+2448,220,2024-10-30,Electronics,Debit Card,403.78,4,False,0.0
+2449,591,2024-12-05,Home & Garden,PayPal,315.99,5,True,7.15
+2450,831,2024-07-15,Home & Garden,Credit Card,396.67,7,False,0.0
+2451,97,2024-10-11,Beauty,Gift Card,379.47,4,True,21.36
+2452,662,2024-11-22,Clothing,Debit Card,489.78,3,True,44.8
+2453,314,2024-06-29,Clothing,Credit Card,228.02,5,False,0.0
+2454,746,2024-09-08,Clothing,Credit Card,337.13,1,True,41.78
+2455,741,2024-07-28,Books,Debit Card,426.5,9,False,0.0
+2456,743,2024-08-23,Electronics,Debit Card,461.65,5,True,2.84
+2457,974,2024-11-14,Beauty,Gift Card,431.39,1,True,3.59
+2458,114,2024-11-21,Beauty,Gift Card,114.77,8,False,0.0
+2459,404,2024-08-06,Books,Gift Card,94.54,2,False,0.0
+2460,446,2024-07-10,Electronics,PayPal,254.01,3,False,0.0
+2461,244,2024-10-22,Home & Garden,Gift Card,371.94,5,True,27.52
+2462,898,2024-07-14,Home & Garden,PayPal,485.09,4,True,25.95
+2463,827,2024-07-07,Sports,Debit Card,100.48,7,True,49.0
+2464,51,2024-08-21,Sports,Debit Card,452.56,7,False,0.0
+2465,580,2024-09-30,Books,Debit Card,52.81,4,False,0.0
+2466,108,2024-08-11,Clothing,Credit Card,288.85,3,True,9.29
+2467,801,2024-09-11,Home & Garden,Gift Card,241.14,2,True,5.21
+2468,48,2024-11-01,Books,Debit Card,182.13,4,False,0.0
+2469,496,2024-09-13,Books,PayPal,42.75,1,False,0.0
+2470,452,2024-12-09,Sports,Gift Card,358.1,1,True,5.79
+2471,109,2024-11-02,Beauty,PayPal,393.86,10,True,49.21
+2472,176,2024-08-12,Sports,Credit Card,52.49,2,False,0.0
+2473,737,2024-09-25,Books,Credit Card,419.53,1,True,48.15
+2474,232,2024-11-28,Clothing,Gift Card,174.63,10,False,0.0
+2475,176,2024-11-30,Books,PayPal,425.46,7,False,0.0
+2476,70,2024-10-05,Clothing,PayPal,282.34,6,True,35.32
+2477,804,2024-07-04,Electronics,Debit Card,230.15,4,True,19.59
+2478,813,2024-12-03,Sports,Credit Card,98.37,8,True,11.98
+2479,429,2024-06-30,Sports,Credit Card,370.26,8,False,0.0
+2480,84,2024-07-07,Clothing,Credit Card,156.6,4,True,44.75
+2481,26,2024-11-08,Electronics,Debit Card,193.24,5,False,0.0
+2482,713,2024-11-05,Beauty,Gift Card,247.02,7,True,22.97
+2483,261,2024-10-27,Books,Gift Card,254.66,1,True,18.42
+2484,63,2024-12-08,Beauty,Debit Card,216.5,9,False,0.0
+2485,283,2024-07-05,Home & Garden,Credit Card,203.45,5,True,11.53
+2486,100,2024-11-09,Beauty,Gift Card,480.72,9,False,0.0
+2487,807,2024-07-03,Sports,Credit Card,116.44,6,True,11.0
+2488,99,2024-12-05,Beauty,Credit Card,15.08,5,True,41.09
+2489,29,2024-11-15,Home & Garden,Debit Card,207.15,7,False,0.0
+2490,150,2024-12-12,Beauty,PayPal,85.46,2,False,0.0
+2491,864,2024-09-03,Electronics,Credit Card,495.3,8,True,9.1
+2492,762,2024-07-31,Sports,Credit Card,288.79,8,False,0.0
+2493,34,2024-12-09,Beauty,Gift Card,147.23,8,True,3.76
+2494,888,2024-10-14,Clothing,Debit Card,461.07,9,False,0.0
+2495,413,2024-12-06,Books,Gift Card,223.51,7,True,37.06
+2496,681,2024-07-25,Home & Garden,Credit Card,139.99,7,True,13.28
+2497,695,2024-11-10,Books,Credit Card,377.15,5,False,0.0
+2498,280,2024-09-02,Home & Garden,Gift Card,363.42,8,False,0.0
+2499,799,2024-08-17,Electronics,PayPal,52.63,6,True,33.79
+2500,884,2024-09-29,Electronics,PayPal,197.98,1,True,33.81
+2501,333,2024-11-16,Clothing,PayPal,80.61,9,False,0.0
+2502,153,2024-07-24,Home & Garden,PayPal,41.19,6,False,0.0
+2503,839,2024-09-20,Sports,Credit Card,210.62,2,True,29.62
+2504,412,2024-11-09,Books,PayPal,253.99,9,True,16.98
+2505,529,2024-08-30,Electronics,Gift Card,382.53,7,True,43.71
+2506,221,2024-09-28,Electronics,Debit Card,359.76,2,True,45.17
+2507,658,2024-08-17,Clothing,Gift Card,50.73,7,False,0.0
+2508,285,2024-08-26,Beauty,PayPal,77.14,3,False,0.0
+2509,217,2024-09-01,Home & Garden,Gift Card,118.43,3,True,5.94
+2510,943,2024-09-27,Electronics,Debit Card,258.28,1,False,0.0
+2511,167,2024-10-08,Home & Garden,Credit Card,293.71,8,True,7.25
+2512,204,2024-06-28,Home & Garden,Debit Card,434.26,4,False,0.0
+2513,201,2024-06-17,Clothing,PayPal,334.38,10,True,15.27
+2514,607,2024-10-26,Beauty,Gift Card,460.45,3,False,0.0
+2515,252,2024-07-09,Home & Garden,PayPal,451.17,1,True,44.71
+2516,605,2024-08-15,Sports,PayPal,297.49,6,True,45.84
+2517,611,2024-09-20,Home & Garden,Gift Card,316.07,1,False,0.0
+2518,157,2024-12-12,Electronics,PayPal,142.31,2,True,23.51
+2519,612,2024-10-03,Sports,Gift Card,51.19,8,True,35.34
+2520,581,2024-09-25,Sports,Debit Card,83.3,5,False,0.0
+2521,636,2024-08-22,Books,Debit Card,172.27,3,False,0.0
+2522,719,2024-08-02,Sports,PayPal,48.58,1,False,0.0
+2523,714,2024-10-07,Clothing,Gift Card,35.8,7,False,0.0
+2524,857,2024-11-05,Beauty,Credit Card,459.25,10,True,17.83
+2525,254,2024-10-18,Clothing,PayPal,61.49,6,False,0.0
+2526,638,2024-08-28,Home & Garden,Debit Card,462.09,8,False,0.0
+2527,336,2024-07-23,Electronics,PayPal,214.34,9,True,47.68
+2528,637,2024-11-02,Sports,Credit Card,17.17,10,False,0.0
+2529,264,2024-10-26,Home & Garden,Credit Card,308.94,6,False,0.0
+2530,620,2024-07-27,Home & Garden,Credit Card,275.41,4,False,0.0
+2531,730,2024-06-23,Clothing,PayPal,368.72,9,True,8.33
+2532,259,2024-10-16,Books,Debit Card,127.06,9,False,0.0
+2533,974,2024-10-12,Books,Gift Card,36.87,8,False,0.0
+2534,445,2024-07-25,Home & Garden,Gift Card,281.45,5,False,0.0
+2535,933,2024-06-21,Clothing,Credit Card,328.88,6,True,35.35
+2536,955,2024-08-05,Home & Garden,PayPal,355.27,4,True,21.36
+2537,109,2024-09-12,Sports,Gift Card,33.13,4,False,0.0
+2538,810,2024-10-05,Home & Garden,Debit Card,252.47,10,True,7.26
+2539,220,2024-07-26,Electronics,PayPal,16.07,3,False,0.0
+2540,855,2024-10-26,Home & Garden,Credit Card,46.65,2,False,0.0
+2541,123,2024-10-01,Sports,Debit Card,245.33,9,False,0.0
+2542,616,2024-11-21,Sports,Gift Card,251.87,8,True,30.32
+2543,959,2024-10-09,Home & Garden,PayPal,451.34,6,True,18.65
+2544,872,2024-09-14,Electronics,Debit Card,249.2,9,True,12.75
+2545,637,2024-06-17,Home & Garden,Gift Card,147.82,10,False,0.0
+2546,645,2024-09-25,Sports,Credit Card,323.01,1,False,0.0
+2547,269,2024-06-22,Books,Credit Card,363.96,6,False,0.0
+2548,337,2024-10-12,Sports,Debit Card,287.29,7,False,0.0
+2549,462,2024-11-25,Beauty,Gift Card,327.78,7,True,2.29
+2550,192,2024-11-18,Electronics,Credit Card,294.82,4,False,0.0
+2551,413,2024-08-15,Clothing,Credit Card,22.62,7,True,25.61
+2552,929,2024-10-23,Clothing,PayPal,428.35,8,False,0.0
+2553,667,2024-06-19,Books,Credit Card,283.91,7,False,0.0
+2554,71,2024-08-31,Sports,Debit Card,317.96,5,False,0.0
+2555,516,2024-10-15,Sports,Gift Card,100.12,4,True,39.23
+2556,55,2024-12-01,Beauty,PayPal,344.13,2,False,0.0
+2557,914,2024-08-24,Clothing,Gift Card,433.72,2,True,3.04
+2558,27,2024-06-27,Beauty,Debit Card,162.42,7,False,0.0
+2559,545,2024-09-14,Electronics,PayPal,276.76,5,True,3.63
+2560,579,2024-11-24,Electronics,PayPal,182.4,7,True,13.42
+2561,491,2024-09-20,Beauty,Gift Card,28.12,2,True,22.29
+2562,762,2024-08-27,Electronics,Credit Card,219.16,4,True,39.89
+2563,120,2024-09-07,Clothing,Credit Card,130.87,1,True,3.21
+2564,74,2024-09-20,Home & Garden,Debit Card,217.41,10,True,27.23
+2565,901,2024-06-30,Clothing,Credit Card,485.46,10,False,0.0
+2566,845,2024-08-22,Books,PayPal,82.99,6,False,0.0
+2567,258,2024-07-14,Clothing,Credit Card,160.91,5,True,25.79
+2568,741,2024-10-10,Beauty,Gift Card,442.99,5,True,47.29
+2569,961,2024-10-31,Beauty,PayPal,456.72,10,False,0.0
+2570,625,2024-06-27,Home & Garden,PayPal,439.74,2,True,3.82
+2571,302,2024-12-11,Beauty,Gift Card,358.03,5,False,0.0
+2572,943,2024-08-11,Beauty,Gift Card,326.17,8,False,0.0
+2573,152,2024-10-29,Sports,Gift Card,92.99,4,True,31.72
+2574,194,2024-08-22,Electronics,PayPal,185.71,10,False,0.0
+2575,703,2024-10-23,Sports,PayPal,475.38,10,True,6.87
+2576,864,2024-10-06,Electronics,Credit Card,380.93,7,False,0.0
+2577,648,2024-11-17,Books,Debit Card,497.2,8,True,3.93
+2578,560,2024-09-07,Clothing,Gift Card,411.29,4,False,0.0
+2579,501,2024-09-18,Beauty,Gift Card,352.09,10,True,27.52
+2580,916,2024-09-03,Beauty,Debit Card,139.93,7,True,13.48
+2581,512,2024-11-22,Clothing,Gift Card,321.61,8,True,23.19
+2582,677,2024-06-29,Sports,Gift Card,336.55,4,True,28.48
+2583,443,2024-09-17,Sports,PayPal,334.1,2,False,0.0
+2584,305,2024-09-20,Electronics,PayPal,340.44,4,False,0.0
+2585,683,2024-07-23,Clothing,PayPal,31.48,3,False,0.0
+2586,911,2024-11-12,Home & Garden,Debit Card,312.73,10,False,0.0
+2587,449,2024-10-09,Beauty,Debit Card,451.03,7,True,30.21
+2588,573,2024-12-11,Books,PayPal,357.16,5,True,9.04
+2589,465,2024-10-09,Beauty,Debit Card,349.05,6,True,46.85
+2590,452,2024-11-27,Home & Garden,Gift Card,484.33,6,False,0.0
+2591,714,2024-09-17,Home & Garden,Credit Card,120.99,5,False,0.0
+2592,229,2024-08-05,Beauty,Debit Card,233.19,2,False,0.0
+2593,524,2024-11-03,Sports,Debit Card,396.66,8,False,0.0
+2594,848,2024-11-16,Books,PayPal,291.49,3,True,19.71
+2595,397,2024-11-16,Home & Garden,PayPal,433.49,5,False,0.0
+2596,765,2024-09-04,Home & Garden,PayPal,342.65,2,False,0.0
+2597,787,2024-10-05,Books,PayPal,404.61,2,True,15.48
+2598,133,2024-09-05,Sports,PayPal,341.77,4,False,0.0
+2599,645,2024-08-29,Clothing,PayPal,48.37,5,True,31.41
+2600,27,2024-11-25,Home & Garden,Credit Card,242.87,9,False,0.0
+2601,98,2024-07-30,Books,Credit Card,450.34,2,True,40.23
+2602,987,2024-07-29,Sports,PayPal,228.02,6,True,31.43
+2603,825,2024-07-10,Home & Garden,Debit Card,355.16,5,True,11.14
+2604,704,2024-07-24,Home & Garden,Debit Card,22.42,10,True,46.45
+2605,547,2024-11-06,Electronics,PayPal,448.0,10,False,0.0
+2606,341,2024-07-29,Clothing,Debit Card,51.76,8,True,9.44
+2607,820,2024-12-07,Beauty,PayPal,189.01,2,False,0.0
+2608,693,2024-07-14,Clothing,Gift Card,405.81,7,True,19.52
+2609,414,2024-07-20,Sports,Debit Card,216.65,8,True,3.1
+2610,68,2024-06-16,Electronics,PayPal,312.14,6,True,47.39
+2611,751,2024-11-23,Clothing,Credit Card,444.85,3,True,20.36
+2612,133,2024-12-06,Books,Credit Card,112.08,7,True,20.81
+2613,930,2024-07-26,Beauty,PayPal,188.4,2,True,23.48
+2614,764,2024-12-01,Sports,Gift Card,334.96,9,False,0.0
+2615,26,2024-06-30,Beauty,PayPal,347.76,2,True,2.0
+2616,883,2024-08-07,Electronics,PayPal,249.12,2,False,0.0
+2617,946,2024-12-12,Electronics,Credit Card,363.11,1,False,0.0
+2618,747,2024-07-26,Beauty,Debit Card,274.98,5,True,10.57
+2619,612,2024-10-24,Beauty,Debit Card,263.1,9,False,0.0
+2620,30,2024-06-28,Beauty,Credit Card,463.79,5,False,0.0
+2621,682,2024-07-10,Clothing,Credit Card,468.58,3,False,0.0
+2622,409,2024-08-06,Beauty,PayPal,276.34,9,False,0.0
+2623,749,2024-08-07,Beauty,Credit Card,97.6,4,False,0.0
+2624,368,2024-08-04,Sports,Credit Card,329.53,8,False,0.0
+2625,325,2024-10-03,Beauty,PayPal,251.34,1,False,0.0
+2626,349,2024-06-30,Home & Garden,Credit Card,185.88,9,False,0.0
+2627,202,2024-09-16,Electronics,Credit Card,478.63,4,False,0.0
+2628,670,2024-11-06,Beauty,Credit Card,264.44,8,True,9.4
+2629,180,2024-08-28,Clothing,Credit Card,145.91,6,False,0.0
+2630,921,2024-12-08,Books,Gift Card,179.83,1,True,10.74
+2631,216,2024-11-22,Books,Credit Card,168.22,2,False,0.0
+2632,928,2024-12-07,Home & Garden,Gift Card,263.95,3,False,0.0
+2633,606,2024-07-15,Home & Garden,Credit Card,360.39,1,True,43.44
+2634,848,2024-09-04,Sports,Credit Card,434.4,10,True,39.61
+2635,153,2024-08-17,Electronics,PayPal,263.67,7,False,0.0
+2636,613,2024-08-04,Sports,Credit Card,341.09,5,False,0.0
+2637,243,2024-11-22,Clothing,Debit Card,465.63,3,False,0.0
+2638,509,2024-11-15,Home & Garden,Debit Card,335.78,4,False,0.0
+2639,72,2024-08-21,Clothing,Credit Card,178.81,7,True,15.95
+2640,992,2024-10-08,Clothing,Credit Card,35.22,10,True,17.8
+2641,272,2024-10-26,Clothing,PayPal,83.67,4,False,0.0
+2642,592,2024-08-09,Clothing,PayPal,395.66,6,False,0.0
+2643,334,2024-10-25,Books,PayPal,271.21,9,False,0.0
+2644,609,2024-11-28,Beauty,Debit Card,265.2,8,True,25.69
+2645,731,2024-08-14,Home & Garden,Gift Card,416.33,8,False,0.0
+2646,355,2024-09-22,Books,Credit Card,336.27,2,False,0.0
+2647,969,2024-11-23,Beauty,Credit Card,265.24,7,False,0.0
+2648,389,2024-08-04,Clothing,Gift Card,219.44,10,True,40.83
+2649,829,2024-10-17,Home & Garden,Debit Card,460.94,1,True,33.87
+2650,290,2024-07-26,Beauty,Debit Card,280.16,5,True,24.71
+2651,920,2024-11-10,Clothing,Gift Card,408.36,7,False,0.0
+2652,3,2024-11-24,Electronics,Credit Card,95.68,3,True,36.86
+2653,119,2024-11-29,Home & Garden,Gift Card,477.16,3,False,0.0
+2654,586,2024-07-08,Clothing,Gift Card,187.52,3,True,48.41
+2655,491,2024-08-27,Books,Debit Card,365.51,3,False,0.0
+2656,347,2024-07-14,Electronics,Gift Card,222.2,4,True,39.86
+2657,314,2024-07-08,Sports,Credit Card,65.23,3,False,0.0
+2658,928,2024-10-29,Home & Garden,Gift Card,25.92,5,False,0.0
+2659,191,2024-09-08,Books,Gift Card,307.2,7,False,0.0
+2660,152,2024-10-31,Clothing,Gift Card,120.95,5,True,11.15
+2661,162,2024-09-27,Clothing,Credit Card,34.3,1,True,46.31
+2662,84,2024-11-23,Home & Garden,PayPal,342.9,5,True,4.06
+2663,997,2024-10-04,Electronics,Debit Card,306.69,4,False,0.0
+2664,347,2024-11-11,Beauty,Debit Card,422.45,1,False,0.0
+2665,886,2024-08-15,Electronics,Debit Card,453.54,5,True,41.02
+2666,537,2024-09-12,Beauty,Credit Card,85.07,9,True,41.78
+2667,330,2024-11-05,Beauty,PayPal,56.2,10,True,42.54
+2668,883,2024-10-20,Clothing,Credit Card,471.28,9,False,0.0
+2669,893,2024-09-21,Electronics,Credit Card,210.42,10,True,40.86
+2670,211,2024-11-04,Books,Debit Card,151.27,2,True,15.82
+2671,55,2024-07-17,Books,Credit Card,415.15,10,True,19.16
+2672,663,2024-07-18,Home & Garden,Gift Card,21.64,4,False,0.0
+2673,389,2024-10-05,Books,PayPal,269.18,6,True,35.35
+2674,433,2024-10-15,Electronics,Credit Card,111.94,3,True,36.67
+2675,529,2024-11-11,Beauty,Gift Card,37.4,1,True,36.36
+2676,306,2024-09-25,Books,Debit Card,115.69,6,True,49.73
+2677,96,2024-10-14,Electronics,Gift Card,433.53,9,True,29.64
+2678,424,2024-07-25,Home & Garden,Debit Card,51.65,10,True,42.64
+2679,277,2024-09-23,Beauty,Gift Card,234.61,2,True,24.9
+2680,108,2024-10-28,Sports,Gift Card,482.05,3,False,0.0
+2681,694,2024-11-16,Home & Garden,PayPal,341.0,2,False,0.0
+2682,199,2024-10-10,Beauty,PayPal,94.33,6,False,0.0
+2683,512,2024-07-16,Clothing,Gift Card,301.54,10,False,0.0
+2684,836,2024-10-04,Clothing,Gift Card,360.91,4,True,21.22
+2685,743,2024-10-24,Books,Debit Card,145.96,8,True,1.16
+2686,192,2024-09-29,Clothing,Gift Card,113.67,8,False,0.0
+2687,494,2024-08-08,Clothing,Credit Card,114.83,5,True,21.13
+2688,249,2024-09-08,Electronics,Gift Card,60.66,7,False,0.0
+2689,531,2024-09-15,Home & Garden,Debit Card,247.9,8,True,43.76
+2690,22,2024-08-31,Sports,PayPal,404.9,8,False,0.0
+2691,718,2024-10-14,Home & Garden,Credit Card,274.97,8,True,28.16
+2692,162,2024-10-22,Sports,PayPal,102.23,6,True,12.13
+2693,137,2024-08-28,Clothing,Credit Card,480.77,9,True,33.44
+2694,882,2024-08-07,Beauty,PayPal,473.62,8,True,2.19
+2695,825,2024-09-15,Home & Garden,Gift Card,288.57,5,True,2.47
+2696,220,2024-09-12,Sports,Debit Card,105.3,10,False,0.0
+2697,205,2024-08-04,Home & Garden,PayPal,489.35,5,True,43.31
+2698,520,2024-12-06,Electronics,Debit Card,419.67,1,True,14.39
+2699,920,2024-09-17,Beauty,Gift Card,10.81,3,True,45.48
+2700,471,2024-07-05,Home & Garden,PayPal,274.78,6,True,40.58
+2701,794,2024-10-20,Home & Garden,Credit Card,208.23,4,True,27.12
+2702,516,2024-08-13,Clothing,Debit Card,154.12,7,True,34.65
+2703,469,2024-08-05,Sports,Credit Card,274.48,7,False,0.0
+2704,354,2024-11-20,Books,Credit Card,167.11,3,False,0.0
+2705,185,2024-08-18,Sports,Debit Card,134.02,2,False,0.0
+2706,878,2024-07-13,Home & Garden,Gift Card,469.48,2,False,0.0
+2707,100,2024-11-21,Clothing,Gift Card,329.28,4,True,17.67
+2708,183,2024-09-03,Sports,Gift Card,17.85,1,False,0.0
+2709,13,2024-07-07,Electronics,PayPal,181.11,6,False,0.0
+2710,537,2024-06-25,Home & Garden,PayPal,58.47,6,False,0.0
+2711,638,2024-10-08,Beauty,PayPal,185.27,8,False,0.0
+2712,660,2024-12-11,Sports,Credit Card,290.87,7,False,0.0
+2713,755,2024-07-24,Beauty,PayPal,322.06,1,False,0.0
+2714,754,2024-07-13,Clothing,Debit Card,433.72,9,True,19.04
+2715,834,2024-09-04,Books,Credit Card,93.44,3,False,0.0
+2716,224,2024-11-04,Sports,PayPal,209.21,4,True,17.45
+2717,864,2024-09-02,Electronics,Debit Card,92.9,5,False,0.0
+2718,905,2024-11-26,Clothing,Gift Card,15.56,8,True,2.13
+2719,265,2024-11-21,Home & Garden,PayPal,109.74,7,False,0.0
+2720,466,2024-07-13,Home & Garden,Credit Card,41.84,7,False,0.0
+2721,448,2024-07-22,Sports,PayPal,222.72,7,False,0.0
+2722,325,2024-07-29,Beauty,PayPal,96.03,8,False,0.0
+2723,942,2024-09-19,Electronics,Gift Card,28.91,9,False,0.0
+2724,744,2024-09-15,Sports,Gift Card,279.2,1,False,0.0
+2725,273,2024-10-08,Electronics,Gift Card,226.25,10,False,0.0
+2726,11,2024-09-24,Home & Garden,PayPal,185.45,1,True,28.63
+2727,760,2024-11-26,Clothing,Credit Card,286.69,8,True,26.92
+2728,662,2024-10-08,Home & Garden,Debit Card,163.26,4,True,34.49
+2729,166,2024-11-19,Beauty,PayPal,97.12,3,False,0.0
+2730,446,2024-12-12,Home & Garden,PayPal,241.31,8,False,0.0
+2731,312,2024-07-29,Books,PayPal,362.19,2,True,26.16
+2732,269,2024-11-16,Sports,Gift Card,75.12,6,False,0.0
+2733,906,2024-08-17,Books,Gift Card,317.95,8,False,0.0
+2734,487,2024-11-20,Sports,Debit Card,416.69,3,True,48.67
+2735,783,2024-07-06,Books,Gift Card,462.83,2,False,0.0
+2736,120,2024-11-20,Books,Gift Card,405.6,2,False,0.0
+2737,960,2024-12-04,Clothing,Gift Card,225.43,2,False,0.0
+2738,139,2024-09-18,Beauty,Gift Card,421.47,4,True,35.37
+2739,153,2024-06-17,Books,Credit Card,319.92,3,True,16.43
+2740,279,2024-09-09,Books,PayPal,70.39,4,True,0.46
+2741,793,2024-07-23,Beauty,Credit Card,359.51,10,False,0.0
+2742,807,2024-08-20,Electronics,Credit Card,145.11,7,False,0.0
+2743,735,2024-08-19,Clothing,PayPal,386.03,8,True,13.84
+2744,884,2024-09-01,Sports,PayPal,244.28,6,False,0.0
+2745,670,2024-10-02,Books,Debit Card,134.68,10,False,0.0
+2746,318,2024-07-22,Sports,Debit Card,333.78,1,False,0.0
+2747,929,2024-09-28,Home & Garden,Credit Card,464.06,1,False,0.0
+2748,426,2024-09-20,Home & Garden,PayPal,382.95,8,False,0.0
+2749,711,2024-08-19,Books,Credit Card,301.57,7,False,0.0
+2750,675,2024-11-13,Books,Debit Card,219.22,4,False,0.0
+2751,866,2024-08-17,Beauty,Credit Card,322.88,5,True,0.18
+2752,111,2024-09-04,Home & Garden,Credit Card,131.21,9,False,0.0
+2753,432,2024-07-13,Sports,Debit Card,482.85,7,True,0.94
+2754,420,2024-06-23,Books,PayPal,323.21,2,True,37.77
+2755,626,2024-11-13,Beauty,Credit Card,193.28,5,True,25.8
+2756,168,2024-11-07,Home & Garden,Debit Card,163.17,3,True,12.26
+2757,897,2024-10-23,Beauty,Credit Card,188.93,3,False,0.0
+2758,316,2024-09-27,Electronics,Debit Card,138.3,2,False,0.0
+2759,392,2024-06-29,Sports,Debit Card,492.51,10,True,46.15
+2760,216,2024-10-16,Electronics,Debit Card,78.98,4,True,44.33
+2761,324,2024-11-15,Books,PayPal,214.42,5,True,47.35
+2762,437,2024-08-11,Beauty,Gift Card,35.9,1,False,0.0
+2763,382,2024-10-24,Sports,Gift Card,138.87,7,True,34.38
+2764,723,2024-06-28,Books,Credit Card,288.75,3,False,0.0
+2765,479,2024-10-05,Sports,PayPal,285.56,1,True,34.68
+2766,229,2024-08-06,Electronics,Gift Card,106.6,8,False,0.0
+2767,679,2024-09-09,Beauty,Gift Card,412.83,4,False,0.0
+2768,654,2024-10-09,Books,Credit Card,207.58,8,False,0.0
+2769,170,2024-10-31,Clothing,Gift Card,358.16,1,False,0.0
+2770,498,2024-07-01,Sports,Gift Card,487.37,5,False,0.0
+2771,104,2024-07-17,Sports,PayPal,31.71,8,False,0.0
+2772,788,2024-07-27,Sports,Credit Card,121.71,3,True,30.16
+2773,853,2024-11-07,Books,Debit Card,304.62,10,False,0.0
+2774,518,2024-12-07,Clothing,PayPal,277.89,8,False,0.0
+2775,191,2024-06-25,Beauty,PayPal,148.49,10,False,0.0
+2776,758,2024-12-03,Sports,PayPal,364.72,2,True,22.56
+2777,665,2024-10-14,Home & Garden,Gift Card,97.3,6,True,43.25
+2778,582,2024-10-27,Electronics,Gift Card,84.61,10,True,4.25
+2779,735,2024-10-02,Sports,Gift Card,321.47,6,True,43.12
+2780,299,2024-10-07,Books,PayPal,472.97,3,True,42.1
+2781,325,2024-10-20,Books,Debit Card,375.04,8,True,13.34
+2782,953,2024-07-24,Sports,Gift Card,36.64,9,False,0.0
+2783,108,2024-08-11,Home & Garden,PayPal,439.33,6,False,0.0
+2784,762,2024-10-29,Home & Garden,Credit Card,250.75,10,True,37.9
+2785,734,2024-11-19,Electronics,Credit Card,90.8,3,True,32.01
+2786,590,2024-07-26,Books,Credit Card,249.64,1,False,0.0
+2787,731,2024-08-27,Clothing,Credit Card,268.77,10,False,0.0
+2788,830,2024-09-20,Clothing,Gift Card,308.95,10,False,0.0
+2789,173,2024-06-17,Clothing,Credit Card,23.54,3,False,0.0
+2790,474,2024-11-23,Beauty,Gift Card,494.62,3,False,0.0
+2791,561,2024-06-17,Sports,Debit Card,205.53,10,True,49.39
+2792,870,2024-07-09,Home & Garden,PayPal,151.79,9,False,0.0
+2793,851,2024-10-26,Electronics,Credit Card,74.71,3,False,0.0
+2794,814,2024-09-16,Electronics,Debit Card,352.73,3,True,10.65
+2795,127,2024-07-25,Sports,Debit Card,101.29,4,False,0.0
+2796,753,2024-08-03,Electronics,PayPal,75.24,9,False,0.0
+2797,535,2024-09-17,Electronics,PayPal,85.28,9,False,0.0
+2798,21,2024-07-28,Electronics,PayPal,29.51,4,True,7.92
+2799,956,2024-08-15,Books,Debit Card,70.66,6,False,0.0
+2800,898,2024-12-10,Beauty,Debit Card,83.88,6,True,11.68
+2801,38,2024-10-19,Electronics,Gift Card,66.15,2,False,0.0
+2802,623,2024-07-14,Home & Garden,Debit Card,415.41,6,False,0.0
+2803,817,2024-09-29,Books,PayPal,305.67,8,False,0.0
+2804,557,2024-10-31,Books,Debit Card,11.89,3,True,19.62
+2805,653,2024-10-28,Beauty,Gift Card,235.47,1,False,0.0
+2806,763,2024-12-04,Sports,Gift Card,355.8,2,True,8.41
+2807,678,2024-06-17,Sports,Debit Card,74.23,5,True,21.95
+2808,190,2024-10-22,Home & Garden,Credit Card,98.23,3,True,31.53
+2809,213,2024-08-27,Books,Debit Card,235.3,7,True,40.36
+2810,773,2024-09-28,Electronics,Debit Card,260.0,4,False,0.0
+2811,471,2024-11-24,Electronics,Gift Card,486.88,10,False,0.0
+2812,828,2024-07-15,Books,PayPal,49.27,5,True,7.93
+2813,696,2024-08-25,Books,Gift Card,83.57,9,True,19.85
+2814,359,2024-07-02,Books,Debit Card,106.3,2,False,0.0
+2815,261,2024-07-27,Electronics,PayPal,74.67,5,True,28.77
+2816,771,2024-07-15,Beauty,Debit Card,81.66,10,False,0.0
+2817,698,2024-07-30,Home & Garden,Gift Card,270.18,1,True,45.35
+2818,880,2024-06-25,Beauty,Gift Card,456.56,1,False,0.0
+2819,388,2024-10-19,Electronics,Debit Card,151.47,1,True,19.54
+2820,852,2024-08-19,Books,PayPal,156.27,6,True,23.11
+2821,267,2024-11-25,Home & Garden,Debit Card,413.35,7,False,0.0
+2822,935,2024-08-10,Beauty,Debit Card,45.68,5,True,3.0
+2823,788,2024-10-13,Books,Debit Card,150.71,1,False,0.0
+2824,794,2024-10-06,Clothing,Credit Card,261.42,9,True,14.01
+2825,792,2024-09-30,Electronics,Credit Card,473.02,9,True,3.92
+2826,1,2024-11-14,Electronics,Gift Card,282.41,2,True,36.49
+2827,303,2024-07-01,Clothing,Gift Card,37.54,7,False,0.0
+2828,315,2024-09-28,Books,Gift Card,165.89,1,False,0.0
+2829,46,2024-10-03,Books,PayPal,471.47,1,False,0.0
+2830,495,2024-11-10,Electronics,PayPal,382.1,5,False,0.0
+2831,939,2024-10-08,Clothing,PayPal,211.27,10,True,42.06
+2832,942,2024-06-30,Books,Debit Card,274.05,5,True,31.08
+2833,698,2024-08-17,Books,Credit Card,458.85,8,False,0.0
+2834,67,2024-07-08,Electronics,Gift Card,238.67,6,False,0.0
+2835,180,2024-07-13,Home & Garden,Debit Card,220.85,7,True,2.5
+2836,331,2024-08-17,Electronics,PayPal,366.08,7,True,34.84
+2837,641,2024-10-19,Sports,Credit Card,202.35,1,False,0.0
+2838,954,2024-09-11,Beauty,Gift Card,156.46,3,False,0.0
+2839,648,2024-07-26,Clothing,Gift Card,460.27,3,False,0.0
+2840,273,2024-09-04,Books,Gift Card,150.75,3,False,0.0
+2841,840,2024-10-16,Books,PayPal,447.91,2,True,1.7
+2842,260,2024-11-14,Clothing,Gift Card,325.98,9,False,0.0
+2843,750,2024-08-17,Home & Garden,Debit Card,387.51,7,False,0.0
+2844,285,2024-08-17,Sports,Credit Card,480.97,8,False,0.0
+2845,927,2024-08-22,Beauty,PayPal,156.4,10,False,0.0
+2846,633,2024-10-05,Clothing,Debit Card,197.54,6,False,0.0
+2847,232,2024-10-23,Books,Gift Card,37.59,5,True,48.51
+2848,811,2024-11-11,Electronics,Debit Card,283.19,6,False,0.0
+2849,965,2024-06-15,Books,Credit Card,499.07,1,True,9.72
+2850,81,2024-09-26,Clothing,Credit Card,40.83,3,True,47.12
+2851,361,2024-09-11,Beauty,Credit Card,324.64,5,False,0.0
+2852,600,2024-09-09,Books,Gift Card,242.36,8,False,0.0
+2853,216,2024-12-11,Books,PayPal,41.87,1,False,0.0
+2854,90,2024-09-05,Sports,PayPal,309.57,9,False,0.0
+2855,836,2024-10-12,Beauty,Gift Card,121.72,2,True,43.33
+2856,225,2024-11-06,Electronics,Debit Card,89.74,2,True,49.25
+2857,739,2024-12-12,Beauty,Credit Card,382.2,9,False,0.0
+2858,696,2024-10-06,Electronics,PayPal,261.65,6,False,0.0
+2859,798,2024-09-01,Beauty,Gift Card,258.48,4,False,0.0
+2860,388,2024-08-03,Clothing,Gift Card,139.27,10,True,39.89
+2861,398,2024-07-22,Books,Credit Card,80.27,8,False,0.0
+2862,717,2024-08-10,Clothing,Gift Card,352.58,4,True,35.5
+2863,696,2024-11-10,Books,Debit Card,198.77,6,True,18.69
+2864,64,2024-10-17,Sports,Credit Card,135.05,4,False,0.0
+2865,928,2024-08-27,Electronics,Gift Card,99.16,7,True,2.98
+2866,533,2024-06-16,Sports,PayPal,227.48,9,False,0.0
+2867,973,2024-10-25,Home & Garden,Gift Card,434.45,3,False,0.0
+2868,887,2024-09-03,Electronics,PayPal,330.67,6,False,0.0
+2869,524,2024-12-08,Home & Garden,PayPal,221.9,4,True,32.71
+2870,333,2024-08-01,Home & Garden,PayPal,285.21,2,True,47.55
+2871,424,2024-09-12,Sports,Credit Card,34.27,10,True,37.29
+2872,645,2024-06-23,Beauty,Debit Card,269.71,8,False,0.0
+2873,35,2024-08-31,Home & Garden,Gift Card,484.5,4,False,0.0
+2874,436,2024-10-21,Electronics,Credit Card,283.9,6,False,0.0
+2875,991,2024-12-02,Clothing,Debit Card,311.46,10,True,44.7
+2876,192,2024-09-07,Electronics,Debit Card,384.15,2,True,43.9
+2877,893,2024-08-04,Sports,Gift Card,116.47,2,False,0.0
+2878,719,2024-11-06,Home & Garden,Credit Card,285.71,6,True,16.69
+2879,401,2024-09-18,Home & Garden,Credit Card,255.13,5,False,0.0
+2880,73,2024-09-24,Electronics,Debit Card,94.05,2,False,0.0
+2881,262,2024-09-20,Books,Debit Card,394.65,2,True,16.86
+2882,794,2024-11-28,Clothing,Credit Card,356.13,1,True,10.13
+2883,926,2024-11-05,Electronics,Gift Card,91.14,6,False,0.0
+2884,606,2024-10-14,Electronics,Gift Card,222.85,8,False,0.0
+2885,751,2024-07-14,Electronics,Credit Card,488.94,9,False,0.0
+2886,3,2024-06-15,Sports,Debit Card,285.51,8,False,0.0
+2887,766,2024-10-23,Electronics,Credit Card,374.88,1,False,0.0
+2888,868,2024-12-08,Home & Garden,Debit Card,373.49,5,True,13.53
+2889,48,2024-10-15,Sports,PayPal,12.54,7,True,47.39
+2890,621,2024-08-28,Beauty,Gift Card,55.39,4,True,33.01
+2891,199,2024-09-30,Beauty,PayPal,260.05,6,True,21.27
+2892,34,2024-11-03,Beauty,Debit Card,307.26,6,False,0.0
+2893,979,2024-11-23,Books,Credit Card,349.58,10,True,0.18
+2894,244,2024-11-14,Beauty,PayPal,297.32,4,False,0.0
+2895,10,2024-09-18,Sports,PayPal,111.55,10,True,43.88
+2896,872,2024-07-05,Home & Garden,Gift Card,131.64,4,True,31.85
+2897,12,2024-07-02,Sports,Gift Card,244.67,3,False,0.0
+2898,94,2024-11-28,Clothing,Credit Card,367.8,8,False,0.0
+2899,404,2024-07-31,Sports,Gift Card,350.68,1,True,5.25
+2900,456,2024-07-26,Electronics,PayPal,432.86,4,False,0.0
+2901,940,2024-10-24,Beauty,Gift Card,341.43,3,False,0.0
+2902,962,2024-09-30,Clothing,Debit Card,146.95,4,False,0.0
+2903,955,2024-11-19,Electronics,Debit Card,69.16,4,True,3.91
+2904,239,2024-08-23,Sports,Credit Card,82.94,10,False,0.0
+2905,61,2024-11-20,Beauty,PayPal,343.18,9,True,2.44
+2906,997,2024-11-24,Sports,Debit Card,475.69,10,True,47.1
+2907,146,2024-12-08,Sports,Gift Card,84.3,10,False,0.0
+2908,322,2024-10-15,Electronics,Gift Card,241.94,2,True,4.77
+2909,432,2024-11-25,Home & Garden,Debit Card,319.18,3,True,29.36
+2910,737,2024-12-02,Beauty,Gift Card,402.21,2,False,0.0
+2911,280,2024-07-06,Beauty,PayPal,347.38,10,True,42.27
+2912,974,2024-07-21,Clothing,PayPal,234.8,7,True,40.38
+2913,327,2024-08-26,Beauty,PayPal,372.21,8,True,48.58
+2914,483,2024-06-30,Clothing,PayPal,305.64,3,True,24.62
+2915,7,2024-12-05,Electronics,PayPal,151.45,5,True,47.69
+2916,982,2024-10-14,Books,Credit Card,104.76,4,False,0.0
+2917,818,2024-09-26,Books,PayPal,179.13,3,True,12.31
+2918,999,2024-09-24,Books,Debit Card,223.31,2,False,0.0
+2919,469,2024-11-28,Electronics,PayPal,33.74,3,False,0.0
+2920,381,2024-11-22,Beauty,PayPal,480.94,6,False,0.0
+2921,106,2024-07-08,Sports,Debit Card,364.39,8,False,0.0
+2922,432,2024-07-25,Home & Garden,PayPal,358.01,10,False,0.0
+2923,175,2024-09-02,Books,Gift Card,229.83,5,False,0.0
+2924,224,2024-07-11,Clothing,Gift Card,353.11,3,False,0.0
+2925,19,2024-11-16,Beauty,Debit Card,336.8,1,True,20.56
+2926,96,2024-07-05,Sports,Gift Card,295.99,9,True,33.82
+2927,149,2024-11-09,Clothing,Credit Card,135.9,1,True,39.55
+2928,15,2024-09-05,Books,Gift Card,335.27,10,True,8.39
+2929,185,2024-11-13,Home & Garden,PayPal,181.19,5,True,2.2
+2930,731,2024-07-19,Books,PayPal,208.29,3,False,0.0
+2931,719,2024-08-16,Beauty,Gift Card,14.15,4,False,0.0
+2932,984,2024-11-19,Clothing,PayPal,195.03,7,False,0.0
+2933,133,2024-08-22,Home & Garden,Credit Card,222.08,10,False,0.0
+2934,186,2024-07-13,Home & Garden,PayPal,457.15,9,True,32.07
+2935,996,2024-08-29,Sports,Debit Card,391.66,7,False,0.0
+2936,124,2024-06-27,Home & Garden,PayPal,271.97,6,True,1.71
+2937,208,2024-11-09,Sports,Gift Card,184.98,8,False,0.0
+2938,87,2024-08-11,Home & Garden,Credit Card,211.52,5,False,0.0
+2939,978,2024-10-23,Sports,Gift Card,284.69,2,False,0.0
+2940,384,2024-12-01,Books,Credit Card,169.22,6,True,21.37
+2941,522,2024-09-14,Home & Garden,Debit Card,321.29,10,True,23.72
+2942,920,2024-07-02,Books,Credit Card,142.23,1,True,18.66
+2943,361,2024-07-18,Sports,Gift Card,398.92,9,True,46.37
+2944,305,2024-07-16,Home & Garden,Gift Card,416.68,9,True,6.48
+2945,111,2024-09-06,Beauty,Gift Card,156.28,10,False,0.0
+2946,404,2024-11-10,Beauty,Credit Card,163.13,7,True,13.62
+2947,763,2024-10-27,Electronics,Debit Card,434.82,7,False,0.0
+2948,323,2024-11-21,Books,PayPal,73.38,3,True,26.24
+2949,596,2024-10-14,Clothing,Gift Card,436.11,2,False,0.0
+2950,228,2024-11-03,Home & Garden,Debit Card,214.18,10,True,25.04
+2951,32,2024-10-16,Home & Garden,Gift Card,233.09,8,True,49.97
+2952,345,2024-07-14,Electronics,PayPal,440.88,7,False,0.0
+2953,862,2024-09-02,Sports,Gift Card,101.12,2,True,34.03
+2954,55,2024-11-24,Clothing,PayPal,268.61,3,True,1.92
+2955,939,2024-08-10,Books,Debit Card,69.42,8,True,33.02
+2956,601,2024-09-30,Sports,Gift Card,108.05,5,True,8.03
+2957,137,2024-11-14,Beauty,Debit Card,102.71,6,True,45.8
+2958,628,2024-07-09,Electronics,Debit Card,279.41,4,True,12.13
+2959,160,2024-09-14,Clothing,Debit Card,378.84,8,True,14.81
+2960,297,2024-09-22,Clothing,Credit Card,343.97,3,True,42.35
+2961,523,2024-08-12,Home & Garden,Gift Card,380.77,4,False,0.0
+2962,301,2024-09-11,Electronics,Gift Card,432.23,2,True,1.95
+2963,491,2024-08-01,Sports,PayPal,86.3,6,True,3.0
+2964,125,2024-09-11,Clothing,Credit Card,104.08,4,True,17.39
+2965,623,2024-12-09,Clothing,Gift Card,246.38,6,False,0.0
+2966,456,2024-11-03,Books,Debit Card,76.95,8,True,26.48
+2967,989,2024-10-13,Sports,Gift Card,435.17,2,False,0.0
+2968,747,2024-07-20,Electronics,Debit Card,318.41,1,True,11.07
+2969,604,2024-07-16,Sports,PayPal,489.83,8,True,34.08
+2970,485,2024-10-14,Books,Debit Card,59.57,4,True,21.52
+2971,139,2024-10-04,Clothing,Debit Card,415.88,9,True,44.15
+2972,518,2024-09-08,Electronics,PayPal,283.17,10,True,30.96
+2973,353,2024-07-05,Sports,Gift Card,413.09,6,True,9.45
+2974,926,2024-07-01,Home & Garden,PayPal,185.99,5,False,0.0
+2975,38,2024-11-26,Clothing,Gift Card,372.51,6,True,14.06
+2976,93,2024-10-04,Electronics,Debit Card,419.89,9,True,8.25
+2977,931,2024-10-19,Sports,PayPal,438.09,5,True,38.81
+2978,11,2024-06-19,Books,Debit Card,148.29,3,True,38.21
+2979,883,2024-10-05,Electronics,Credit Card,70.25,1,False,0.0
+2980,977,2024-10-19,Sports,Credit Card,453.49,1,True,11.33
+2981,764,2024-09-07,Beauty,Debit Card,179.55,4,False,0.0
+2982,630,2024-11-12,Beauty,Gift Card,166.11,6,True,34.4
+2983,317,2024-12-10,Home & Garden,PayPal,129.95,4,False,0.0
+2984,120,2024-07-08,Beauty,Credit Card,216.35,9,False,0.0
+2985,680,2024-07-06,Electronics,Debit Card,497.26,1,False,0.0
+2986,700,2024-08-30,Electronics,PayPal,289.54,2,True,25.82
+2987,284,2024-09-02,Clothing,Debit Card,131.78,5,True,29.36
+2988,415,2024-07-10,Home & Garden,Gift Card,44.91,8,False,0.0
+2989,604,2024-06-18,Sports,Debit Card,479.63,4,False,0.0
+2990,816,2024-11-03,Sports,Credit Card,331.06,10,False,0.0
+2991,249,2024-11-01,Clothing,PayPal,459.16,5,True,21.13
+2992,400,2024-11-16,Clothing,Gift Card,298.25,1,False,0.0
+2993,156,2024-09-24,Clothing,Gift Card,227.89,4,False,0.0
+2994,215,2024-11-10,Beauty,Credit Card,337.85,9,False,0.0
+2995,344,2024-12-05,Electronics,Credit Card,115.79,2,True,39.84
+2996,350,2024-11-28,Sports,Gift Card,107.56,4,False,0.0
+2997,404,2024-07-04,Clothing,Credit Card,283.48,6,False,0.0
+2998,509,2024-10-17,Home & Garden,Gift Card,324.43,9,True,5.72
+2999,539,2024-10-19,Sports,Debit Card,422.97,1,True,7.98
+3000,508,2024-09-08,Beauty,Gift Card,489.27,7,True,1.78
