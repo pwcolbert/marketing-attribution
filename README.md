@@ -6,7 +6,7 @@ I've implemented similar features in several client environments earlier in my c
 
 Since I'm using open source Python libraries this time, I thought I would share my proof-of-concept starting point on Github (https://github.com/pwcolbert/marketing-attribution) for my colleagues working on similar efforts. It's been a rewarding project involving a good bit of integration with existing systems beyond the sample data that you generate in the 'marketing-data-generator' file. 
 
-In the end, I find it to be a straightforward but powerful way to put marketing theory into practice --> developing customer insights from transaction data in an accessible way. Hope you get some value out of it!
+In the end, I find it to be a straightforward but powerful way to put marketing theory into practice --> developing customer insights from journey, interaction, referral, and transaction data in an accessible way. Hope you get some value out of it!
 
 I created a set of starter scripts that generate six types of omnichannel marketing data. To use them, you'll need pandas and numpy installed. 
 
