@@ -1,6 +1,6 @@
 # marketing-attribution
 
-Over the last 4 months I've been extending one of my research projects and working with a client on omnichannel recency-frequency-monetary analysis (RFM) and marketing attribution (ecommerce traffic sources include browser-based, app-based, social, email). 
+Over the last 4 months I've been extending one of my research projects and working with a client on omnichannel recency-frequency-monetary analysis (RFM) + marketing attribution (ecommerce traffic sources include browser-based, app-based, social, email). 
 
 I've implemented similar features in several client environments earlier in my career on Oracle (PL-SQL) and Microsoft SQL Server (T-SQL) databases. 
 
