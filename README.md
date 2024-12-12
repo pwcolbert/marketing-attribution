@@ -4,7 +4,7 @@ Over the last 4 months I've been extending one of my research projects and worki
 
 I've implemented similar features in several client environments earlier in my career on Oracle (PL-SQL) and Microsoft SQL Server (T-SQL) databases. 
 
-Since I'm using open source Python libraries this time, I thought I would share my proof-of-concept starting point on Github (https://github.com/pwcolbert/marketing-attribution) for my colleagues working on similar efforts. It's been a rewarding project involving a good bit of integration with existing systems beyond the sample data that you generate in the 'marketing-data-generator' file. 
+Since I'm using open source Python libraries this time, I thought I would share my proof-of-concept starting point on Github for my colleagues working on similar efforts. It's been a rewarding project involving a good bit of integration with existing systems beyond the sample data that you generate in the 'marketing-data-generator' file. 
 
 In the end, I find it to be a straightforward but powerful way to put marketing theory into practice --> developing customer insights from journey, interaction, referral, and transaction data in an accessible way. Hope you get some value out of it!
 
